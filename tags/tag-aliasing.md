@@ -19,7 +19,7 @@ This type of aliasing should be rare but can occur if two tags with the same Lot
 * Multiple real tags with the **same Lotek Tag ID** are detected.
 * Aliased tags also have the **same Lotek Tag ID**, but a **different burst interval**.
 
-![Tag aliasing example 1](.gitbook/assets/type1aliasing.png)
+![Tag aliasing example 1](../.gitbook/assets/type1aliasing.png)
 
 _Note: colours are intended as an visual aid and are not some type of identifier transmitted in the signal._
 
@@ -32,7 +32,7 @@ This is the most common type of type of aliasing. Typically occurs when banding 
 * Multiple real tags with the **same burst interval** are detected.
 * Aliased tags also have the **same burst interval**, but a different **Lotek Tag ID**.
 
-![Tag aliasing example 2](.gitbook/assets/type2aliasing.png)
+![Tag aliasing example 2](../.gitbook/assets/type2aliasing.png)
 
 _Note: colours are intended as an visual aid and are not some type of identifier transmitted in the signal._
 
@@ -45,7 +45,7 @@ This can occur under similar conditions as type 2 aliasing but is much rarer sin
 * Multiple real tags with the **same burst interval** are detected.
 * Aliased tags have a **different burst interval** but will likely have the **same Lotek Tag ID of one tag**.
 
-![Tag aliasing example 3](.gitbook/assets/type3aliasing.png)
+![Tag aliasing example 3](../.gitbook/assets/type3aliasing.png)
 
 _Note: colours are intended as an visual aid and are not some type of identifier transmitted in the signal._
 
@@ -133,4 +133,3 @@ You can help mitigate tag aliasing by staggering the activation times so fewer b
 #### _Strategic station placement_
 
 We recommend placing stations close to your tagging site, but in conditions where there is a high potential for aliasing that may become problematic. In such cases, we suggest placing the station further away from the tagging site to reduce the number of overlapping detections.
-
