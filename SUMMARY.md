@@ -32,7 +32,7 @@
 * [Tag Selection](tags/tag-selection.md)
 * [Tag Deployment](tags/tag-deployment.md)
 * [Tag Aliasing](tags/tag-aliasing.md)
-* [Retrieving Lost Tags](tags/tag-retrieval.md)
+* [Retrieving Lost Tags](tags/retrieving-lost-tags.md)
 * [Tag Storage](tags/tag-storage.md)
 * [Tag Registration](tags/tag-registration.md)
 * [Tag Metadata](tags/tag-metadata.md)
