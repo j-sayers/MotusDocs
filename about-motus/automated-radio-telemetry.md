@@ -1,0 +1,7 @@
+# Automated Radio Telemetry
+
+Automated radio telemetry uses receivers that automatically record signals from radio transmitters. It is used in a wide variety of ecological applications particularly for tracking migration of small animals, or determining fine scale temporal information about movement or behaviour. It is particularly well suited for studies of aquatic organisms and small flying animals.
+
+Collaborative automated radio telemetry uses coordinated arrays of automated stations that are all monitoring the same frequency to detect tagged animals over broader spatial scales, and maximize the use of equipment operated by many researchers that traditionally may have not had the opportunity to collaborate. Tagged animals are detected on their local array, as well as any other station in the network. Automated radio telemetry harnesses the collective resources of many independent researchers into a much larger collaborative effort that expands the scale and scope of everyone’s work while maximizing scarce research and conservation dollars.
+
+Motus is the world’s largest collaborative automated radio telemetry array. Motus is the central hub for detection data from more than 750 receiving stations as well as metadata from stations (e.g. location, deployment dates, height, antenna bearing) and tags (e.g. species, location and date deployed). Data from across the network is then provided to researchers and a condensed version shared with the public.
