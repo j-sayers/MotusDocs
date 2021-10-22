@@ -1,0 +1,1254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg5439"
+   version="1.1"
+   viewBox="0 0 181.15944 53.548122"
+   height="53.548122mm"
+   width="181.15944mm">
+  <g
+     transform="translate(-12.562584,-24.167788)"
+     id="text_layer">
+
+    <text
+       xml:space="preserve"
+	   opacity="0"
+       style="font-style:normal;font-weight:normal;font-size:5.2916398px;line-height:1.25;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132291"
+       x="70.654625"
+       y="30.635811"
+       id="sinewave-text">
+		166.380 MHz Sinewave
+	   </text>
+
+    <text
+       xml:space="preserve"
+	   opacity="0"
+       style="font-style:normal;font-weight:normal;font-size:5.2916398px;line-height:1.25;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132291"
+       x="90.654625"
+       y="30.635811"
+       id="pulse-text">
+		Pulse
+	   </text>
+
+    <text
+       xml:space="preserve"
+	   opacity="0"
+       style="font-style:normal;font-weight:normal;font-size:5.2916398px;line-height:1.25;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132291"
+       x="90.654625"
+       y="30.635811"
+       id="burst-text">
+		Burst
+	   </text>
+
+		<text
+		   xml:space="preserve"
+		   opacity="0"
+		   style="font-style:normal;font-weight:normal;font-size:5.2916398px;line-height:1.25;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132291"
+		   x="80.654625"
+		   y="30.635811"
+		   id="pulse-interval-text">
+			Pulse Interval
+	   </text>
+
+
+    <text
+       xml:space="preserve"
+	   opacity="0"
+       style="font-style:normal;font-weight:normal;font-size:5.2916398px;line-height:1.25;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132291"
+       x="80.654625"
+       y="30.635811"
+       id="burst-interval-text">
+		Burst Interval
+	   </text>
+</g>
+  <g
+     transform="translate(-10,-24.167788)"
+     id="centre-line">
+    <path
+       id="path847"
+       d="M 23.095084,44.4411 H 183.18953"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06500006;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+  <g
+     transform="translate(-10,-24.167788)"
+     id="step1">
+    <path
+       id="sinewave"
+       title="sin(x)"
+	   opacity="0"
+       d="m 23.095334,44.4411 c 2.2235,-4.83299 4.4471,-9.227 6.6706,-9.231 2.2235,-0.004 4.4471,4.39801 6.6706,9.231 2.2235,4.834003 4.4471,9.228003 6.6706,9.232003 2.2235,0.004 4.4471,-4.398 6.6706,-9.232003 2.2235,-4.83299 4.447101,-9.227 6.67059,-9.231 2.223501,-0.004 4.447109,4.39801 6.670609,9.231 2.2235,4.834003 4.447101,9.228003 6.670601,9.232003 2.2235,0.004 4.447101,-4.398 6.670601,-9.232003 2.22349,-4.83299 4.447101,-9.227 6.670598,-9.231 2.223501,-0.004 4.447101,4.39801 6.670601,9.231 2.2235,4.834003 4.447101,9.228003 6.670591,9.232003 2.223611,0.004 4.446615,-4.398 6.670605,-9.232003 2.224,-4.83299 4.447,-9.227 6.671,-9.231 2.223,-0.004 4.447,4.39801 6.67,9.231 2.22399,4.834003 4.44699,9.228003 6.671,9.232003 2.223,0.004 4.447,-4.398 6.67,-9.232003 2.224,-4.83299 4.447,-9.227 6.671,-9.231 2.224,-0.004 4.447,4.39801 6.671,9.231 2.22299,4.834003 4.44699,9.228003 6.66999,9.232003 2.224,0.004 4.447,-4.398 6.671,-9.232003 2.223,-4.83299 4.447,-9.227 6.67001,-9.231 2.224,-0.004 4.447,4.39801 6.671,9.231 2.224,4.834003 4.447,9.228003 6.671,9.232003 2.223,0.004 4.447,-4.398 6.67,-9.232003"
+       style="display:inline;fill:none;fill-opacity:1;stroke:#ff0000;stroke-width:1.12300003;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.06500006;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 23.095084,56.159553 v 5.72875 H 183.18953 v -5.59511"
+	   opacity="0"
+       id="timescale" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:5.2916398px;line-height:1.25;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132291"
+       x="92.654625"
+       y="67.635811"
+       id="timescale-text">20 ms</text>
+  </g>
+  <g
+     transform="translate(-10,-24.167788)"
+      opacity="0"
+        id="burst-scale">
+     <path
+        style="display:inline;fill:none;stroke:#000000;stroke-width:1.06500006;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+        d="m 23,56 v 5.6 H 146 v -5.6" />
+     <text
+        xml:space="preserve"
+        style="font-style:normal;font-weight:normal;font-size:5.2916398px;line-height:1.25;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132291"
+        x="72.654625"
+        y="67.635811"
+        id="timescale-text">4 pulses</text>
+  </g>
+  <g
+     transform="translate(-10,-24.167788)"
+     id="burst0">
+    <path
+       id="pulse"
+	   opacity="0"
+	   stroke-width="2"
+       d="M 100,34 V 54"
+       style="display:inline;fill:none;stroke:#ff0101;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="pulse1"
+	   opacity="0"
+	   stroke-width="2"
+       d="M 40.28672,34.167788 V 54.379364"
+       style="display:inline;fill:none;stroke:#ff0101;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="pulse2"
+	   opacity="0"
+	   stroke-width="2"
+       d="M 106.28672,34.167788 V 54.379364"
+       style="display:inline;fill:none;stroke:#ff0101;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="pulse3"
+	   opacity="0"
+	   stroke-width="2"
+       d="M 146.28672,34.167788 V 54.379364"
+       style="display:inline;fill:none;stroke:#ff0101;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+
+	<g
+     transform="translate(-10,-24.167788)"
+		   opacity="0"
+     id="pulse-interval-scale0">
+		<path
+		   style="display:inline;fill:none;stroke:#000000;stroke-width:1.06500006;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+		   d="m 23.095084,56.159553 v 5.72875 H 40.28672 v -5.59511" />
+
+		<text
+		   xml:space="preserve"
+		   style="font-style:normal;font-weight:normal;font-size:5.2916398px;line-height:1.25;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132291"
+		   x="17"
+		   y="67" >
+			140 ms
+	   </text>
+	</g>
+
+	<g
+     transform="translate(-10,-24.167788)"
+		   opacity="0"
+     id="pulse-interval-scale1">
+		<path
+		   style="display:inline;fill:none;stroke:#000000;stroke-width:1.06500006;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+		   d="m 40.28672,56.159553 v 5.72875 H 106.28672 v -5.59511" />
+
+		<text
+		   xml:space="preserve"
+		   style="font-style:normal;font-weight:normal;font-size:5.2916398px;line-height:1.25;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132291"
+		   x="60"
+		   y="67" >
+			470 ms
+	   </text>
+	</g>
+
+	<g
+     transform="translate(-10,-24.167788)"
+		   opacity="0"
+     id="pulse-interval-scale2">
+		<path
+		   style="display:inline;fill:none;stroke:#000000;stroke-width:1.06500006;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+		   d="m 106.28672,56.159553 v 5.72875 H 146.28672 v -5.59511" />
+
+		<text
+		   xml:space="preserve"
+		   style="font-style:normal;font-weight:normal;font-size:5.2916398px;line-height:1.25;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132291"
+		   x="112.5"
+		   y="67" >
+			290 ms
+	   </text>
+	</g>
+
+	<g
+	 opacity="0"
+	 transform="translate(40,-24.167788)"
+	 id="burst1">
+		<path
+		   stroke-width="0.2"
+		   d="M 23,34.167788 V 54.379364"
+		   style="display:inline;fill:none;stroke:#ff0101;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+		<path
+		   stroke-width="0.2"
+		   d="M 24,34.167788 V 54.379364"
+		   style="display:inline;fill:none;stroke:#ff0101;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+		<path
+		   stroke-width="0.2"
+		   d="M 26,34.167788 V 54.379364"
+		   style="display:inline;fill:none;stroke:#ff0101;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+		<path
+		   stroke-width="0.2"
+		   d="M 27,34.167788 V 54.379364"
+		   style="display:inline;fill:none;stroke:#ff0101;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+	</g>
+
+
+
+	<g
+	 opacity="0"
+	 transform="translate(90,-24.167788)"
+	 id="burst2">
+		<path
+		   stroke-width="0.2"
+		   d="M 23,34.167788 V 54.379364"
+		   style="display:inline;fill:none;stroke:#ff0101;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+		<path
+		   stroke-width="0.2"
+		   d="M 24,34.167788 V 54.379364"
+		   style="display:inline;fill:none;stroke:#ff0101;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+		<path
+		   stroke-width="0.2"
+		   d="M 26,34.167788 V 54.379364"
+		   style="display:inline;fill:none;stroke:#ff0101;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+		<path
+		   stroke-width="0.2"
+		   d="M 27,34.167788 V 54.379364"
+		   style="display:inline;fill:none;stroke:#ff0101;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+	</g>
+
+
+	<g
+	 opacity="0"
+	 transform="translate(140,-24.167788)"
+	 id="burst3">
+		<path
+		   stroke-width="0.2"
+		   d="M 23,34.167788 V 54.379364"
+		   style="display:inline;fill:none;stroke:#ff0101;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+		<path
+		   stroke-width="0.2"
+		   d="M 24,34.167788 V 54.379364"
+		   style="display:inline;fill:none;stroke:#ff0101;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+		<path
+		   stroke-width="0.2"
+		   d="M 26,34.167788 V 54.379364"
+		   style="display:inline;fill:none;stroke:#ff0101;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+		<path
+		   stroke-width="0.2"
+		   d="M 27,34.167788 V 54.379364"
+		   style="display:inline;fill:none;stroke:#ff0101;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+	</g>
+	<g
+	 opacity="0"
+	 transform="translate(180,-24.167788)"
+	 id="burst4">
+		<path
+		   stroke-width="0.2"
+		   d="M 23,34.167788 V 54.379364"
+		   style="display:inline;fill:none;stroke:#ff0101;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+		<path
+		   stroke-width="0.2"
+		   d="M 24,34.167788 V 54.379364"
+		   style="display:inline;fill:none;stroke:#ff0101;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+		<path
+		   stroke-width="0.2"
+		   d="M 26,34.167788 V 54.379364"
+		   style="display:inline;fill:none;stroke:#ff0101;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+		<path
+		   stroke-width="0.2"
+		   d="M 27,34.167788 V 54.379364"
+		   style="display:inline;fill:none;stroke:#ff0101;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+	</g>
+
+	<g
+	 opacity="0"
+	 transform="translate(-10,-24.167788)"
+	 id="burst-interval0">
+	   <path
+		   style="display:inline;fill:none;stroke:#000000;stroke-width:1.06500006;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+		   d="m 23,56.159553 v 5.72875 h 50 v -5.59511" />
+		<text
+		   xml:space="preserve"
+		   style="font-style:normal;font-weight:normal;font-size:5.2916398px;line-height:1.25;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132291"
+		   x="40"
+		   y="67.635811">10.1 s</text>
+	</g>
+	<g
+	 opacity="0"
+	 transform="translate(40,-24.167788)"
+	 id="burst-interval1">
+	   <path
+		   style="display:inline;fill:none;stroke:#000000;stroke-width:1.06500006;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+		   d="m 23,56.159553 v 5.72875 h 50 v -5.59511" />
+		<text
+		   xml:space="preserve"
+		   style="font-style:normal;font-weight:normal;font-size:5.2916398px;line-height:1.25;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132291"
+		   x="40"
+		   y="67.635811">10.1 s</text>
+	</g>
+
+	<g
+	 opacity="0"
+	 transform="translate(90,-24.167788)"
+	 id="burst-interval2">
+	   <path
+		   style="display:inline;fill:none;stroke:#000000;stroke-width:1.06500006;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+		   d="m 23,56.159553 v 5.72875 h 50 v -5.59511" />
+		<text
+		   xml:space="preserve"
+		   style="font-style:normal;font-weight:normal;font-size:5.2916398px;line-height:1.25;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132291"
+		   x="40"
+		   y="67.635811">10.1 s</text>
+	</g>
+
+	<g
+	 opacity="0"
+	 transform="translate(140,-24.167788)"
+	 id="burst-interval3">
+	   <path
+		   style="display:inline;fill:none;stroke:#000000;stroke-width:1.06500006;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+		   d="m 23,56.159553 v 5.72875 h 50 v -5.59511" />
+		<text
+		   xml:space="preserve"
+		   style="font-style:normal;font-weight:normal;font-size:5.2916398px;line-height:1.25;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132291"
+		   x="40"
+		   y="67.635811">10.1 s</text>
+	</g>
+
+	<g
+	 opacity="0"
+	 transform="translate(180,-24.167788)"
+	 id="burst-interval4">
+	   <path
+		   style="display:inline;fill:none;stroke:#000000;stroke-width:1.06500006;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+		   d="m 23,56.159553 v 5.72875 h 50 v -5.59511" />
+		<text
+		   xml:space="preserve"
+		   style="font-style:normal;font-weight:normal;font-size:5.2916398px;line-height:1.25;font-family:sans-serif;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.132291"
+		   x="40"
+		   y="67.635811">10.1 s</text>
+	</g>
+
+
+	<g
+	 id="frame">
+
+	 <rect x="0" y="0" width="12" height="53" fill="white">
+	 </rect>
+
+	 <rect x="173" y="0" width="12.5" height="53" fill="white">
+	 </rect>
+
+	 </g>
+
+
+	<!-- START -->
+
+	<animate
+		href="#sinewave-text"
+		attributeName="opacity"
+		values="0;1"
+		dur="0.1s"
+		begin="0s;animation_end.end"
+		fill="freeze"
+		id="animation_begin"/>
+	<animate
+		href="#sinewave"
+		attributeName="opacity"
+		values="0;1"
+		dur="0.1s"
+		begin="animation_begin.begin"
+		fill="freeze" />
+	<animate
+		href="#timescale"
+		attributeName="opacity"
+		values="0;1"
+		dur="0.1s"
+		begin="animation_begin.begin"
+		fill="freeze" />
+	<animate
+		href="#timescale-text"
+		attributeName="opacity"
+		values="0;1"
+		dur="0.1s"
+		begin="animation_begin.begin"
+		fill="freeze" />
+
+	<!-- STEP 1: Sinewave -->
+
+
+	<animate
+		href="#sinewave"
+		attributeName="d"
+		values="m 23.095334,44.4411 c 2.2235,-4.83299 4.4471,-9.227 6.6706,-9.231 2.2235,-0.004 4.4471,4.39801 6.6706,9.231 2.2235,4.834003 4.4471,9.228003 6.6706,9.232003 2.2235,0.004 4.4471,-4.398 6.6706,-9.232003 2.2235,-4.83299 4.447101,-9.227 6.67059,-9.231 2.223501,-0.004 4.447109,4.39801 6.670609,9.231 2.2235,4.834003 4.447101,9.228003 6.670601,9.232003 2.2235,0.004 4.447101,-4.398 6.670601,-9.232003 2.22349,-4.83299 4.447101,-9.227 6.670598,-9.231 2.223501,-0.004 4.447101,4.39801 6.670601,9.231 2.2235,4.834003 4.447101,9.228003 6.670591,9.232003 2.223611,0.004 4.446615,-4.398 6.670605,-9.232003 2.224,-4.83299 4.447,-9.227 6.671,-9.231 2.223,-0.004 4.447,4.39801 6.67,9.231 2.22399,4.834003 4.44699,9.228003 6.671,9.232003 2.223,0.004 4.447,-4.398 6.67,-9.232003 2.224,-4.83299 4.447,-9.227 6.671,-9.231 2.224,-0.004 4.447,4.39801 6.671,9.231 2.22299,4.834003 4.44699,9.228003 6.66999,9.232003 2.224,0.004 4.447,-4.398 6.671,-9.232003 2.223,-4.83299 4.447,-9.227 6.67001,-9.231 2.224,-0.004 4.447,4.39801 6.671,9.231 2.224,4.834003 4.447,9.228003 6.671,9.232003 2.223,0.004 4.447,-4.398 6.67,-9.232003;m 101.61342,44.441045 c -0.0269,-5.301618 -0.0623,-10.121691 -0.089,-10.12608 -0.0354,-0.0043 -0.0623,4.824462 -0.0978,10.12608 -0.0269,5.302728 -0.0623,10.122791 -0.089,10.127179 -0.0354,0.0043 -0.0623,-4.824451 -0.0978,-10.127179 -0.0269,-5.301618 -0.0623,-10.121691 -0.089,-10.12608 -0.0354,-0.0043 -0.0623,4.824462 -0.0979,10.12608 -0.0269,5.302728 -0.0532,10.122791 -0.089,10.127179 -0.0269,0.0043 -0.0623,-4.824451 -0.089,-10.127179 -0.0354,-5.301618 -0.0623,-10.121691 -0.0979,-10.12608 -0.0269,-0.0043 -0.0623,4.824462 -0.089,10.12608 -0.0354,5.302728 -0.0623,10.122791 -0.0979,10.127179 -0.0269,0.0043 -0.0623,-4.824451 -0.089,-10.127179 -0.0269,-5.301618 -0.0623,-10.121691 -0.089,-10.12608 -0.0354,-0.0043 -0.0623,4.824462 -0.0979,10.12608 -0.0269,5.302728 -0.0623,10.122791 -0.089,10.127179 -0.0354,0.0043 -0.0623,-4.824451 -0.0978,-10.127179 -0.0269,-5.301618 -0.0623,-10.121691 -0.089,-10.12608 -0.0354,-0.0043 -0.0623,4.824462 -0.0978,10.12608 -0.0269,5.302728 -0.0532,10.122791 -0.089,10.127179 -0.0269,0.0043 -0.0623,-4.824451 -0.089,-10.127179 -0.0354,-5.301618 -0.0623,-10.121691 -0.0978,-10.12608 -0.0269,-0.0043 -0.0623,4.824462 -0.089,10.12608 -0.0354,5.302728 -0.0623,10.122791 -0.0978,10.127179 -0.0269,0.0043 -0.0623,-4.824451 -0.089,-10.127179"
+		dur="1s"
+		begin="animation_begin.end+2s"
+		repeatCount="0"
+		fill="freeze"
+		id="sinewave_anim"/>
+	<animate
+		href="#timescale"
+		attributeName="d"
+		values="m 23.095084,56.159553 v 5.72875 H 183.18953 v -5.59511;m 98,55.384515 v 6.41708 h 4 v -6.3855"
+		dur="1s"
+		begin="sinewave_anim.begin"
+		fill="freeze" />
+	<animate
+		href="#sinewave-text"
+		attributeName="opacity"
+		values="0;1"
+		dur="0.1s"
+		begin="sinewave_anim.end"
+		fill="freeze" />
+
+
+	<!-- STEP 2: Pulse -->
+	<animate
+		href="#sinewave-text"
+		attributeName="opacity"
+		values="1;0"
+		dur="0.1s"
+		begin="sinewave_anim.end"
+		fill="freeze" />
+	<animate
+		href="#sinewave"
+		attributeName="opacity"
+		values="1;0"
+		dur="1ms"
+		begin="sinewave_anim.end"
+		fill="freeze" />
+	<animate
+		href="#pulse-text"
+		attributeName="opacity"
+		values="0;1"
+		dur="0.1s"
+		begin="sinewave_anim.end"
+		fill="freeze" />
+	<animate
+		href="#pulse"
+		attributeName="opacity"
+		values="0;1"
+		dur="1ms"
+		begin="sinewave_anim.end"
+		fill="freeze" />
+
+	<!-- STEP 3: Pulse animation -->
+	<animate
+		href="#pulse"
+		attributeName="d"
+		values="M 100,34.167788 V 54.379364;M 23,34.167788 V 54.379364"
+		dur="1s"
+		begin="sinewave_anim.end+2s"
+		fill="freeze"
+		id="pulse_anim"/>
+	<animate
+		href="#pulse-text"
+		attributeName="opacity"
+		values="1;0"
+		dur="0.1s"
+		begin="pulse_anim.begin"
+		fill="freeze" />
+	<animate
+		href="#timescale"
+		attributeName="opacity"
+		values="1;0"
+		dur="0.1s"
+		begin="pulse_anim.begin"
+		fill="freeze" />
+	<animate
+		href="#timescale-text"
+		attributeName="opacity"
+		values="1;0"
+		dur="0.1s"
+		begin="pulse_anim.begin"
+		fill="freeze" />
+
+	<!-- STEP 4: Pulse interval -->
+	<animate
+		href="#pulse1"
+		attributeName="opacity"
+		values="0;1"
+		dur="250ms"
+		begin="pulse_anim.end"
+		fill="freeze"
+		id="pulse_interval" />
+	<animate
+		href="#pulse-interval-text"
+		attributeName="opacity"
+		values="0;1"
+		dur="0.1s"
+		begin="pulse_interval.begin"
+		fill="freeze" />
+	<animate
+		href="#pulse-interval-scale0"
+		attributeName="opacity"
+		values="0;1"
+		dur="0.1s"
+		begin="pulse_interval.begin"
+		fill="freeze" />
+
+	<animate
+		href="#pulse2"
+		attributeName="opacity"
+		values="0;1"
+		dur="250ms"
+		begin="pulse_interval.begin+1s"
+		fill="freeze" />
+	<animate
+		href="#pulse-interval-scale1"
+		attributeName="opacity"
+		values="0;1"
+		dur="0.1s"
+		begin="pulse_interval.begin+1s"
+		fill="freeze" />
+	<animate
+		href="#pulse3"
+		attributeName="opacity"
+		values="0;1"
+		dur="250ms"
+		begin="pulse_interval.begin+1.75s"
+		fill="freeze" />
+	<animate
+		href="#pulse-interval-scale2"
+		attributeName="opacity"
+		values="0;1"
+		dur="0.1s"
+		begin="pulse_interval.begin+1.75s"
+		fill="freeze" />
+
+
+
+	<!-- STEP 5: Burst -->
+
+	<animate
+		href="#burst-text"
+		attributeName="opacity"
+		values="0;1"
+		dur="0.1s"
+		begin="pulse_interval.end+4.5s"
+		fill="freeze"
+		id="burst"  />
+	<animate
+		href="#burst-scale"
+		attributeName="opacity"
+		values="0;1"
+		dur="0.1s"
+		begin="burst.begin"
+		fill="freeze"/>
+
+	<animate
+		href="#pulse-interval-text"
+		attributeName="opacity"
+		values="1;0"
+		dur="0.1s"
+		begin="burst.begin"
+		fill="freeze" />
+	<animate
+		href="#pulse-interval-scale0"
+		attributeName="opacity"
+		values="1;0"
+		dur="0.1s"
+		begin="burst.begin"
+		fill="freeze" />
+	<animate
+		href="#pulse-interval-scale1"
+		attributeName="opacity"
+		values="1;0"
+		dur="0.1s"
+		begin="burst.begin"
+		fill="freeze" />
+	<animate
+		href="#pulse-interval-scale2"
+		attributeName="opacity"
+		values="1;0"
+		dur="0.1s"
+		begin="burst.begin"
+		fill="freeze" />
+
+
+	<!-- STEP 6: Burst animation -->
+	<animate
+		href="#pulse1"
+		attributeName="d"
+		values="M 40.28672,34.167788 V 54.379364;M 24,34.167788 V 54.379364"
+		dur="1s"
+		begin="burst.end+2s"
+		fill="freeze"
+		id="burst_anim" />
+	<animate
+		href="#pulse2"
+		attributeName="d"
+		values="M 106.28672,34.167788 V 54.379364;M 26,34.167788 V 54.379364"
+		dur="1s"
+		begin="burst_anim.begin"
+		fill="freeze" />
+	<animate
+		href="#pulse3"
+		attributeName="d"
+		values="M 146.28672,34.167788 V 54.379364;M 27,34.167788 V 54.379364"
+		dur="1s"
+		begin="burst_anim.begin"
+		fill="freeze" />
+	<animate
+		href="#pulse"
+		attributeName="stroke-width"
+		values="2;0.2"
+		dur="1s"
+		begin="burst_anim.begin"
+		fill="freeze"
+		id="burst_anim" />
+	<animate
+		href="#pulse1"
+		attributeName="stroke-width"
+		values="2;0.2"
+		dur="1s"
+		begin="burst_anim.begin"
+		fill="freeze"
+		id="burst_anim" />
+	<animate
+		href="#pulse2"
+		attributeName="stroke-width"
+		values="2;0.2"
+		dur="1s"
+		begin="burst_anim.begin"
+		fill="freeze" />
+	<animate
+		href="#pulse3"
+		attributeName="stroke-width"
+		values="2;0.2"
+		dur="1s"
+		begin="burst_anim.begin"
+		fill="freeze" />
+	<animate
+		href="#burst-text"
+		attributeName="opacity"
+		values="1;0"
+		dur="0.1s"
+		begin="burst_anim.begin"
+		fill="freeze" />
+	<animate
+		href="#burst-scale"
+		attributeName="opacity"
+		values="1;0"
+		dur="0.1s"
+		begin="burst_anim.begin"
+		fill="freeze" />
+
+
+	<!-- STEP 7: Burst interval -->
+	<animate
+		href="#burst-interval-text"
+		attributeName="opacity"
+		values="0;1"
+		dur="0.1s"
+		begin="burst_anim.end"
+		fill="freeze" />
+
+	<animate
+		href="#burst1"
+		attributeName="opacity"
+		values="0;1"
+		dur="0.1s"
+		begin="burst_anim.end+0.25s"
+		fill="freeze" />
+	<animate
+		href="#burst-interval0"
+		attributeName="opacity"
+		values="0;1"
+		dur="0.1s"
+		begin="burst_anim.end+0.25s"
+		fill="freeze" />
+
+	<animate
+		href="#burst2"
+		attributeName="opacity"
+		values="0;1"
+		dur="0.1s"
+		begin="burst_anim.end+1.5s"
+		fill="freeze" />
+	<animate
+		href="#burst-interval1"
+		attributeName="opacity"
+		values="0;1"
+		dur="0.1s"
+		begin="burst_anim.end+1.75s"
+		fill="freeze" />
+
+	<animate
+		href="#burst3"
+		attributeName="opacity"
+		values="0;1"
+		dur="0.1s"
+		begin="burst_anim.end+2.25s"
+		fill="freeze" />
+	<animate
+		href="#burst-interval2"
+		attributeName="opacity"
+		values="0;1"
+		dur="0.1s"
+		begin="burst_anim.end+2.5s"
+		fill="freeze" />
+
+	<animate
+		href="#burst4"
+		attributeName="opacity"
+		values="0;1"
+		dur="0.1s"
+		begin="burst_anim.end+2.5s"
+		fill="freeze"
+		id="burst_interval_anim" />
+	<animate
+		href="#burst-interval3"
+		attributeName="opacity"
+		values="0;1"
+		dur="0.1s"
+		begin="burst_anim.end+2.5s"
+		fill="freeze"/>
+
+
+	<animate
+		href="#burst-interval4"
+		attributeName="opacity"
+		values="0;1"
+		dur="0.1s"
+		begin="burst_anim.end+2.5s"
+		fill="freeze"/>
+
+	<!-- STEP 8: Burst interval animation start -->
+
+
+	<animateTransform
+		href="#burst0"
+		attributeName="transform"
+		type="translate"
+		from="-10 -24.167788"
+		to="-70 -24.167788"
+		dur="1.2s"
+		begin="burst_interval_anim.end+1s"
+		fill="freeze"
+		id="burst_anim0"/>
+	<animateTransform
+		href="#burst1"
+		attributeName="transform"
+		type="translate"
+		from="40 -24.167788"
+		to="-70 -24.167788"
+		dur="2.2s"
+		begin="burst_anim0.begin"
+		fill="freeze"
+		id="burst_anim1"/>
+	<animateTransform
+		href="#burst2"
+		attributeName="transform"
+		type="translate"
+		from="90 -24.167788"
+		to="-70 -24.167788"
+		dur="3.2s"
+		begin="burst_anim0.begin"
+		fill="freeze"
+		id="burst_anim2"/>
+	<animateTransform
+		href="#burst3"
+		attributeName="transform"
+		type="translate"
+		from="140 -24.167788"
+		to="-70 -24.167788"
+		dur="4.2s"
+		begin="burst_anim0.begin"
+		fill="freeze"
+		id="burst_anim3"/>
+	<animateTransform
+		href="#burst4"
+		attributeName="transform"
+		type="translate"
+		from="180 -24.167788"
+		to="-70 -24.167788"
+		dur="5s"
+		begin="burst_anim0.begin+0.2s"
+		fill="freeze"
+		id="burst_anim4"/>
+
+	<animateTransform
+		href="#burst-interval0"
+		attributeName="transform"
+		type="translate"
+		from="-10 -24.167788"
+		to="-70 -24.167788"
+		dur="1.2s"
+		begin="burst_anim0.begin"
+		fill="freeze"
+		id="interval_anim0"/>
+	<animateTransform
+		href="#burst-interval1"
+		attributeName="transform"
+		type="translate"
+		from="40 -24.167788"
+		to="-70 -24.167788"
+		dur="2.2s"
+		begin="burst_anim0.begin"
+		fill="freeze"
+		id="interval_anim1"/>
+	<animateTransform
+		href="#burst-interval2"
+		attributeName="transform"
+		type="translate"
+		from="90 -24.167788"
+		to="-70 -24.167788"
+		dur="3.2s"
+		begin="burst_anim0.begin"
+		fill="freeze"
+		id="interval_anim2" />
+	<animateTransform
+		href="#burst-interval3"
+		attributeName="transform"
+		type="translate"
+		from="140 -24.167788"
+		to="-70 -24.167788"
+		dur="4.2s"
+		begin="burst_anim0.begin"
+		fill="freeze"
+		id="interval_anim3" />
+	<animateTransform
+		href="#burst-interval4"
+		attributeName="transform"
+		type="translate"
+		from="180 -24.167788"
+		to="-70 -24.167788"
+		dur="5s"
+		begin="burst_anim0.begin+0.2s"
+		fill="freeze"
+		id="interval_anim4" />
+
+	<!-- STEP 9: Burst interval loop -->
+
+
+	<animateTransform
+		href="#burst0"
+		attributeName="transform"
+		type="translate"
+		from="180 -24.167788"
+		to="-70 -24.167788"
+		dur="5s"
+		begin="burst_anim0.end"
+		fill="freeze"
+		repeatCount="1"
+		id="scroll_bursts_loop" />
+	<animateTransform
+		href="#burst1"
+		attributeName="transform"
+		type="translate"
+		from="180 -24.167788"
+		to="-70 -24.167788"
+		dur="5s"
+		begin="burst_anim1.end"
+		fill="freeze"
+		repeatCount="1"/>
+	<animateTransform
+		href="#burst2"
+		attributeName="transform"
+		type="translate"
+		from="180 -24.167788"
+		to="-70 -24.167788"
+		dur="5s"
+		begin="burst_anim2.end"
+		fill="freeze"
+		repeatCount="1"/>
+	<animateTransform
+		href="#burst3"
+		attributeName="transform"
+		type="translate"
+		from="180 -24.167788"
+		to="-70 -24.167788"
+		dur="5s"
+		begin="burst_anim3.end"
+		fill="freeze"
+		repeatCount="1"/>
+	<animateTransform
+		href="#burst4"
+		attributeName="transform"
+		type="translate"
+		from="180 -24.167788"
+		to="-70 -24.167788"
+		dur="5s"
+		begin="burst_anim4.end"
+		fill="freeze"
+		repeatCount="1"/>
+
+
+
+	<animateTransform
+		href="#burst-interval0"
+		attributeName="transform"
+		type="translate"
+		from="180 -24.167788"
+		to="-70 -24.167788"
+		dur="5s"
+		begin="interval_anim0.end"
+		fill="freeze"
+		repeatCount="1"/>
+	<animateTransform
+		href="#burst-interval1"
+		attributeName="transform"
+		type="translate"
+		from="180 -24.167788"
+		to="-70 -24.167788"
+		dur="5s"
+		begin="interval_anim1.end"
+		fill="freeze"
+		repeatCount="1"/>
+	<animateTransform
+		href="#burst-interval2"
+		attributeName="transform"
+		type="translate"
+		from="180 -24.167788"
+		to="-70 -24.167788"
+		dur="5s"
+		begin="interval_anim2.end"
+		fill="freeze"
+		repeatCount="1"/>
+	<animateTransform
+		href="#burst-interval3"
+		attributeName="transform"
+		type="translate"
+		from="180 -24.167788"
+		to="-70 -24.167788"
+		dur="5s"
+		begin="interval_anim3.end"
+		fill="freeze"
+		repeatCount="1"/>
+	<animateTransform
+		href="#burst-interval4"
+		attributeName="transform"
+		type="translate"
+		from="180 -24.167788"
+		to="-70 -24.167788"
+		dur="5s"
+		begin="interval_anim4.end"
+		fill="freeze"
+		repeatCount="1"/>
+
+	<!-- END -->
+
+	<animate
+		href="#burst-interval-text"
+		attributeName="opacity"
+		values="1;0"
+		dur="0.1s"
+		begin="scroll_bursts_loop.end"
+		fill="freeze" />
+	<animate
+		href="#burst1"
+		attributeName="opacity"
+		values="1;0"
+		dur="0.1s"
+		begin="scroll_bursts_loop.end"
+		fill="freeze" />
+	<animate
+		href="#burst2"
+		attributeName="opacity"
+		values="1;0"
+		dur="0.1s"
+		begin="scroll_bursts_loop.end"
+		fill="freeze" />
+	<animate
+		href="#burst3"
+		attributeName="opacity"
+		values="1;0"
+		dur="0.1s"
+		begin="scroll_bursts_loop.end"
+		fill="freeze"
+		id="animation_end"/>
+	<animate
+		href="#burst4"
+		attributeName="opacity"
+		values="1;0"
+		dur="0.1s"
+		begin="scroll_bursts_loop.end"
+		fill="freeze"
+		id="animation_end"/>
+
+   <animate
+		href="#burst-interval0"
+		attributeName="opacity"
+		values="1;0"
+		dur="0.1s"
+		begin="scroll_bursts_loop.end"
+		fill="freeze" />
+   <animate
+		href="#burst-interval1"
+		attributeName="opacity"
+		values="1;0"
+		dur="0.1s"
+		begin="scroll_bursts_loop.end"
+		fill="freeze" />
+	<animate
+		href="#burst-interval2"
+		attributeName="opacity"
+		values="1;0"
+		dur="0.1s"
+		begin="scroll_bursts_loop.end"
+		fill="freeze" />
+	<animate
+		href="#burst-interval3"
+		attributeName="opacity"
+		values="1;0"
+		dur="0.1s"
+		begin="scroll_bursts_loop.end"
+		fill="freeze"
+		id="animation_end"/>
+	<animate
+		href="#burst-interval4"
+		attributeName="opacity"
+		values="1;0"
+		dur="0.1s"
+		begin="scroll_bursts_loop.end"
+		fill="freeze"
+		id="animation_end"/>
+	<!--animate
+		href="#pulse1"
+		attributeName="opacity"
+		values="1;0"
+		dur="250ms"
+		begin="burst_anim.end"
+		fill="freeze" />
+	<animate
+		href="#pulse2"
+		attributeName="opacity"
+		values="1;0"
+		dur="250ms"
+		begin="burst_anim.end"
+		fill="freeze" />
+	<animate
+		href="#pulse3"
+		attributeName="opacity"
+		values="1;0"
+		dur="250ms"
+		begin="burst_anim.end"
+		fill="freeze" /-->
+
+
+
+	<animate
+		href="#pulse"
+		attributeName="stroke-width"
+		values="0.2;2"
+		dur="1ms"
+		begin="animation_end.end"
+		fill="freeze"  />
+	<animate
+		href="#pulse1"
+		attributeName="stroke-width"
+		values="0.2;2"
+		dur="1ms"
+		begin="animation_end.end"
+		fill="freeze" />
+	<animate
+		href="#pulse2"
+		attributeName="stroke-width"
+		values="0.2;2"
+		dur="1ms"
+		begin="animation_end.end"
+		fill="freeze" />
+	<animate
+		href="#pulse3"
+		attributeName="stroke-width"
+		values="0.2;2"
+		dur="1ms"
+		begin="animation_end.end"
+		fill="freeze" />
+
+	<animate
+		href="#pulse"
+		attributeName="d"
+		values="M 23,34.167788 V 54.379364;M 100,34.167788 V 54.379364"
+		dur="1ms"
+		begin="animation_end.end"
+		fill="freeze"
+		/>
+	<animate
+		href="#pulse1"
+		attributeName="d"
+		values="M 24,34.167788 V 54.379364;M 40.28672,34.167788 V 54.379364"
+		dur="1ms"
+		begin="animation_end.end"
+		fill="freeze"
+		/>
+	<animate
+		href="#pulse2"
+		attributeName="d"
+		values="M 26,34.167788 V 54.379364;M 106.28672,34.167788 V 54.379364"
+		dur="1ms"
+		begin="animation_end.end"
+		fill="freeze" />
+	<animate
+		href="#pulse3"
+		attributeName="d"
+		values="M 27,34.167788 V 54.379364;M 146.28672,34.167788 V 54.379364"
+		dur="1ms"
+		begin="animation_end.end"
+		fill="freeze" />
+
+
+	<animate
+		href="#pulse"
+		attributeName="opacity"
+		values="1;0"
+		dur="1ms"
+		begin="animation_end.end"
+		fill="freeze"  />
+	<animate
+		href="#pulse1"
+		attributeName="opacity"
+		values="1;0"
+		dur="1ms"
+		begin="animation_end.end"
+		fill="freeze" />
+	<animate
+		href="#pulse2"
+		attributeName="opacity"
+		values="1;0"
+		dur="1ms"
+		begin="animation_end.end"
+		fill="freeze" />
+	<animate
+		href="#pulse3"
+		attributeName="opacity"
+		values="1;0"
+		dur="1ms"
+		begin="animation_end.end"
+		fill="freeze" />
+
+
+
+	<animate
+		href="#sinewave"
+		attributeName="d"
+		values="m 101.61342,44.441045 c -0.0269,-5.301618 -0.0623,-10.121691 -0.089,-10.12608 -0.0354,-0.0043 -0.0623,4.824462 -0.0978,10.12608 -0.0269,5.302728 -0.0623,10.122791 -0.089,10.127179 -0.0354,0.0043 -0.0623,-4.824451 -0.0978,-10.127179 -0.0269,-5.301618 -0.0623,-10.121691 -0.089,-10.12608 -0.0354,-0.0043 -0.0623,4.824462 -0.0979,10.12608 -0.0269,5.302728 -0.0532,10.122791 -0.089,10.127179 -0.0269,0.0043 -0.0623,-4.824451 -0.089,-10.127179 -0.0354,-5.301618 -0.0623,-10.121691 -0.0979,-10.12608 -0.0269,-0.0043 -0.0623,4.824462 -0.089,10.12608 -0.0354,5.302728 -0.0623,10.122791 -0.0979,10.127179 -0.0269,0.0043 -0.0623,-4.824451 -0.089,-10.127179 -0.0269,-5.301618 -0.0623,-10.121691 -0.089,-10.12608 -0.0354,-0.0043 -0.0623,4.824462 -0.0979,10.12608 -0.0269,5.302728 -0.0623,10.122791 -0.089,10.127179 -0.0354,0.0043 -0.0623,-4.824451 -0.0978,-10.127179 -0.0269,-5.301618 -0.0623,-10.121691 -0.089,-10.12608 -0.0354,-0.0043 -0.0623,4.824462 -0.0978,10.12608 -0.0269,5.302728 -0.0532,10.122791 -0.089,10.127179 -0.0269,0.0043 -0.0623,-4.824451 -0.089,-10.127179 -0.0354,-5.301618 -0.0623,-10.121691 -0.0978,-10.12608 -0.0269,-0.0043 -0.0623,4.824462 -0.089,10.12608 -0.0354,5.302728 -0.0623,10.122791 -0.0978,10.127179 -0.0269,0.0043 -0.0623,-4.824451 -0.089,-10.127179;m 23.095334,44.4411 c 2.2235,-4.83299 4.4471,-9.227 6.6706,-9.231 2.2235,-0.004 4.4471,4.39801 6.6706,9.231 2.2235,4.834003 4.4471,9.228003 6.6706,9.232003 2.2235,0.004 4.4471,-4.398 6.6706,-9.232003 2.2235,-4.83299 4.447101,-9.227 6.67059,-9.231 2.223501,-0.004 4.447109,4.39801 6.670609,9.231 2.2235,4.834003 4.447101,9.228003 6.670601,9.232003 2.2235,0.004 4.447101,-4.398 6.670601,-9.232003 2.22349,-4.83299 4.447101,-9.227 6.670598,-9.231 2.223501,-0.004 4.447101,4.39801 6.670601,9.231 2.2235,4.834003 4.447101,9.228003 6.670591,9.232003 2.223611,0.004 4.446615,-4.398 6.670605,-9.232003 2.224,-4.83299 4.447,-9.227 6.671,-9.231 2.223,-0.004 4.447,4.39801 6.67,9.231 2.22399,4.834003 4.44699,9.228003 6.671,9.232003 2.223,0.004 4.447,-4.398 6.67,-9.232003 2.224,-4.83299 4.447,-9.227 6.671,-9.231 2.224,-0.004 4.447,4.39801 6.671,9.231 2.22299,4.834003 4.44699,9.228003 6.66999,9.232003 2.224,0.004 4.447,-4.398 6.671,-9.232003 2.223,-4.83299 4.447,-9.227 6.67001,-9.231 2.224,-0.004 4.447,4.39801 6.671,9.231 2.224,4.834003 4.447,9.228003 6.671,9.232003 2.223,0.004 4.447,-4.398 6.67,-9.232003"
+		dur="1ms"
+		begin="animation_end.end"
+		fill="freeze" />
+	<animate
+		href="#timescale"
+		attributeName="d"
+		values="m 104.42046,55.384515 v 6.41708 h 3.79673 v -6.3855;m 23.095084,56.159553 v 5.72875 H 183.18953 v -5.59511"
+		dur="1ms"
+		begin="animation_end.end"
+		fill="freeze" />
+
+
+
+	<animateTransform
+		href="#burst0"
+		attributeName="transform"
+		type="translate"
+		from="-20 -24.167788"
+		to="-10 -24.167788"
+		dur="1ms"
+		begin="animation_end.end"
+		fill="freeze"
+		id="scroll_bursts"/>
+	<animateTransform
+		href="#burst1"
+		attributeName="transform"
+		type="translate"
+		from="-20 -24.167788"
+		to="40 -24.167788"
+		dur="1ms"
+		begin="animation_end.end"
+		fill="freeze"/>
+	<animateTransform
+		href="#burst2"
+		attributeName="transform"
+		type="translate"
+		from="-20 -24.167788"
+		to="90 -24.167788"
+		dur="1ms"
+		begin="animation_end.end"
+		fill="freeze" />
+	<animateTransform
+		href="#burst3"
+		attributeName="transform"
+		type="translate"
+		from="-20 -24.167788"
+		to="140 -24.167788"
+		dur="1ms"
+		begin="animation_end.end"
+		fill="freeze" />
+	<animateTransform
+		href="#burst4"
+		attributeName="transform"
+		type="translate"
+		from="-20 -24.167788"
+		to="180 -24.167788"
+		dur="1ms"
+		begin="animation_end.end"
+		fill="freeze" />
+
+
+
+
+	<animateTransform
+		href="#burst-interval0"
+		attributeName="transform"
+		type="translate"
+		from="-20 -24.167788"
+		to="-10 -24.167788"
+		dur="1ms"
+		begin="animation_end.end"
+		fill="freeze"
+		id="scroll_bursts"/>
+	<animateTransform
+		href="#burst-interval1"
+		attributeName="transform"
+		type="translate"
+		from="-20 -24.167788"
+		to="40 -24.167788"
+		dur="1ms"
+		begin="animation_end.end"
+		fill="freeze"/>
+	<animateTransform
+		href="#burst-interval2"
+		attributeName="transform"
+		type="translate"
+		from="-20 -24.167788"
+		to="90 -24.167788"
+		dur="1ms"
+		begin="animation_end.end"
+		fill="freeze" />
+	<animateTransform
+		href="#burst-interval3"
+		attributeName="transform"
+		type="translate"
+		from="-20 -24.167788"
+		to="140 -24.167788"
+		dur="1ms"
+		begin="animation_end.end"
+		fill="freeze" />
+	<animateTransform
+		href="#burst-interval4"
+		attributeName="transform"
+		type="translate"
+		from="-20 -24.167788"
+		to="180 -24.167788"
+		dur="1ms"
+		begin="animation_end.end"
+		fill="freeze" />
+</svg>

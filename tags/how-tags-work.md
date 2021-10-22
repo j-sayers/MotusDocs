@@ -33,3 +33,7 @@ A burst interval is the timing between successive bursts. It is measured in seco
 The burst interval and **Lotek Tag ID** combined are used to encode the **Motus Tag ID**. To avoid ambiguous detections, burst intervals cannot be integer multiples of one another. Therefore, all burst intervals must be _prime factors._ Keep in mind there must be two successive bursts to measure the burst interval and associate a **Motus Tag ID**, but [some bursts can be skipped.](https://github.com/leberrigan/MotusTagGuide/tree/00d2094967572a1669b95a31b957242a23bcd564/tag-aliasing/README.md#number-of-skipped-bursts) Bursts are measured to a high level of precision, allowing for [just 4 ms of ‘slop’.](https://github.com/leberrigan/MotusTagGuide/tree/00d2094967572a1669b95a31b957242a23bcd564/tag-aliasing/README.md#burst-interval-slop)
 
 ![Interval example](../.gitbook/assets/interval.png)
+
+### Animation
+
+![](../.gitbook/assets/pulse\_animated.svg)
