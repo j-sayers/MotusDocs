@@ -15,6 +15,7 @@
 * [Collaboration Policy](about-motus/collaboration-policy.md)
 * [Discussion Group](https://groups.google.com/g/motus-wts)
 * [Partners and Supporters](https://motus.org/data/partners)
+* [How Data are Processed](about-motus/how-data-are-processed.md)
 
 ## Project Management
 
