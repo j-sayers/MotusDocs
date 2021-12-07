@@ -67,7 +67,7 @@ Below are a few items we recommend you bring on each station visit:
 * SensorGnomes only: spare SD card with software image.
 
 {% hint style="warning" %}
-### Inspection Safety
+#### Inspection Safety
 
 When checking on a station that has been left on its own for months or longer, things will likely have shifted over time as it settles in. Corrosion can also occur, weaking supports. It's important to look for signs of weakend supports so they can be addressed before contuing with the inspection.
 
