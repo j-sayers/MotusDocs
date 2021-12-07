@@ -1,5 +1,9 @@
 # Station Installation
 
+{% hint style="danger" %}
+This guide is still **under development!** Please keep in mind some information here may be incomplete.
+{% endhint %}
+
 {% hint style="info" %}
 **Motus Pro Tip** - Do not take short-cuts. Any short-cuts or sloppy workmanship drastically increases the chance that some kind of problem will occur and the station won’t be operating when you need it to.
 {% endhint %}
@@ -15,7 +19,7 @@ _Note: The driven element and the attached connector are the most sensitive part
 * **Coax seal.** This is a type of soft rubber or silicone which is used to seal antenna connections. This is typically purchased separately from the antenna. Marine Goop (with UV protectant (link), and electrician, or plumbers puddy (with link).
 * **Coloured electrical tape or markers.** It can be difficult to keep track of which antenna corresponds with which cable once a station has been set up. Bring a few colours of electrical tape so you can colour code the antennas and coaxial cables.
 * **Zip ties, cable ties, zap straps.** These are indispensable for coaxial cable organisation. Used to support the coax cable along the antenna boom and mast.
-* **Hex nuts and bolts.** We use ¼” x 2” bolts for tripod assembly and ¼” x 1” bolts for affixing solar panels to the tripod**.** Use zinc-plates steel unless the station is deployed in a marine area where stainless steel should be used.
+* **Hex nuts and bolts.** We use ¼” x 2” bolts for tripod assembly and ¼” x 1” bolts for affixing solar panels to the tripod\*\*.\*\* Use zinc-plates steel unless the station is deployed in a marine area where stainless steel should be used.
 
 {% content-ref url="appendix-c.md" %}
 [appendix-c.md](appendix-c.md)
@@ -105,7 +109,7 @@ Include recommendations to mount receivers on the mast or outside of a box on th
 * [Solar Panel](station-installation.md#solar-power)
 * [Battery](station-installation.md#battery)
 * [Charge Controller](station-installation.md#charge-controller)
-* [14 AWG Spade](https://www.homedepot.com/p/Gardner-Bender-16-14-AWG-4-6-Stud-Spade-Terminal-Vinyl-Blue-10-Pack-15-113/205846650) [connectors](https://www.homedepot.com/p/Gardner-Bender-16-14-AWG-4-6-Stud-Spade-Terminal-Vinyl-Blue-10-Pack-15-113/205846650)&#x20;
+* [14 AWG Spade](https://www.homedepot.com/p/Gardner-Bender-16-14-AWG-4-6-Stud-Spade-Terminal-Vinyl-Blue-10-Pack-15-113/205846650) [connectors](https://www.homedepot.com/p/Gardner-Bender-16-14-AWG-4-6-Stud-Spade-Terminal-Vinyl-Blue-10-Pack-15-113/205846650)
 * [Fused battery leads](https://www.amazon.ca/dp/B07CK784LZ/ref=cm\_sw\_em\_r\_mt\_dp\_VNB6X9BCDCWWCVNN4C0A?\_encoding=UTF8\&psc=1)
 * 14 AWG stranded automotive or speaker wire.
 
@@ -124,7 +128,7 @@ Include recommendations to mount receivers on the mast or outside of a box on th
 See [solar charge controller wiring](appendix-c.md#charge-controller-wiring) for a diagram.
 
 1. Prepare your cables by crimping **14 AWG spade connectors** to the ends of all your cables.
-   * For the battery, prepare one **** fused battery lead __ and one length of the 14 AWG stranded automotive/speaker wire.
+   * For the battery, prepare one \*\*\*\* fused battery lead \_\_ and one length of the 14 AWG stranded automotive/speaker wire.
 2. Carefully inspect the charge controllers and note the positive and negative terminals for: the Solar Panel (input); the battery; the load (output).
 3. Ensure the power rating on the back of the solar panel does not exceed the ratings of the charge controller.
 4. Loosen the positive and negative terminals of the battery and attach the battery cable one at a time, using a **fused battery lead** for the _positive terminal_ and **14 AWG stranded automotive/speaker wire** to the _negative terminal_.
@@ -180,7 +184,7 @@ A pop-tower is a type of standalone station that uses a tripod + telescopic mast
   * ½” socket
 * Ratchet with ½” drive
 * Drill
-  * Cobalt drill bits (or equivalent) for metal drilling.&#x20;
+  * Cobalt drill bits (or equivalent) for metal drilling.
     * 3/16" and 1/4"
   * Phillips/Robinson’s screwdrivers for screws
 

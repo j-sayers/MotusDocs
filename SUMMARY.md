@@ -19,7 +19,7 @@
 
 ## Project Management
 
-* [Introduction](project-management/introduction.md)
+* [Getting Started](project-management/introduction.md)
 * [Collaborators](project-management/collaborators.md)
 * [Institutions](project-management/institutions.md)
 * [Citations](project-management/citations.md)
@@ -28,7 +28,6 @@
 
 ## Stations
 
-* [In development...](stations/in-development....md)
 * [Introduction](stations/README.md)
 * [Station Placement](stations/station-placement.md)
 * [Receivers](stations/receivers.md)

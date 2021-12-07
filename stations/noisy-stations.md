@@ -1,6 +1,6 @@
 # Noisy Stations
 
-Motus stations autonomously listen for radio signals on designated frequencies depending on where they are in the world. In some environments there is a lot of radio noise, or interference. Diagnosing noise sources is an important step in maintaining data quality and can also significantly reduce the amount of data being recorded and potentially transmitted through expensive cellular or satellite networks.  Below we summarize the best ways to identify which stations may be considered noisy, how to identify which antennas may be causing problems, and suggestions on how to resolve noise issues.&#x20;
+Motus stations autonomously listen for radio signals on designated frequencies depending on where they are in the world. In some environments there is a lot of radio noise, or interference. Diagnosing noise sources is an important step in maintaining data quality and can also significantly reduce the amount of data being recorded and potentially transmitted through expensive cellular or satellite networks. Below we summarize the best ways to identify which stations may be considered noisy, how to identify which antennas may be causing problems, and suggestions on how to resolve noise issues.
 
 The following mostly pertains to stand alone Sensorgnomes and SensorStations with antennas operating on 166.380 MHz, 150.100 MHz, and 151.500 MHz.
 
@@ -18,11 +18,9 @@ Using the Motus R Package, summaries of raw radio pulses can be downloaded for e
 
 The following density plot shows a one-month period of data collected at Blackie Spit in British Columbia when nearly 2 GB of data were recorded over that time. As you can see, antenna 6 has been recording well over 1 million pulses a day, averaging around 4 million a day, whereas antenna 7 has a far more reasonable number of pulses. Based on this information, we can conclude that data from antenna 6 should be scrutinized, and then modified and/or removed to increase data quality, or reduce the risk of data overages.
 
-![](<.gitbook/assets/image (5).png>)
+![](../.gitbook/assets/blackie-spit-noise-hist.png)
 
-
-
-### &#x20;R Script
+### R Script
 
 You can produce your own plots like the one above using the code below. If you have not used the Motus R Package in the past we recommend reviewing Chapters 1-3 of the [Motus R Book](https://motus.org/MotusRBook/index.html) before proceeding.
 
@@ -39,7 +37,6 @@ This script uses the 'pulseCounts' table from the receiver detections database d
 * The end date of the time period you are reviewing (YYYY-MM-DD)
 
 ```
-
 # Required packages
 library(motus)
 library(tidyverse)
@@ -118,13 +115,15 @@ Once a problem station/antenna has been identified we have a number of choices:
 
 1. Identify the source of the interference and attempt to aim the problem antenna away from that source. Visual inspection of the landscape, or experimentation with a manual receiver can often help to identify a source of interference.
 2. Use antenna analyzer to verify the antenna still performs within a reasonable threshold. _Instructions to come._
-3. Use the process of elimination to identify whether it is a hardware problem. Replace all components of the problem antenna one at a time: USB cable; Radio Dongle; Coaxial Cable; Antenna. Checks for signs of cracks in the coaxial cable or loose/rusty connections. [**More information.**](https://app.gitbook.com/@motus/s/stationguide/\~/drafts/-MkI3RzE3NRfglU8qeKV/station-inspection#cables-and-wires)****
+3. Use the process of elimination to identify whether it is a hardware problem. Replace all components of the problem antenna one at a time: USB cable; Radio Dongle; Coaxial Cable; Antenna. Checks for signs of cracks in the coaxial cable or loose/rusty connections. [**More information.**](https://app.gitbook.com/s/-MVScgdhPDrmFdURfWXK/station-inspection)\*\*\*\*
 4. Replace the antenna altogether.
 
 ## More examples
 
 Below are a few more examples of noisy antennas.
 
-![](<.gitbook/assets/image (10).png>)**Noisy Antenna:** 1![](<.gitbook/assets/image (8).png>)**Noisy Antenna:** 2, maybe 1 as well
+![](../.gitbook/assets/station1-noise-hist.png)**Noisy Antenna:** 1
 
-![](<.gitbook/assets/image (9).png>)**Noisy Antenna:** 2
+![](../.gitbook/assets/station2-noise-hist.png)**Noisy Antenna:** 2, maybe 1 as well
+
+![](../.gitbook/assets/station3-noise-hist.png)**Noisy Antenna:** 2

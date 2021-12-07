@@ -6,8 +6,10 @@ There are many ways you can get involved in Motus. Researchers can develop their
 
 ## Become a collaborator
 
-Collaborators are individuals, researchers or organizations that are involved in the maintenance of one or more Motus stations, or researchers deploying tags on wildlife. As a collaborative automated radio telemetry network, Motus would not be possible without the support of collaborators across the hemisphere who have committed time and resources to maintain their own receiver infrastructure or operate their own research projects using the Motus system.
+Motus relies on an assemblage of individuals, researchers, companies, government, non-government organizations, and academic institutions working together to maximize the efficacy of everyone’s effort and data. The central philosophy behind Motus is that we should all be working together, and all Motus collaborators agree to share their data, experiences, and successes with other collaborators and the public.&#x20;
 
-If you are interested in collaborating with the Motus network you can explore the local receiver station coverage in your area using the [Receiver Station Map](https://motus.org/data/receiversMap?lang=en). Full details on data sharing policies and registration fees can be found in the [Motus collaboration policy](https://motus.org/policy) and technical details for tags, stations and data analysis can be found in the [resources](https://motus.org/resources) section.
+The value of the Motus network grows as the spatial coverage of stations and number of partners and collaborators increases. With continued expansion and support, Motus is providing a framework for global collaboration, and a coordinated approach to solving some of the most complex problems in movement biology and ecology.&#x20;
 
-To become a collaborator, you must first [register](https://motus.org/data/user/new) with Motus. Once registered, you can create or join one or more projects
+If you are interested in contributing to Motus, you can view complete details in the [Motus Collaboration Policy](https://motus.org/policy). Technical details about tags, stations and data analysis can be found in [Motus Resources. ](https://motus.org/resources)
+
+To become a Motus collaborator, you must first [register with Motus](../../project-management/introduction.md#creating-an-account). Once registered, you can [create or join one or more projects](../../project-management/introduction.md#join-a-project).

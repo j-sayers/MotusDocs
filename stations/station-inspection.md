@@ -2,14 +2,14 @@
 
 ## Contents
 
-* [**When to schedule inspections**](station-inspection.md#when-to-schedule-an-inspection)****
-* ****[**What to bring**](station-inspection.md#what-to-bring)****
-* ****[**Inspection safety**](station-inspection.md#inspection-safety)****
-* ****[**What to do**](station-inspection.md#what-to-look-for)
-* ****[**Station Inspection Checklist**](station-inspection.md#station-inspection-checklist)****
+* [**When to schedule inspections**](station-inspection.md#when-to-schedule-an-inspection)
+* [**What to bring**](station-inspection.md#what-to-bring)
+* [**Inspection safety**](station-inspection.md#inspection-safety)
+* [**What to do**](station-inspection.md#what-to-look-for)
+* [**Station Inspection Checklist**](station-inspection.md#station-inspection-checklist)
 
-{% content-ref url="appendix-d.md" %}
-[appendix-d.md](appendix-d.md)
+{% content-ref url="appendix/" %}
+[appendix](appendix/)
 {% endcontent-ref %}
 
 ## When to schedule inspections
@@ -18,7 +18,7 @@ Inspections should be scheduled to ensure each station operates as expected prio
 
 ### Offline stations
 
-Depending on your location, stations that need to have their data downloaded manually should be inspected _**three to four**_** ** _times per year._ This corresponds to spring and fall migratory periods as well as breeding and wintering periods. In northern and southern latitudes, it is common for there to be no tags present during the wintering period so it may not be as important to check stations at that time.&#x20;
+Depending on your location, stations that need to have their data downloaded manually should be inspected _**three to four**_\*\* \*\* _times per year._ This corresponds to spring and fall migratory periods as well as breeding and wintering periods. In northern and southern latitudes, it is common for there to be no tags present during the wintering period so it may not be as important to check stations at that time.
 
 ### Networked stations
 
@@ -26,7 +26,7 @@ If your station is connected to the internet, data will be sent to our servers a
 
 ### Storms
 
-If an extreme whether event has been forecasted it is important to ensure any vulnerable stations are properly secured _**prior**_  to the storm's arrival to minimize damage. If damage is expected, stations should also be checked _**after**_ the storm has passed to fix any issues that may have occured. This applies to both _**networked**_ and _**offline**_ stations.&#x20;
+If an extreme whether event has been forecasted it is important to ensure any vulnerable stations are properly secured _**prior**_ to the storm's arrival to minimize damage. If damage is expected, stations should also be checked _**after**_ the storm has passed to fix any issues that may have occured. This applies to both _**networked**_ and _**offline**_ stations.
 
 {% hint style="info" %}
 Protect your stations from wind by keeping your antennas as low to the ground as practical. If you are in a coastal area, we do not recommend mounting antennas higher than 6 meters (20 feet). If you have a telescopic mast, you can lower antennas further than normal during the winter months if you aren't expecting to detect any tags. Also keep in mind that solar panels will act like a sail so they must be properly secured at all times.
@@ -36,11 +36,11 @@ Protect your stations from wind by keeping your antennas as low to the ground as
 
 Stations close to sea water will deteriorate much faster due to salt and water accelerating oxidation and galvanic corrosion. Salt fog can affect metal structures _**dozens**_ of kilometers inland so the station does not have to be near the ocean to impacted.
 
-![](<.gitbook/assets/image (2).png>)
+![](../.gitbook/assets/corrosion.png)
 
 ### Winterizing stations
 
-In locations that experience higher winds, less sunlight, and sub-zero temperatures in the winter, it may important to winterize stationst during those months. With a telescopic mast you can protect your station from wind damage during the winter by lowering your antennas further than normal. You can also save on power by unplugging some or all radio devices from the receiver or even by unplugging the receiver itself.&#x20;
+In locations that experience higher winds, less sunlight, and sub-zero temperatures in the winter, it may important to winterize stationst during those months. With a telescopic mast you can protect your station from wind damage during the winter by lowering your antennas further than normal. You can also save on power by unplugging some or all radio devices from the receiver or even by unplugging the receiver itself.
 
 {% hint style="danger" %}
 **Battery Storage**
@@ -67,7 +67,7 @@ Below are a few items we recommend you bring on each station visit:
 * SensorGnomes only: spare SD card with software image.
 
 {% hint style="warning" %}
-## Inspection Safety
+### Inspection Safety
 
 When checking on a station that has been left on its own for months or longer, things will likely have shifted over time as it settles in. Corrosion can also occur, weaking supports. It's important to look for signs of weakend supports so they can be addressed before contuing with the inspection.
 
@@ -90,7 +90,7 @@ For safety reasons, it's important to do a proper inspection of the structure be
 
 #### Station structure
 
-In most cases, stations need a structure for mounting the antennas. These take many forms, but they mostly have a central mast (can be telescopic) and a lower structure supporting that mast (typically a metal tripod).&#x20;
+In most cases, stations need a structure for mounting the antennas. These take many forms, but they mostly have a central mast (can be telescopic) and a lower structure supporting that mast (typically a metal tripod).
 
 Is the structure still standing straight? Is is properly supported? Is it showing signs of considerable corrosion where metal has been bolted together? Is the mast bent or cracked? Has the mast slid downwards or twisted since the last visit? Many of these features are most easily viewed from afar while walking towards the station.
 
@@ -102,31 +102,31 @@ If guy wires are present at this station, you must check for loose or broken lin
 
 Are the antennas horizontal? If not, the mast is either bent or the structure has shifted. If you are using a tripod, it's common for them to become uneven if the feet sink into the ground.
 
-If the antenna directions are wrong, either the mast has not been secured or one or more antenna mounts are loose. When mast is loose and there are multiple antennas, the difference between any two antenna directions should still remain the same from when the station was first installed (i.e.; the relative difference should remain the same).&#x20;
+If the antenna directions are wrong, either the mast has not been secured or one or more antenna mounts are loose. When mast is loose and there are multiple antennas, the difference between any two antenna directions should still remain the same from when the station was first installed (i.e.; the relative difference should remain the same).
 
-#### Ants, Bees, Spiders & Wasps&#x20;
+#### Ants, Bees, Spiders & Wasps
 
-Insect issues at Motus sites are uncommon, but on occasion they do occur. The storage and SensorGnome present attractive nuisances as a refuge for a variety of insects. The SensorGnome case is a sealed and waterproof case that should deter insects. The Action Packer is not sealed and is thus relatively easy for insects to invade. Always be cautious when opening an Action Packer. During autumn as the temperature drops the Action Packer may attract insects looking for a place to overwinter, especially some paper wasps. Ants may be attracted to the Action Packer’s environment as a safe place to incubate eggs or tend larvae and pupae. For a location that has continual insect issues leather gloves may be useful. Ant and wasp infestations may require occasional use of an insecticide.&#x20;
+Insect issues at Motus sites are uncommon, but on occasion they do occur. The storage and SensorGnome present attractive nuisances as a refuge for a variety of insects. The SensorGnome case is a sealed and waterproof case that should deter insects. The Action Packer is not sealed and is thus relatively easy for insects to invade. Always be cautious when opening an Action Packer. During autumn as the temperature drops the Action Packer may attract insects looking for a place to overwinter, especially some paper wasps. Ants may be attracted to the Action Packer’s environment as a safe place to incubate eggs or tend larvae and pupae. For a location that has continual insect issues leather gloves may be useful. Ant and wasp infestations may require occasional use of an insecticide.
 
 Some examples of wasp nests include under the handles of the action packer (both at once!) as well as at the tips of antennas if they are not covered.
 
-#### Bears&#x20;
+#### Bears
 
-There is a playful aspect of bored or territorial Black Bears that on occasion causes problems with field equipment. Bears may swat at, push, move or overturn the Action Packer. The 90 pounds of battery in the bottom of the Action Packer provide some resistance, but any bear that seriously wants to move an Action Packer can do so. The batteries are sealed spiral gel cells that will not leak electrolyte, so if an Action Packer is tipped over there should not be any spilled electrolyte inside. Jostling of the Action Packer might cause severed wires, loose connections and/or other problems. Loose or broken wires may require specialized attention by someone capable of repairing electrical connections. Bears might chew on Action Packers. A possible solution to discourage repeated bear chewing is using Tabasco sauce or another product with Cayenne pepper in it on the outside of the Action Packer. If an Action Packer is repeatedly seriously moved by a bear this can be thwarted by strapping the Action Packer to the ground with earth anchors and webbing cinch straps.&#x20;
+There is a playful aspect of bored or territorial Black Bears that on occasion causes problems with field equipment. Bears may swat at, push, move or overturn the Action Packer. The 90 pounds of battery in the bottom of the Action Packer provide some resistance, but any bear that seriously wants to move an Action Packer can do so. The batteries are sealed spiral gel cells that will not leak electrolyte, so if an Action Packer is tipped over there should not be any spilled electrolyte inside. Jostling of the Action Packer might cause severed wires, loose connections and/or other problems. Loose or broken wires may require specialized attention by someone capable of repairing electrical connections. Bears might chew on Action Packers. A possible solution to discourage repeated bear chewing is using Tabasco sauce or another product with Cayenne pepper in it on the outside of the Action Packer. If an Action Packer is repeatedly seriously moved by a bear this can be thwarted by strapping the Action Packer to the ground with earth anchors and webbing cinch straps.
 
-#### Digging Mammals&#x20;
+#### Digging Mammals
 
 Digging mammals, primarily woodchucks and foxes, may occasionally cause problems at Motus stations. When holes are dug at guy line anchors the holes can compromise the guy anchors and in a worst case situation risk tower failure in windy conditions if the hole allows a guy anchor to fail. Any and all holes should be filled in. Holes can be filled with soil or rocks. Holes dug underneath the base of a tower also need to be filled. If a serious hole is encountered at a guy anchor, obtain a cell phone picture and contact the PA Motus coordinator.
 
 ### Inside the storage bin
 
-Receivers are typically kept inside a heavy-duty storage bin which also houses the power supply and further protects the receiver from the elements.&#x20;
+Receivers are typically kept inside a heavy-duty storage bin which also houses the power supply and further protects the receiver from the elements.
 
-#### Blown Fuse&#x20;
+#### Blown Fuse
 
 The normal current draw of the receiver will not blow the system fuse. Blown fuses are a highly unlikely situation at Motus stations. A blown fuse is an indication of a current surge that exceeded the amperage of the fuse. The only conditions that will blow a fuse are a short circuit or a current surge resulting from a nearby lightning strike. As a first step replace the blown fuse. If it immediately blows upon replacement, then there is a short circuit in the system that must be located and repaired before the receiver can be successfully restarted. Locate the short circuit, repair it and then restart the receiver.
 
-#### Rodents&#x20;
+#### Rodents
 
 Rodents, from mice, to chipmunks, to squirrels, to porcupines, have gnawing teeth and are good at using them. When inspecting the Motus system check for rodent damage to the various cables leading from the Action Packer to the various external components. If rodents chewing is found on any of the cables and the SensorGnome is still operating then the chewing has probably not damaged the cables. Repair the damage to the cable by wrapping the damaged area with electrical tape to seal out moisture. Cables that are totally severed as a result of mammal chewing will need to be repaired or replaced. Contact the PA Motus coordinator if a cable needs repair or replacement.
 
@@ -138,19 +138,19 @@ The battery voltage can be measured either by using a volt-meter or some charge 
 
 #### Solar charge controller
 
-The charge controller (typically Morningstar SunSaver SS-12v-10L) is a critical component essential to managing battery recharging and power supply to the receiver. Morningstar SunSavers have a good track record of reliable operation over long periods of time. If the charge controller fails the power supply to the SensorGnome will be interrupted. If the failure is due to water damage, it's possible that the batteries will discharge or a fuse will be blown.&#x20;
+The charge controller (typically Morningstar SunSaver SS-12v-10L) is a critical component essential to managing battery recharging and power supply to the receiver. Morningstar SunSavers have a good track record of reliable operation over long periods of time. If the charge controller fails the power supply to the SensorGnome will be interrupted. If the failure is due to water damage, it's possible that the batteries will discharge or a fuse will be blown.
 
-Besides monitoring charging and battery voltage level, the indicator lights on the Morningstar SunSaver are also used to indicate error conditions by various flashing patterns other than charging heartbeat or the full battery heartbeat. If the Morningstar SunSaver ever presents unusual indicator flashing light patterns then there is a problem with the charging and power supply to the SensorGnome. In situations where the Morningstar SunSaver is presenting error codes the receiver is not likely to be functioning properly. There is probably no remedy to this other than replacing the charge controller. If you have a replacement charge controller on hand, it can be hooked up immediately and it will charge the battery if the voltage is not too low.&#x20;
+Besides monitoring charging and battery voltage level, the indicator lights on the Morningstar SunSaver are also used to indicate error conditions by various flashing patterns other than charging heartbeat or the full battery heartbeat. If the Morningstar SunSaver ever presents unusual indicator flashing light patterns then there is a problem with the charging and power supply to the SensorGnome. In situations where the Morningstar SunSaver is presenting error codes the receiver is not likely to be functioning properly. There is probably no remedy to this other than replacing the charge controller. If you have a replacement charge controller on hand, it can be hooked up immediately and it will charge the battery if the voltage is not too low.
 
-#### Water & Leaks&#x20;
+#### Water & Leaks
 
-Receivers are stored in heavy-duty bins (typically Action Packers) to keep water out and when not modified are pretty good at keeping the interior dry. The most important part of keeping the inside dry is careful routing of the antenna and other cables into the bin when it is closed up after each inspection and data download. Routing the cables into the bin required small modifications to the bin that may allow a small amount of water into the interior of the bin. If there is water accumulating in the bottom of the bin the simplest solution is to drill a 1⁄4 inch hole in one or two of the lowest corners in the bin. If the leaking is more serious, it might be necessary to place foam weather stripping in the area where the bin was modified to route the cables into the bin.&#x20;
+Receivers are stored in heavy-duty bins (typically Action Packers) to keep water out and when not modified are pretty good at keeping the interior dry. The most important part of keeping the inside dry is careful routing of the antenna and other cables into the bin when it is closed up after each inspection and data download. Routing the cables into the bin required small modifications to the bin that may allow a small amount of water into the interior of the bin. If there is water accumulating in the bottom of the bin the simplest solution is to drill a 1⁄4 inch hole in one or two of the lowest corners in the bin. If the leaking is more serious, it might be necessary to place foam weather stripping in the area where the bin was modified to route the cables into the bin.
 
 ### The Receiver
 
 If the station is not connected to the internet, not only does the data need to be downloaded, it should also be checked to make sure it is collecting data correctly. Generally, you will not need to worry about this section if your receiver is networked because all the same information should also be available online.
 
-This section will vary widely based on the type of device being used_._ Select a tab below to view information related to your device:
+This section will vary widely based on the type of device being used\_.\_ Select a tab below to view information related to your device:
 
 {% tabs %}
 {% tab title="SensorGnome" %}
@@ -187,15 +187,15 @@ To be completed
 
 ### Cables and wires
 
-#### Loose Connections/Shorts&#x20;
+#### Loose Connections/Shorts
 
-While the Motus stations have been well constructed, nothing is perfect. Loose connections, disconnected wires, and/or shorts, are an infrequent gremlin that may be encountered. If something is not working look for loose connections. Solution of the problem can be as simple as identifying where the loose wire belongs and then securely reconnecting it. Sometimes, the solution is often as simple as disconnecting and then reconnecting the suspected loose connections. Shorts are harder to locate and may require additional assistance.&#x20;
+While the Motus stations have been well constructed, nothing is perfect. Loose connections, disconnected wires, and/or shorts, are an infrequent gremlin that may be encountered. If something is not working look for loose connections. Solution of the problem can be as simple as identifying where the loose wire belongs and then securely reconnecting it. Sometimes, the solution is often as simple as disconnecting and then reconnecting the suspected loose connections. Shorts are harder to locate and may require additional assistance.
 
-Having a multi-meter on hand can be very handy to trace shorts. By measuring resistance ('ohms' or 'Ω') you can identify whether two points are electrically connected (zero resistance) or not (infinite; sometimes displayed as a '1' on the far left of the screen).&#x20;
+Having a multi-meter on hand can be very handy to trace shorts. By measuring resistance ('ohms' or 'Ω') you can identify whether two points are electrically connected (zero resistance) or not (infinite; sometimes displayed as a '1' on the far left of the screen).
 
 #### Chewed or cracked insulation
 
-The plastic insulation covering a cable or wire protects it from water ingress. Even tiny cracks can slowly cause issues by increasing electrical resistance, thereby reducing signal transmission and voltage.&#x20;
+The plastic insulation covering a cable or wire protects it from water ingress. Even tiny cracks can slowly cause issues by increasing electrical resistance, thereby reducing signal transmission and voltage.
 
 To check for damage, run your hands along the length to feel for any disruption in the smooth surface. Critical locations to check are where the cables are fitted into the bin (usually via an elbow pipe joint) and wherever cables are closest to the ground on the outside of the bin.
 
@@ -211,15 +211,8 @@ If possible, we recommend you keep an activated tag test on your person at all t
 
 A prepared checklist below has been designed for stations in North America and may apply to others.
 
-{% file src=".gitbook/assets/Motus Station Checklist.pdf" %}
-Download Station Inspection Checklist (PDF)
-{% endfile %}
+{% file src="../.gitbook/assets/motus-station-checklist.pdf" %}
 
 Below is a Word DOC version of the same checklist which can be modified:
 
-{% file src=".gitbook/assets/Motus Station Checklist.docx" %}
-Download Customizable Station Inspection Checklist (DOCX)
-{% endfile %}
-
-
-
+{% file src="../.gitbook/assets/motus-station-checklist.docx" %}

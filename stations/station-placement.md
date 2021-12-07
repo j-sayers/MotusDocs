@@ -8,16 +8,16 @@ Before deploying any stations, you need to know what the primary purpose of the 
 
 Ideally, adjacent stations will complement one another; that is, they operate on similar frequencies and have antennas which point towards one another to provide detections of tagged animals as they pass between the stations. Multiple receivers can be employed to build a receiver ‘fence’ to detect any animals that may pass over a geographic area. Examples of these can be seen in the North-eastern US and along the North Sea of Europe. In Ontario, where many more stations are available, there is a grid of stations (or series of fences) to allow for better spatial resolution of movements. On study sites like Sable Island and Bon Portage Islands in Nova Scotia very small grids have been used to study local movements.
 
-| <p><a href="https://motus.org/wp-content/uploads/2020/02/receiver_fence_Panama.png"><img src=".gitbook/assets/image2.png" alt=""> <br>Receiver Fence  <br>(Panama Canal)</a></p> | <p><a href="https://motus.org/wp-content/uploads/2020/02/receiver_grid_Ontario.png"><img src=".gitbook/assets/image3.png" alt=""> <br>Receiver Grid  <br>(Ontario)</a></p> | <p><a href="https://motus.org/wp-content/uploads/2020/02/receiver_local_BonPortage.png"><img src=".gitbook/assets/image4.png" alt=""> <br> Local Array  <br>(Bon Portage Island)</a></p> |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| <p><img src="../.gitbook/assets/receiver-fence.png" alt=""><br>Receiver Fence<br>(Panama Canal)</p> | <p><img src="../.gitbook/assets/receiver-grid.png" alt=""><br>Receiver Grid<br>(Ontario)</p> | <p><img src="../.gitbook/assets/image4.png" alt=""><br>Local Array<br>(Bon Portage Island)</p> |
+| :-------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------: |
 
 When selecting a site, it’s important to consider how the landscape features will affect the range of your antennas. Generally, higher stations have a greater range and detection probability of passing animals, but have a more limited probability of detecting local movements (depending on the type of antenna that is attached). In most instances, stations should be placed in the highest elevation possible within the area of interest, ensuring there is a clear line of sight in each direction you wish to point the antennas. It’s also important to ensure there aren’t any obstructions immediately behind the antennas (within a few meters), especially metal surfaces like roofing.
 
-CTT Nodes work in a similar fashion to other Motus stations, but at a much smaller scale. These devices are best suited for fine-scale studies. Read more about CTT Nodes here: [**CTT Nodes**](https://celltracktech.com/products/tag-system/ctt-node/)****
+CTT Nodes work in a similar fashion to other Motus stations, but at a much smaller scale. These devices are best suited for fine-scale studies. Read more about CTT Nodes here: [**CTT Nodes**](https://celltracktech.com/products/tag-system/ctt-node/)
 
 ## Antenna Interference
 
-Antennas can receive interference if placed too close to metal objects or other antennas, or sources of electromagnetic noise (even air conditioners, generators, lawn mowers). Depending on frequency and location, radio interference from third-party broadcasters and cellular can also be problematic. Some online tools exist to locate licensed radio broadcasters by location ([click here for Canadian stations](https://tafl.jonathanmorgan.net)).
+Antennas can receive interference if placed too close to metal objects or other antennas, or sources of electromagnetic noise (even air conditioners, generators, lawn mowers). Depending on frequency and location, radio interference from third-party broadcasters and cellular can also be problematic. Some online tools exist to locate licensed radio broadcasters by location ([**click here for Canadian stations**](https://tafl.jonathanmorgan.net)).
 
 ### Testing for antenna interference
 
@@ -25,7 +25,7 @@ One can conduct tests at a site prior to station setup, but none have been well 
 
 #### Measuring the noise floor
 
-1. [Download SDR Console from their website](https://www.sdr-radio.com/download)
+1. ****[**Download SDR Console from their website**](https://www.sdr-radio.com/download)****
 2. Plug the FUNcube dongle into your computer and run the SDR Console software.
 3. Select the FUNcube dongle from the list of devices and tune it to the desired frequency.
 4. Plug in an antenna and take measurements in all directions at or near the height where the antennas will be when the station is installed.
@@ -69,6 +69,8 @@ In remote locations where there aren’t any buildings to attach towers, one can
 We can’t stress enough the importance of excess supports in any setup situation. Use more and stronger guy wires than you think you need, more waterproofing, more wall mounts, bigger batteries, bigger solar panels, and strong gauge, galvanized or stainless steel materials (especially in marine environments). It will cost you more in the end per setup, but shortcuts will often cost you more in the long-term.
 
 The following list includes equipment commonly used across North America. For equipment used in other regions, please [contact us](mailto:motus@birdscanada.org).
+
+### List of antenna mounting structures
 
 * Against the wall of a building: [DMX tower (36′)](http://wadeantenna.com/product/36-foot-dmx-bracketed-tower/)
 * Pre-existing towers
