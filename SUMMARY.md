@@ -29,6 +29,21 @@
 ## Stations
 
 * [In development...](stations/in-development....md)
+* [Introduction](stations/README.md)
+* [Station Placement](stations/station-placement.md)
+* [Receivers](stations/receivers.md)
+* [Antennas, Cables, and Dongles](stations/antennas.md)
+* [Power](stations/power.md)
+* [Station Installation](stations/station-installation.md)
+* [Station Inspection](stations/station-inspection.md)
+* [Noisy Stations](stations/noisy-stations.md)
+* [Testing Receiver Antenna Ranges Using a Tag](stations/tag-test.md)
+* [General tips](stations/general-tips.md)
+* [Appendix](stations/appendix/README.md)
+  * [Definitions](stations/definitions.md)
+  * [Receiver power consumption table](stations/power-consumption.md)
+  * [Parts list and suppliers](stations/parts-suppliers.md)
+  * [Parts description](stations/parts-description.md)
 
 ## Tags
 
