@@ -12,7 +12,7 @@ The philosophy behind Motus is that we’re all working together. At its core, M
 
 ## What does Motus cost?
 
-It's **FREE **to register your project and receivers to the Motus network, contribute data from those receivers, and use the resources on the website. In order for transmitters to be detected by the network, they must be reregistered with Motus and are charged a nominal fee to support data processing and ongoing maintenance and development of the research software platform. See the [**collaboration policy and fee schedule**](https://motus.org/policy/) for more information.
+It's **FREE** to register your project and receivers to the Motus network, contribute data from those receivers, and use the resources on the website. In order for transmitters to be detected by the network, they must be reregistered with Motus and are charged a nominal fee to support data processing and ongoing maintenance and development of the research software platform. See the [**collaboration policy and fee schedule**](https://motus.org/policy/) for more information.
 
 ## Data ownership and privacy
 
