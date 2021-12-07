@@ -1,0 +1,2 @@
+# Receiver power consumption table
+
