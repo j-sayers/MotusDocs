@@ -21,8 +21,8 @@ _Note: The driven element and the attached connector are the most sensitive part
 * **Zip ties, cable ties, zap straps.** These are indispensable for coaxial cable organisation. Used to support the coax cable along the antenna boom and mast.
 * **Hex nuts and bolts.** We use ¼” x 2” bolts for tripod assembly and ¼” x 1” bolts for affixing solar panels to the tripod\*\*.\*\* Use zinc-plates steel unless the station is deployed in a marine area where stainless steel should be used.
 
-{% content-ref url="appendix-c.md" %}
-[appendix-c.md](appendix-c.md)
+{% content-ref url="appendix/parts-list-and-suppliers.md" %}
+[parts-list-and-suppliers.md](appendix/parts-list-and-suppliers.md)
 {% endcontent-ref %}
 
 ### Antenna mount
@@ -79,8 +79,8 @@ Include recommendations to mount receivers on the mast or outside of a box on th
 * [2” hole saw](https://www.homedepot.com/p/Milwaukee-2-in-Hole-Dozer-Bi-Metal-Hole-Saw-with-3-8-in-Arbor-Pilot-Bit-49-56-9667/202327737)
 * Drill bits for screws
 
-{% content-ref url="appendix-c.md" %}
-[appendix-c.md](appendix-c.md)
+{% content-ref url="appendix/parts-list-and-suppliers.md" %}
+[parts-list-and-suppliers.md](appendix/parts-list-and-suppliers.md)
 {% endcontent-ref %}
 
 #### Instructions
@@ -119,8 +119,8 @@ Include recommendations to mount receivers on the mast or outside of a box on th
 * Small flat head screwdriver
 * [Stripper/crimping tool](https://www.homedepot.com/p/Klein-Tools-Klein-Kurve-Multi-Tool-Wire-Stripper-Crimper-1019SEN/305303655)
 
-{% content-ref url="appendix-c.md" %}
-[appendix-c.md](appendix-c.md)
+{% content-ref url="appendix/parts-list-and-suppliers.md" %}
+[parts-list-and-suppliers.md](appendix/parts-list-and-suppliers.md)
 {% endcontent-ref %}
 
 #### Instructions
@@ -188,8 +188,8 @@ A pop-tower is a type of standalone station that uses a tripod + telescopic mast
     * 3/16" and 1/4"
   * Phillips/Robinson’s screwdrivers for screws
 
-{% content-ref url="appendix-c.md" %}
-[appendix-c.md](appendix-c.md)
+{% content-ref url="appendix/parts-list-and-suppliers.md" %}
+[parts-list-and-suppliers.md](appendix/parts-list-and-suppliers.md)
 {% endcontent-ref %}
 
 ### Instructions

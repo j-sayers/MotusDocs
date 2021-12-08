@@ -34,7 +34,8 @@
 * [Antennas, Cables, and Dongles](stations/antennas.md)
 * [Power](stations/power.md)
 * [Station Installation](stations/station-installation.md)
-* [Station Inspection](stations/station-inspection.md)
+* [Station Inspection](stations/station-inspection/README.md)
+  * [Parts description](stations/station-inspection/parts-description.md)
 * [Noisy Stations](stations/noisy-stations.md)
 * [Testing Receiver Antenna Ranges Using a Tag](stations/tag-test.md)
 * [General tips](stations/general-tips.md)
@@ -42,7 +43,6 @@
   * [Definitions](stations/appendix/definitions.md)
   * [Receiver power consumption table](stations/appendix/receiver-power-consumption-table.md)
   * [Parts list and suppliers](stations/appendix/parts-list-and-suppliers.md)
-  * [Parts description](stations/appendix/parts-description.md)
 
 ## Tags
 

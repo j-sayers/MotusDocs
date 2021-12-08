@@ -10,13 +10,13 @@ An antenna is a device used to send or receive radio signals, i.e., electromagne
 
 ![](../.gitbook/assets/dipole-animation.gif)
 
-Each antenna has a theoretical radiation pattern which represents its range in 3D space. We use the radiation pattern to predict the distance and direction we can receive signals from radio transmitters. Omnidirectional (‘omni’) antennas, as the name suggests, have a uniform radiation pattern that is emitted perpendicular to its axis. The thin wire attached to Lotek and CTT tags is a type of omni antenna. When used on a receiver, omni antennas provide presence/absence information, typically within a short range. This makes them ideal for fine scale studies and are indeed used with CTT SensorNodes to create a high-resolution grid.
+Each antenna has a theoretical radiation pattern which represents its range in 3D space. We use the radiation pattern to predict the distance and direction in which we can receive signals from radio transmitters. Omnidirectional (‘omni’) antennas, as the name suggests, have a uniform radiation pattern that is emitted perpendicular to its axis. The thin wire attached to Lotek and CTT tags is a type of omni antenna. When used on a receiver, omni antennas provide presence/absence information, typically within a short range. This makes them ideal for fine scale studies as demonstrated with CTT SensorNodes which can be used to create a high-resolution grid of stations.
 
 ![](../.gitbook/assets/omni-pattern.png) ![](../.gitbook/assets/omni-animation)
 
 _**Left:** A torus, representing the electromagnetic radiation pattern of an omnidirectional antenna (_[_CC BY-SA 3.0_](https://creativecommons.org/licenses/by-sa/3.0)_, source:_ [_Wikipedia_](https://commons.wikimedia.org/wiki/File:Simple\_Torus.svg)_). **Right:** Cross-sectional view of a half-wave omni-directional antenna (public domain, source: Wikipedia)._
 
-Yagi-Uda (‘Yagi’) antennas are a type of directional antenna that are the most commonly used antenna in the Motus network. Their radiation pattern is directed into a beam which varies in length and width based on the number of ‘directing elements’ with a greater number of elements resulting in a longer, narrower beam. A 9-element Yagi antenna, for instance, can theoretically provide tag detections from 15 km away at 166.380 MHz, but this will vary widely in reality, based on the landscape and atmospheric conditions. Yagi antennas are favorable for most applications since they can be used to create receiver ‘fences’ or ‘grids’ with fewer stations than an omni antennas could. In addition, multiple Yagi antennas on a single station can be used to infer flight direction based on the timing of detection across each antenna.
+Yagi-Uda (‘Yagi’) antennas are a type of directional antenna that are the most commonly used antenna in the Motus network. Their radiation pattern is directed into a beam which varies in length and width based on the number of ‘directing elements’ with a greater number of elements resulting in a longer, narrower beam. For example, a 9-element Yagi antenna can theoretically provide tag detections from 15 km away at 166.380 MHz, but in reality this will vary widely based on the landscape and atmospheric conditions. Yagi antennas are favorable for most applications since they can be used to create receiver ‘fences’ or ‘grids’ with fewer stations than an omni antennas could. In addition, multiple Yagi antennas on a single station can be used to infer flight direction based on the timing of detection across each antenna.
 
 A variety of antenna options exist for VHF/UHF telemetry. To date, collaborators have used 3, 5, 6, and 9-element Yagi directional antennas, and omni-directional antennas. Generally the greater the number of elements, the longer the detection range and more narrow the detection beam. The fewer the elements, the shorter the detection range, but the broader the detection beam. Omni-directional antennas are best suited for determining species presence-absence patterns (e.g. seabirds at a colony), or for detecting birds in close proximity to stations (within a few hundred metres), not suited for providing directional information (e.g. departure directions of songbirds from a stopover site).
 
@@ -61,22 +61,22 @@ Antennas can be purchased from the following suppliers:
 
 Use the table below to help select your antenna:
 
-| **Antenna type**                       | **Typical price (USD)** | **Impedence** | **Theoretical range** | **Veiw**           |
-| -------------------------------------- | ----------------------- | ------------- | --------------------- | ------------------ |
-| **3-element Yagi**                     | \$$$                    | 50 Ohms       | \~5 km                | Wide directional   |
-| **5-element Yagi**                     | \$$$                    | 50 Ohms       | \~8 km                | Directional        |
-| **6-element Yagi**                     | \$$$                    | 50 Ohms       | \~10 km               | Directional        |
-| **9-element Yagi**                     | \$$$                    | 50 Ohms       | \~15 km               | Narrow directional |
-| **Omnidirectional**                    | \$$$                    | 50 Ohms       | \~1 km                | Omnidirectional    |
-| Items listed in green are recommended. |                         |               |                       |                    |
+| **Antenna type**                                                 | **Typical price (USD)** | **Impedence** | **Theoretical range** | **Veiw**           |
+| ---------------------------------------------------------------- | ----------------------- | ------------- | --------------------- | ------------------ |
+| <mark style="background-color:green;">**3-element Yagi**</mark>  | \$$$                    | 50 Ohms       | \~5 km                | Wide directional   |
+| **5-element Yagi**                                               | \$$$                    | 50 Ohms       | \~8 km                | Directional        |
+| **6-element Yagi**                                               | \$$$                    | 50 Ohms       | \~10 km               | Directional        |
+| <mark style="background-color:green;">**9-element Yagi**</mark>  | \$$$                    | 50 Ohms       | \~15 km               | Narrow directional |
+| <mark style="background-color:green;">**Omnidirectional**</mark> | \$$$                    | 50 Ohms       | \~1 km                | Omnidirectional    |
+| Items listed in green are recommended.                           |                         |               |                       |                    |
 
 ## Coax Cables
 
-| **Cable type**                                                                                                                                                         | **Typical price (USD)** | **Impedance** | <p><strong>Max attenuation</strong></p><p><strong>(dB/100 ft)</strong></p> | **Suggested length** |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- | ------------- | -------------------------------------------------------------------------- | -------------------- |
-| [**RG-58**](https://www.pasternack.com/flexible-0.195-rg58-50-ohm-coax-cable-pvc-jacket-rg58c-u-p.aspx)                                                                | < 100 ft. @ $0.83/ft.   | 53.5 Ohms     | <p>4.4 @ 100 MHz</p><p>6.0 @ 200 MHz</p><p>8.5 @ 400 MHz</p>               | < 50 ft./15 m        |
-| [**RG-213**](https://www.pasternack.com/flexible-0.405-rg213-50-ohm-coax-cable-pvc-jacket-rg213-u-p.aspx)                                                              | < 100 ft. @ $1.79/ft.   | 50 Ohms       | <p>2.3 @ 100 MHz</p><p>4.8 @ 400 MHz</p>                                   | < 100 ft./30 m       |
-| <p>TWS/BMR/</p><p><a href="https://www.pasternack.com/50-ohm-low-loss-flexible-lmr400-pe-jacket-double-shielded-black-lmr-400-P.aspx"><strong>LMR-400</strong></a></p> | $1.20/ft.               | 50 Ohm        | <p>1.5 @ 150 MHz</p><p>2.7 @ 450 MHz</p>                                   | Any length           |
+| **Cable type**                                                                                                                                                                                                                                                                                                                                             | **Typical price (USD)** | **Impedance** | <p><strong>Max attenuation</strong></p><p><strong>(dB/100 ft)</strong></p> | **Suggested length** |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- | ------------- | -------------------------------------------------------------------------- | -------------------- |
+| [**RG-58**](https://www.pasternack.com/flexible-0.195-rg58-50-ohm-coax-cable-pvc-jacket-rg58c-u-p.aspx)                                                                                                                                                                                                                                                    | < 100 ft. @ $0.83/ft.   | 53.5 Ohms     | <p>4.4 @ 100 MHz</p><p>6.0 @ 200 MHz</p><p>8.5 @ 400 MHz</p>               | < 50 ft./15 m        |
+| <mark style="color:green;"></mark>[<mark style="color:green;">**RG-213**</mark>](https://www.pasternack.com/flexible-0.405-rg213-50-ohm-coax-cable-pvc-jacket-rg213-u-p.aspx)<mark style="color:green;"></mark>                                                                                                                                            | < 100 ft. @ $1.79/ft.   | 50 Ohms       | <p>2.3 @ 100 MHz</p><p>4.8 @ 400 MHz</p>                                   | < 100 ft./30 m       |
+| <p><mark style="background-color:green;">TWS/BMR/</mark></p><p><mark style="background-color:green;"></mark><a href="https://www.pasternack.com/50-ohm-low-loss-flexible-lmr400-pe-jacket-double-shielded-black-lmr-400-P.aspx"><mark style="background-color:green;"><strong>LMR-400</strong></mark></a><mark style="background-color:green;"></mark></p> | $1.20/ft.               | 50 Ohm        | <p>1.5 @ 150 MHz</p><p>2.7 @ 450 MHz</p>                                   | Any length           |
 
 A helpful guide on coaxial cables can be found on the [Wilson Amplifiers website](https://www.wilsonamplifiers.com/blog/understanding-coaxial-cables-the-complete-guide/)
 
@@ -97,14 +97,14 @@ Radio dongles, also known as Software Defined Radios (SDRs), are used to convert
 
 While there are dozens of available SDR’s on the market, only four models are compatible with SensorGnomes and SensorStations. Most commonly used are the **FUNcube Pro Plus** which have the smallest signal-to-noise ratio (_SNR_), _noise figure_, and _DC voltage spike_ (poor reception at nominal frequency), and power rating. However, FUNcube dongles are the most expensive, costing \~$200 USD, compared to $35 USD for the **RTL-SDR**. Despite the high price, we currently recommend FunCubes as the other SDR’s have not been properly tested or optimized for use. See the table below for more information:
 
-| **Receiver**         | **Price (USD)** | **Power in use** | **Power while idle** | **Reliability** | **Typical noise figure** |
-| -------------------- | --------------- | ---------------- | -------------------- | --------------- | ------------------------ |
-| **FUNcube Pro Plus** | $225            | 0.8 W (48 kHz)   | 0.8 W (48 kHz)       | Very reliable   | 3.5 dB @ 145 MHz         |
-| **RTL-SDR blog V3**  | $22             | 1.5 W            | 0.7 W                | Unknown         | \~5 dB @ 144.3 MHz       |
-| **NESDR SMArt v4**   | $24             | 1.54 W           | <0.25 W              | Unknown         | Unknown                  |
-| **NESDR SMArtee**    | $26             | 1.43 W           | Unknown              | Unknown         | Unknown                  |
-| **NESDR Smart XTR**  | $38             | 1 W              | 0.6 W                | Unknown         | Unknown                  |
-| **CTT\***            | $100            | <0.25 W          | <0.25 W              | Unknown         | Unknown                  |
+| **Receiver**                                                      | **Price (USD)** | **Power in use** | **Power while idle** | **Reliability** | **Typical noise figure** |
+| ----------------------------------------------------------------- | --------------- | ---------------- | -------------------- | --------------- | ------------------------ |
+| <mark style="background-color:green;">**FUNcube Pro Plus**</mark> | $225            | 0.8 W (48 kHz)   | 0.8 W (48 kHz)       | Very reliable   | 3.5 dB @ 145 MHz         |
+| **RTL-SDR blog V3**                                               | $22             | 1.5 W            | 0.7 W                | Unknown         | \~5 dB @ 144.3 MHz       |
+| **NESDR SMArt v4**                                                | $24             | 1.54 W           | <0.25 W              | Unknown         | Unknown                  |
+| **NESDR SMArtee**                                                 | $26             | 1.43 W           | Unknown              | Unknown         | Unknown                  |
+| **NESDR Smart XTR**                                               | $38             | 1 W              | 0.6 W                | Unknown         | Unknown                  |
+| <mark style="background-color:green;">**CTT\***</mark>            | $100            | <0.25 W          | <0.25 W              | Unknown         | Unknown                  |
 
 \* CTT dongles listen to 434 MHz and are only used to make Sensorgnomes compatible with CTT tags.
 
@@ -118,12 +118,12 @@ Most 9-element Yagis and omni-directional antennas tend to come with a female UH
 
 The following table outlines where we typically see these connectors. Dongles are the analog-to-digital converters that are part of the Sensorgnome (typically we use FUNcube dongles, or FCD).
 
-| **Connector** | _Antenna_  | _Cables_                       | _Radio Dongles_ | **Water resistance** |
-| ------------- | ---------- | ------------------------------ | --------------- | -------------------- |
-| **UHF**       | Common     | Common                         | Never           | Good                 |
-| **N-type**    | Common     | Common                         | Never           | Best                 |
-| **BNC**       | Some Lotek | Common                         | Never           | Poor                 |
-| **SMA**       | Never      | Some adapter cables GPS cables | Always          | Good                 |
+| **Connector**                                           | _Antenna_  | _Cables_                       | _Radio Dongles_ | **Water resistance** |
+| ------------------------------------------------------- | ---------- | ------------------------------ | --------------- | -------------------- |
+| **UHF**                                                 | Common     | Common                         | Never           | Good                 |
+| <mark style="background-color:green;">**N-type**</mark> | Common     | Common                         | Never           | Best                 |
+| **BNC**                                                 | Some Lotek | Common                         | Never           | Poor                 |
+| **SMA**                                                 | Never      | Some adapter cables GPS cables | Always          | Good                 |
 
 Items listed in green are recommended.
 

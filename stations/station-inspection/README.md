@@ -2,14 +2,14 @@
 
 ## Contents
 
-* [**When to schedule inspections**](station-inspection.md#when-to-schedule-an-inspection)
-* [**What to bring**](station-inspection.md#what-to-bring)
-* [**Inspection safety**](station-inspection.md#inspection-safety)
-* [**What to do**](station-inspection.md#what-to-look-for)
-* [**Station Inspection Checklist**](station-inspection.md#station-inspection-checklist)
+* [**When to schedule inspections**](./#when-to-schedule-an-inspection)
+* [**What to bring**](./#what-to-bring)
+* [**Inspection safety**](./#inspection-safety)
+* [**What to do**](./#what-to-look-for)
+* [**Station Inspection Checklist**](./#station-inspection-checklist)
 
-{% content-ref url="appendix/" %}
-[appendix](appendix/)
+{% content-ref url="parts-description.md" %}
+[parts-description.md](parts-description.md)
 {% endcontent-ref %}
 
 ## When to schedule inspections
@@ -36,7 +36,7 @@ Protect your stations from wind by keeping your antennas as low to the ground as
 
 Stations close to sea water will deteriorate much faster due to salt and water accelerating oxidation and galvanic corrosion. Salt fog can affect metal structures _**dozens**_ of kilometers inland so the station does not have to be near the ocean to impacted.
 
-![](../.gitbook/assets/corrosion.png)
+![](../../.gitbook/assets/corrosion.png)
 
 ### Winterizing stations
 
@@ -78,11 +78,11 @@ Snakes, wasps, and hornets are known to take refuge in and around stations so ap
 
 By following a sequence of steps during each station visit it's harder to miss something.
 
-1. [Approaching the station](station-inspection.md#approaching-the-station)
-2. [Inside the storage bin](station-inspection.md#inside-the-storage-bin)
-3. [The Receiver](station-inspection.md#the-receiver)
-4. [Cables and wires](station-inspection.md#cables-and-wires)
-5. [Tag test (optional)](station-inspection.md#tag-test-optional)
+1. [Approaching the station](./#approaching-the-station)
+2. [Inside the storage bin](./#inside-the-storage-bin)
+3. [The Receiver](./#the-receiver)
+4. [Cables and wires](./#cables-and-wires)
+5. [Tag test (optional)](./#tag-test-optional)
 
 ### Approaching the station
 
@@ -203,16 +203,16 @@ To check for damage, run your hands along the length to feel for any disruption 
 
 If possible, we recommend you keep an activated tag test on your person at all times while visiting any station. This can provide valuable information about the stations operability without much effort. It does not necessarily measure the receptability of all antennas equally, but it's better than nothing. For a more accurate method for measuring station antenna ranges, see below:
 
-{% content-ref url="tag-test.md" %}
-[tag-test.md](tag-test.md)
+{% content-ref url="../tag-test.md" %}
+[tag-test.md](../tag-test.md)
 {% endcontent-ref %}
 
 ## Station Inspection Checklist
 
 A prepared checklist below has been designed for stations in North America and may apply to others.
 
-{% file src="../.gitbook/assets/motus-station-checklist.pdf" %}
+{% file src="../../.gitbook/assets/motus-station-checklist.pdf" %}
 
 Below is a Word DOC version of the same checklist which can be modified:
 
-{% file src="../.gitbook/assets/motus-station-checklist.docx" %}
+{% file src="../../.gitbook/assets/motus-station-checklist.docx" %}
