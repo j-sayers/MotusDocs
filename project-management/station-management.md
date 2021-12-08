@@ -16,7 +16,6 @@ This section pertains to the management of station metadata. To learn more about
 In this chapter you will find:
 
 * ****[**Introduction to Stations**](station-management.md#introducing...stations)****
-  * ****[**I have used Motus before there were 'stations'. What's different?**](station-management.md#i-have-used-motus-before-stations-were-introduced.-what-exactly-is-different-from-before)****
 * ****[**How to Manage Stations**](station-management.md#managing-stations)****
 
 ## Introducing...Stations
@@ -37,7 +36,7 @@ By introducing stations, we're now able to string together deployments across mu
 
 Further, we are due to release a new data exploration tool next year which will depend on having stations defined in order to correctly organise data.&#x20;
 
-### Why didn't we use 'Stations' since the beginning?
+### Why haven't we use 'Stations' since the beginning?
 
 The Motus database was first organised from the perspective of data processing. That is, to store detections based on the serial number of the computer (i.e., "receiver") that collected those data. However, we also wanted to keep track of different station configurations, hence "receiver deployments" were born. For most of Motus' history, 'receivers' and 'receiver deployments' were good enough to define all the metadata associated with a Motus receiver, and in fact it still is. But as Motus grew with time station management became more and more cumbersome, making a definition for stations an obvious choice. In other words, you could say our hindsight is 20-20.
 

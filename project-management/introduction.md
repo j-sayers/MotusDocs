@@ -12,8 +12,8 @@ If you plan on ordering tags and don't yet have a project assigned for them, cre
 
 ### Account types
 
-* **Principal Investigator:** usually the lead researcher. This account type is required if you will be [**creating your own project**](introduction.md#add-a-new-project) within Motus.
-* **Collaborator:** all accounts that don't require creating a new project. You will need to request to  [**join a project**](introduction.md#join-a-project) after creating your account.
+* **Principal Investigator:** usually the lead researcher. This account type is required if you will be [**creating your own project**](introduction.md#add-a-new-project) within Motus. _Your account will need to be approved by an administrator if you select this type._
+* **Collaborator:** all accounts that don't require creating a new project. You will need to request to [**join a project**](introduction.md#join-a-project) after creating your account.
 
 ## Join a project
 
