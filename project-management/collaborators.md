@@ -39,6 +39,6 @@ Default permissions for a new collaborator is 'update' for all four categories.
 ## Removing a collaborator from a project
 
 1. Go to [**Manage Collaborators, Institutions, and Citations**](https://motus.org/data/project/users)
-2. Find the use you wish to remove in the collaborators table and then click on the![](<../.gitbook/assets/image (3).png>)icon located a the end of the row.&#x20;
+2. Find the use you wish to remove in the collaborators table and then click on the![](<../.gitbook/assets/image (3) (1).png>)icon located a the end of the row.
 
 ![](<../.gitbook/assets/Manage Users - Delete.png>)
