@@ -7,7 +7,7 @@ description: >-
 
 # Station Management
 
-This section pertains to the management of station metadata. To learn more about station selection and deployment, see our chapter on stations:
+This section pertains to the management of station metadata: i.e., the registration of stations and their deployments. To learn more about station equipment and how to deploy them, see our chapter on stations:
 
 {% content-ref url="broken-reference" %}
 [Broken link](broken-reference)
