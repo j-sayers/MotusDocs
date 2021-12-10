@@ -13,7 +13,7 @@ Citations can be formatted based on institutions or collaborators listed in the 
 
 * To edit your project's institutions, see [**Institutions**](institutions.md)
 * To edit your project's collaborators, see [**Collaborators**](collaborators.md)
-* To edit your project's citation format, go to [**Manage Collaborators, Institutions, and Citations**](https://motus.org/data/project/users) \*\*\*\* and scroll to the bottom of the page.
+* To edit your project's citation format, go to [**Manage Collaborators, Institutions, and Citations**](https://motus.org/data/project/users) and scroll to the bottom of the page.
 
 ![](<../.gitbook/assets/Project Citations.png>)
 

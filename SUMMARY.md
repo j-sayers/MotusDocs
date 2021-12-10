@@ -20,6 +20,7 @@
 ## Project Management
 
 * [Getting Started](project-management/introduction.md)
+* [Data Access](project-management/data-access.md)
 * [Collaborators](project-management/collaborators.md)
 * [Institutions](project-management/institutions.md)
 * [Citations](project-management/citations.md)

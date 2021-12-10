@@ -15,12 +15,22 @@ This section pertains to the management of station metadata: i.e., the registrat
 
 In this chapter you will find:
 
-* ****[**Introduction to Stations**](station-management.md#introducing...stations)****
+* ****[**Definition of Stations, Station Deployments, and Receivers**](station-management.md#introducing...stations)****
 * ****[**How to Manage Stations**](station-management.md#managing-stations)****
 
-## Introducing...Stations
+## Definitions
 
-A Motus station is a single location where Motus receiver equipment is or has been deployed. A station ties together all the different deployments (i.e., 'configurations') that a location might have had. For instance, if a new antenna was added to a station that was already deployed or if that station had a new computer installed, it will all be recorded under the same location and name. Not only does this help us better organise our database, id also makes metadata management much more efficient and intuitive for Motus collaborators.
+#### Stations
+
+A Motus station is a single location where Motus receiver and antenna equipment is or has been deployed. A station ties together all the different deployments (i.e., 'configurations') that a location might have had. For instance, if a new antenna was added to a station that was already deployed or if that station had a new receiver installed, it will all be recorded under the same location and name. Not only does this help us better organise our database, id also makes metadata management much more efficient and intuitive for Motus collaborators.
+
+**Station deployment**
+
+A station deployment is a single configuration of a station which includes dates of deployment (start and end), receiver ID, antenna information (type, direction, height), and the antenna mounting structure.
+
+#### Receivers
+
+This is the physical computer which collects the data at a station and is the device the antennas plug into. Receivers are linked to stations with station deployments.
 
 ### I have used Motus before Stations were introduced. What exactly is different from before?
 
@@ -58,7 +68,7 @@ To view a map or table of stations associated with your project(s), go to [**Man
 
 You can toggle your view between a map and table by clicking on the tabs above the map/table.
 
-![](<../.gitbook/assets/image (8).png>)![](<../.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/image (8) (1).png>)![](<../.gitbook/assets/image (5) (1).png>)
 
 ### **Filter stations**
 
@@ -116,7 +126,7 @@ With a station selected, click on the button labelled '**Create a new deployment
 
 You will be presented with a dialog box asking for the **deployment start date and time** as well as a couple check boxes which allow you to choose whether to copy metadata from the previous deployment.
 
-![](../.gitbook/assets/station-management-add-deployment.png)![](<../.gitbook/assets/image (9).png>)
+![](../.gitbook/assets/station-management-add-deployment.png)![](<../.gitbook/assets/image (9) (1).png>)
 
 #### Step 3: Select a receiver
 
