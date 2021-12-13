@@ -16,7 +16,7 @@ Institutions are organisations that are credited for their involvement with the 
 If you can't find the institution in the dropdown, click the 'Add institution to the list' button on the right.
 {% endhint %}
 
-![](<../.gitbook/assets/Manage Institutions - Add.png>)
+![](<../.gitbook/assets/image (11).png>)
 
 ## Removing an institution
 

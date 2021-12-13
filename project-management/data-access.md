@@ -4,7 +4,7 @@
 
 You can manage data access permissions for your project using the options found in [**Manage Project**](https://motus.org/data/project/) at the bottom of the page. This will affect how the public sees your data. Regardless of the permissions you set, each time data from your project our downloaded it is logged in your [**Data Access Log**](data-access.md#data-access-log).
 
-![](<../.gitbook/assets/image (5).png>)
+![](<../.gitbook/assets/image (1).png>)
 
 ## Data Access Log
 
