@@ -54,15 +54,21 @@ The Motus database was first organised from the perspective of data processing. 
 
 ## Managing Stations
 
-Every location where a Motus receiver is deployed needs to be recorded as a 'station' in our database. This section covers the following topics:
+Every location where a Motus receiver is deployed needs to be recorded as a 'station' in our database.&#x20;
 
-* ****[**View project stations**](station-management.md#view-project-stations)****
+This section covers the following topics:
+
+* [**View project stations**](station-management.md#view-project-stations)****
 * ****[**Filter stations**](station-management.md#filter-stations)****
 * ****[**View station deployments**](station-management.md#view-station-deployments)****
 * ****[**Add a new station**](station-management.md#add-a-new-station)****
 * ****[**Modify a station**](station-management.md#modify-a-station)****
 * ****[**Terminate a deployment**](station-management.md#terminate-a-deployment)****
 * ****[**Add a new deployment**](station-management.md#add-a-deployment)****
+
+The video below covers all topics in this section:
+
+{% embed url="https://youtu.be/eBqhBPHJaJM" %}
 
 ### View **project** stations
 
