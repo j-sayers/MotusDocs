@@ -1,8 +1,6 @@
 # Institutions
 
-Affiliated institutions are organisations that are credited for their involvement with the Motus project.&#x20;
-
-There are three institution types: **lead**, **partner**, and **funder**. It is up to the project managers to determine how to define institutions using these categories.
+Institutions are organisations that are credited for their involvement with the Motus project as a **lead**, **partner**, or **funder**.
 
 ## Add a new institution
 

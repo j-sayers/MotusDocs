@@ -22,39 +22,37 @@ In this chapter you will find:
 
 #### Stations
 
-A Motus station is a single location where Motus receiver and antenna equipment is or has been deployed. A station ties together all the different deployments (i.e., 'configurations') that a location might have had. For instance, if a new antenna was added to a station that was already deployed or if that station had a new receiver installed, it will all be recorded under the same location and name. Not only does this help us better organise our database, id also makes metadata management much more efficient and intuitive for Motus collaborators.
+A Motus station is a single location where Motus receiver and antenna equipment is or has been deployed. A station ties together all the different deployments (i.e., 'configurations') that a location might have had. For instance, if a new antenna was added to a station that was already deployed or if that station had a new receiver installed, it will all be recorded under the same location and name. Not only does this help us better organise the database, it also makes metadata management much more efficient and intuitive for Motus collaborators.
 
 **Station deployment**
 
-A station deployment is a single configuration of a station which includes dates of deployment (start and end), receiver ID, antenna information (type, direction, height), and the antenna mounting structure.
+A station deployment is a single configuration of a station which includes dates of deployment (start and end), receiver ID, antenna information (type, direction, height), and the antenna mounting structure (building, pop-up tower, etc.).
 
 #### Receivers
 
-This is the physical computer which collects the data at a station and is the device the antennas plug into. Receivers are linked to stations with station deployments.
+The physical computer that antennas plug into and collects tag detection data. Receivers are linked to stations with _station deployments_.
 
-### **How is this different from before?**
+### **What's new in the December 2021 Update?**
 
 If you're already familiar with Motus this won’t be much of a change for you. Most importantly, your R scripts won’t need to change since we're keeping the ‘site’ variables for the time being.
 
-&#x20;Essentially, what used to be known as 'sites,' a more general term with no restriction on geographic area or number of active Motus deployments, is now being converted into a single 'station' which can only be in one location (unless mobile) and can only have a single active deployment at a time. In addition, 'receiver deployments' are now going to be 'station deployments'. The coordinates and landowner information will also be associated with stations rather than deployments.
+Prior to December 2021,  'sites' were used as a general term with no restriction on geographic area or number of active Motus deployments. The December 2021 update converts this into a single 'station' which can only be in one location (unless mobile). Each station can only have a single active deployment at a time. In addition, 'receiver deployments' are now 'station deployments'. The coordinates and landowner information will also be associated with stations rather than deployments.
 
 Previously, most Motus collaborators used sites for the same purpose we intend to use stations anyways and landowners are already associated with sites. For this reason, we do not anticipate any major disruptions as a result of this change.
 
-&#x20;All this being said, we've had to upgrade the management interface to allow for stations. Now, instead of managing "receivers" and "receiver deployments", you will be managing "stations" and "station deployments". A small change, but a more intuitive one from the perspective of collaborators who actually deploy the equipment. See our chapter on [**Managing Stations**](https://docs.motus.org/motus-docs/project-management/station-management#managing-stations) to learn about this new workflow.
-
 #### **Motus R Package Update**
 
-In the Motus R package, we will keep all the previous variables, but we will also introducing 2 new variables (`stationID` and `stationName`). This means [**you need to update your R package to version 4.0**](https://motus.org/MotusRBook/loadingPackages.html#installing-motus-packages) to download new data. We will likely deprecate the variables `siteName` and `siteID` in a future release of the Motus R Package.
+In the Motus R package, we will keep all the previous variables, but we will also introducing 2 new variables (`stationID` and `stationName`). This means [**you need to update your R package to version 4.0**](https://motus.org/MotusRBook/loadingPackages.html#installing-motus-packages) to download new data. The variables `siteName` and `siteID` may be deprecated in a future release of the Motus R Package.
 
 ### **Why stations?**
 
-The Motus database was first organised from the perspective of data processing. That is, to store detections based on the serial number of the computer (i.e., "receiver") that collected those data. However, we also wanted to keep track of different station configurations, hence "receiver deployments" were born. For most of Motus' history, “receivers” and “receiver deployments” were good enough to define all the metadata associated with a Motus receiver; however, whenever a receiver was switched between two locations it always presented a bit of a problem to link the deployments of a single location together. Previously, researchers would have to use the station's name to link together data from multiple receivers which could be frustrating, especially when names were not consistent between deployments or when two locations had similar names. As Motus grew over time, receiver management became more and more cumbersome making it clear we would need to introduce a new level of organisation.
+The Motus database was first organised from the perspective of data processing. That is, to store detections based on the serial number of the computer (i.e., "receiver") that collected those data. However, it was also important to keep track of different station configurations, hence "receiver deployments" were born. However, whenever a receiver was switched between two locations it always presented a bit of a problem to link the deployments of a single location together. Previously, researchers would have to use the station's name to link together data from multiple receivers which could be frustrating, especially when names were not consistent between deployments or when two locations had similar names. As Motus has grown, receiver management has become more and more cumbersome making it clear we would need to introduce a new system of organisation at the station level.
 
-&#x20;We first introduced the concept of ‘sites’ back in 2018 as a way for researchers to group together the deployments for any number of locations. However, we found most researchers were using the feature to identify a single location. At the same time, we’ve been working on a new data exploration tool with an aim to better communicate Motus data to the public. In developing this new tool, it became obvious we would need to a clearer way to link together Motus receiver deployments at a single location. This is when we decided to introduce ‘stations’ as a replacement for ‘sites’. By introducing stations, we're now able to string together deployments across multiple receivers based on where they were deployed in a consistent manner.
+The concept of ‘sites’ was introduced back in 2018 as a way for collaborators to group together the deployments for any number of locations. However, we found most collaborators were using the feature to identify a single location. At the same time, new data explorations tool require a clearer way to link together Motus receiver deployments at a single location. By introducing stations, we're now able to string together deployments across multiple receivers based on where they were deployed in a consistent manner.
 
 ## Managing Stations
 
-Every location where a Motus receiver is deployed needs to be recorded as a 'station' in our database.&#x20;
+Every location where a Motus receiver is deployed needs to be recorded as a 'station' in the database.&#x20;
 
 This section covers the following topics:
 

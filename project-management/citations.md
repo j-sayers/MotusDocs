@@ -1,11 +1,6 @@
 # Citations
 
-## When to cite projects
-
-You must cite any project which deployed transmitters that you are using in your research.
-
-* **Example 1:** for your Master's thesis, you deployed 120 transmitters on animals. You are only using data from these transmitters in your analysis so you only need to include your own project in your citations.
-* **Example 2:** you are conducting a network-wide analysis of all Swainson's Thrushes deployed across Motus. You are using data from multiple projects which have deployed transmitters so you must include each project as a separeate citation.
+Citations ensure accurate acknowledgement of an individual’s or organization’s role in a project. in shared or value-added products. Citations are to be used wherever project summary data is reproduced, used in a collaborative research project, presentation, or website.
 
 ## Citation **Format**
 
