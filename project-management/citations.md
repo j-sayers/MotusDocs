@@ -1,6 +1,6 @@
 # Citations
 
-Citations ensure accurate acknowledgement of an individual’s or organization’s role in a project. in shared or value-added products. Citations are to be used wherever project summary data is reproduced, used in a collaborative research project, presentation, or website.
+Citations ensure accurate acknowledgement of an individual’s or organization’s role in a project. Citations are to be used wherever project summary data is reproduced, used in a collaborative research project, presentation, or website.
 
 ## Citation **Format**
 
