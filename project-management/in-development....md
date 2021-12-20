@@ -11,7 +11,7 @@ description: >-
 **This chapter is in development**
 {% endhint %}
 
-This section pertains to the management of tagmetadata: i.e., the registration of tags and their deployments. To learn more about tags models and how to deploy them, see our chapter on tags:
+This section pertains to the management of tag metadata: i.e., the registration of tags and their deployments. To learn more about tags models and how to deploy them, see our chapter on tags:
 
 {% content-ref url="broken-reference" %}
 [Broken link](broken-reference)

@@ -10,7 +10,7 @@ This guide is still **under development!** Please keep in mind some information 
 
 ## Antenna and Coax Assembly
 
-Several varieties of antennas exist of which only a few will be covered here. All antennas should come with their own assembly instructions which are more or less easy to follow so we will not go into great detail here. Please see [antenna anatomy](antennas.md#antenna-anatomy) for more details on parts.
+Several varieties of antennas exist of which only a few will be covered here. All antennas should come with their own assembly instructions which are more or less easy to follow so we will not go into great detail here. Please see [antenna anatomy](station-equipment/antennas.md#antenna-anatomy) for more details on parts.
 
 _Note: The driven element and the attached connector are the most sensitive parts of a Yagi antenna; pay special attention to prevent damage to these parts and any connections. Damage to the driven element may cause the antenna to no longer be tuned to the desired frequency resulting in an ineffective antenna._
 
@@ -21,8 +21,8 @@ _Note: The driven element and the attached connector are the most sensitive part
 * **Zip ties, cable ties, zap straps.** These are indispensable for coaxial cable organisation. Used to support the coax cable along the antenna boom and mast.
 * **Hex nuts and bolts.** We use ¼” x 2” bolts for tripod assembly and ¼” x 1” bolts for affixing solar panels to the tripod\*\*.\*\* Use zinc-plates steel unless the station is deployed in a marine area where stainless steel should be used.
 
-{% content-ref url="appendix/parts-list-and-suppliers.md" %}
-[parts-list-and-suppliers.md](appendix/parts-list-and-suppliers.md)
+{% content-ref url="station-equipment/parts-list-and-suppliers.md" %}
+[parts-list-and-suppliers.md](station-equipment/parts-list-and-suppliers.md)
 {% endcontent-ref %}
 
 ### Antenna mount
@@ -79,8 +79,8 @@ Include recommendations to mount receivers on the mast or outside of a box on th
 * [2” hole saw](https://www.homedepot.com/p/Milwaukee-2-in-Hole-Dozer-Bi-Metal-Hole-Saw-with-3-8-in-Arbor-Pilot-Bit-49-56-9667/202327737)
 * Drill bits for screws
 
-{% content-ref url="appendix/parts-list-and-suppliers.md" %}
-[parts-list-and-suppliers.md](appendix/parts-list-and-suppliers.md)
+{% content-ref url="station-equipment/parts-list-and-suppliers.md" %}
+[parts-list-and-suppliers.md](station-equipment/parts-list-and-suppliers.md)
 {% endcontent-ref %}
 
 #### Instructions
@@ -119,8 +119,8 @@ Include recommendations to mount receivers on the mast or outside of a box on th
 * Small flat head screwdriver
 * [Stripper/crimping tool](https://www.homedepot.com/p/Klein-Tools-Klein-Kurve-Multi-Tool-Wire-Stripper-Crimper-1019SEN/305303655)
 
-{% content-ref url="appendix/parts-list-and-suppliers.md" %}
-[parts-list-and-suppliers.md](appendix/parts-list-and-suppliers.md)
+{% content-ref url="station-equipment/parts-list-and-suppliers.md" %}
+[parts-list-and-suppliers.md](station-equipment/parts-list-and-suppliers.md)
 {% endcontent-ref %}
 
 #### Instructions
@@ -188,8 +188,8 @@ A pop-tower is a type of standalone station that uses a tripod + telescopic mast
     * 3/16" and 1/4"
   * Phillips/Robinson’s screwdrivers for screws
 
-{% content-ref url="appendix/parts-list-and-suppliers.md" %}
-[parts-list-and-suppliers.md](appendix/parts-list-and-suppliers.md)
+{% content-ref url="station-equipment/parts-list-and-suppliers.md" %}
+[parts-list-and-suppliers.md](station-equipment/parts-list-and-suppliers.md)
 {% endcontent-ref %}
 
 ### Instructions

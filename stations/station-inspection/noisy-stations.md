@@ -18,7 +18,7 @@ Using the Motus R Package, summaries of raw radio pulses can be downloaded for e
 
 The following density plot shows a one-month period of data collected at Blackie Spit in British Columbia when nearly 2 GB of data were recorded over that time. As you can see, antenna 6 has been recording well over 1 million pulses a day, averaging around 4 million a day, whereas antenna 7 has a far more reasonable number of pulses. Based on this information, we can conclude that data from antenna 6 should be scrutinized, and then modified and/or removed to increase data quality, or reduce the risk of data overages.
 
-![](../.gitbook/assets/blackie-spit-noise-hist.png)
+![](../../.gitbook/assets/blackie-spit-noise-hist.png)
 
 ### R Script
 
@@ -122,8 +122,8 @@ Once a problem station/antenna has been identified we have a number of choices:
 
 Below are a few more examples of noisy antennas.
 
-![](../.gitbook/assets/station1-noise-hist.png)**Noisy Antenna:** 1
+![](../../.gitbook/assets/station1-noise-hist.png)**Noisy Antenna:** 1
 
-![](../.gitbook/assets/station2-noise-hist.png)**Noisy Antenna:** 2, maybe 1 as well
+![](../../.gitbook/assets/station2-noise-hist.png)**Noisy Antenna:** 2, maybe 1 as well
 
-![](../.gitbook/assets/station3-noise-hist.png)**Noisy Antenna:** 2
+![](../../.gitbook/assets/station3-noise-hist.png)**Noisy Antenna:** 2

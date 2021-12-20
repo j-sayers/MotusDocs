@@ -56,7 +56,7 @@ To simulate an animal in the air, affix the dummy animal to a helium balloon. _N
 * Optionally, you can do this with a drone but don’t ask us how to fly it!
 * It is also extremely difficult to know the position of the dummy within the [radiation pattern](https://en.wikipedia.org/wiki/Radiation\_pattern) of the antenna in order to judge peak performance. [See description of different antenna types and radiation patterns here.](https://motus.org/antennas/#antennas)
 
-![](../.gitbook/assets/range-testing.png)
+![](../../.gitbook/assets/range-testing.png)
 
 ### Analyzing your results
 

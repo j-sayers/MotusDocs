@@ -16,6 +16,9 @@
 * [Discussion Group](https://groups.google.com/g/motus-wts)
 * [Partners and Supporters](https://motus.org/data/partners)
 * [How Data are Processed](about-motus/how-data-are-processed.md)
+* [Quick Reference](about-motus/quick-reference/README.md)
+  * [Tag Deployment](about-motus/quick-reference/tag-deployment.md)
+  * [Station Deployment](about-motus/quick-reference/station-deployment.md)
 
 ## Project Management
 
@@ -31,26 +34,29 @@
 
 * [Introduction](stations/README.md)
 * [Station Placement](stations/station-placement.md)
-* [Receivers](stations/receivers.md)
-* [Antennas, Cables, and Dongles](stations/antennas.md)
-* [Power](stations/power.md)
+* [Station Equipment](stations/station-equipment/README.md)
+  * [Receivers](stations/station-equipment/receivers.md)
+  * [Antennas, Cables, and Dongles](stations/station-equipment/antennas.md)
+  * [Power](stations/station-equipment/power.md)
+  * [Parts list and suppliers](stations/station-equipment/parts-list-and-suppliers.md)
+* [Mounting Structures](stations/mounting-structures.md)
 * [Station Installation](stations/station-installation.md)
+* [Downloading Data](stations/downloading-data.md)
 * [Station Inspection](stations/station-inspection/README.md)
   * [Parts description](stations/station-inspection/parts-description.md)
-* [Noisy Stations](stations/noisy-stations.md)
-* [Testing Receiver Antenna Ranges Using a Tag](stations/tag-test.md)
+  * [Noisy Stations](stations/station-inspection/noisy-stations.md)
+  * [Testing Receiver Antenna Ranges Using a Tag](stations/station-inspection/tag-test.md)
 * [General tips](stations/general-tips.md)
 * [Appendix](stations/appendix/README.md)
   * [Definitions](stations/appendix/definitions.md)
   * [Receiver power consumption table](stations/appendix/receiver-power-consumption-table.md)
-  * [Parts list and suppliers](stations/appendix/parts-list-and-suppliers.md)
 
 ## Tags
 
 * [Introduction](tags/README.md)
 * [Tag Basics](tags/tag-basics.md)
 * [How Tags Work](tags/how-tags-work.md)
-* [Tag Selection](tags/tag-selection.md)
+* [Selecting and Purchasing Tags](tags/tag-selection.md)
 * [Tag Deployment](tags/tag-deployment.md)
 * [Tag Aliasing](tags/tag-aliasing.md)
 * [Retrieving Lost Tags](tags/retrieving-lost-tags.md)

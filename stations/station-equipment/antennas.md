@@ -8,11 +8,11 @@ It is very important you select the right antenna for the purpose of the station
 
 An antenna is a device used to send or receive radio signals, i.e., electromagnetic radiation. This radiation induces a voltage in conductive materials which will vary in magnitude based on the physical dimensions and orientation of the material. The induced voltage oscillates at the same frequency as the electromagnetic radiation and the magnitude of the voltage is proportional to the strength of the radiation. Antennas used in the Motus Network are built (“tuned”) with high precision such that the induced voltage is greatest when exposed to the narrow range of frequencies that Motus tags emit. Antennas can also be shaped to select for radiation from specific directions and orientations.
 
-![](../.gitbook/assets/dipole-animation.gif)
+![](../../.gitbook/assets/dipole-animation.gif)
 
 Each antenna has a theoretical radiation pattern which represents its range in 3D space. We use the radiation pattern to predict the distance and direction in which we can receive signals from radio transmitters. Omnidirectional (‘omni’) antennas, as the name suggests, have a uniform radiation pattern that is emitted perpendicular to its axis. The thin wire attached to Lotek and CTT tags is a type of omni antenna. When used on a receiver, omni antennas provide presence/absence information, typically within a short range. This makes them ideal for fine scale studies as demonstrated with CTT SensorNodes which can be used to create a high-resolution grid of stations.
 
-![](../.gitbook/assets/omni-pattern.png) ![](../.gitbook/assets/omni-animation)
+![](../../.gitbook/assets/omni-pattern.png) ![](../../.gitbook/assets/omni-animation)
 
 _**Left:** A torus, representing the electromagnetic radiation pattern of an omnidirectional antenna (_[_CC BY-SA 3.0_](https://creativecommons.org/licenses/by-sa/3.0)_, source:_ [_Wikipedia_](https://commons.wikimedia.org/wiki/File:Simple\_Torus.svg)_). **Right:** Cross-sectional view of a half-wave omni-directional antenna (public domain, source: Wikipedia)._
 
@@ -44,7 +44,7 @@ Select an item from the list below to learn more:
 
 This antenna, usually referred to as simply “Yagi” or more generally a directional antenna.
 
-![](../.gitbook/assets/yagi-diagram)
+![](../../.gitbook/assets/yagi-diagram)
 
 ## Antenna Types
 

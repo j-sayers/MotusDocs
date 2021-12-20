@@ -203,8 +203,8 @@ To check for damage, run your hands along the length to feel for any disruption 
 
 If possible, we recommend you keep an activated tag test on your person at all times while visiting any station. This can provide valuable information about the stations operability without much effort. It does not necessarily measure the receptability of all antennas equally, but it's better than nothing. For a more accurate method for measuring station antenna ranges, see below:
 
-{% content-ref url="../tag-test.md" %}
-[tag-test.md](../tag-test.md)
+{% content-ref url="tag-test.md" %}
+[tag-test.md](tag-test.md)
 {% endcontent-ref %}
 
 ## Station Inspection Checklist
