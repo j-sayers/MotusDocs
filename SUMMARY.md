@@ -19,6 +19,7 @@
 * [Quick Reference](about-motus/quick-reference/README.md)
   * [Tag Deployment](about-motus/quick-reference/tag-deployment.md)
   * [Station Deployment](about-motus/quick-reference/station-deployment.md)
+* [Definitions](about-motus/definitions.md)
 
 ## Project Management
 
