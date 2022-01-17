@@ -19,7 +19,7 @@
 * [Quick Reference](about-motus/quick-reference/README.md)
   * [Tag Deployment](about-motus/quick-reference/tag-deployment.md)
   * [Station Deployment](about-motus/quick-reference/station-deployment.md)
-* [Definitions](about-motus/definitions.md)
+  * [Definitions](about-motus/quick-reference/definitions.md)
 
 ## Project Management
 
@@ -49,7 +49,6 @@
   * [Testing Receiver Antenna Ranges Using a Tag](stations/station-inspection/tag-test.md)
 * [General tips](stations/general-tips.md)
 * [Appendix](stations/appendix/README.md)
-  * [Definitions](stations/appendix/definitions.md)
   * [Receiver power consumption table](stations/appendix/receiver-power-consumption-table.md)
 
 ## Tags
