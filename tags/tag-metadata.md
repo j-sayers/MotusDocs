@@ -7,6 +7,8 @@ description: >-
 
 # Tag Metadata
 
+Ensuring tag metadata is up to date and accurate is one of the most important yet often overlooked aspects to remember when using the Motus Wildlife Tracking System
+
 ## Required tag metadata
 
 ### Tag registration
