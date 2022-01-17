@@ -17,12 +17,13 @@ All tags used with Motus [must first be registered.](tag-registration.md)
 
 The table below outlines the minimum requirements for tag metadata to acquire detections from Motus.
 
-| Name                           |                     Importance                    | Description                                                                                                        |
-| ------------------------------ | :-----------------------------------------------: | ------------------------------------------------------------------------------------------------------------------ |
-| Deployment start date and time |    <mark style="color:red;">**Required**</mark>   | The time when the tag was activated and attached to an animal                                                      |
-| Species                        |    <mark style="color:red;">**Required**</mark>   | The species the tag was attached to. For tests, please do not enter a species and check the 'test deployment' box. |
-| Latitude and longitude         |    <mark style="color:red;">**Required**</mark>   | The location where the animal was released with the tag attached and activated                                     |
-| Other measurements             | <mark style="color:green;">**Recommended**</mark> | Any additional measurements of the tagged animal, such as weight, age, and sex, should also be included.           |
+| Name                           |                           Importance                          | Description                                                                                                        |
+| ------------------------------ | :-----------------------------------------------------------: | ------------------------------------------------------------------------------------------------------------------ |
+| Deployment start date and time |          <mark style="color:red;">**Required**</mark>         | The time when the tag was activated and attached to an animal                                                      |
+| Species                        |          <mark style="color:red;">**Required**</mark>         | The species the tag was attached to. For tests, please do not enter a species and check the 'test deployment' box. |
+| Latitude and longitude         |          <mark style="color:red;">**Required**</mark>         | The location where the animal was released with the tag attached and activated                                     |
+| Federal band (ring) number     | <mark style="color:red;">**Required (when available)**</mark> | The band number or ring number of the bird or bat. Insect tag numbers are optional.                                |
+| Other measurements             |       <mark style="color:green;">**Recommended**</mark>       | Any additional measurements of the tagged animal, such as weight, age, and sex, should also be included.           |
 
 {% hint style="warning" %}
 **Do not** enter a deployment date unless the tag was actually recovered and deactivated. Otherwise, Motus will automatically calculate the end date of the tag using a generous buffer in case the tag lasts longer than anticipated.
@@ -66,7 +67,7 @@ Once a tag has been deployed, it's deployment metadata should be updated to refl
 
 ![](../.gitbook/assets/tag-metadata-ex4.png)
 
-### Undeployed tags <a href="undeployed-tags" id="undeployed-tags"></a>
+### Undeployed tags <a href="#undeployed-tags" id="undeployed-tags"></a>
 
 Tags that were not deployed during the anticipated tagging period can be stored for later use, but Motus needs to know about these. If there are anticipated tag deployments for any of the tags that weren't actually deployed, those tags might be reissued which can result in ambiguous detections that cannot be used for analysis. This is because there are a limited number of Motus tag IDs so they have to be recycled from time to time. We make our master list of tag deployments available to the tag manufacturers so they know which ones are currently in use.
 
