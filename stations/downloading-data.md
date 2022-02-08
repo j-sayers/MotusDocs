@@ -17,7 +17,7 @@ Methods for downloading data from a Motus receiver depends on the model of recei
 ### **Uploading data to Motus**
 
 1. Log in to Motus.
-2. Select your project fromt the dropdown menu.
+2. Select your project from the dropdown menu.
 3. Select '[Upload Detection Files](https://motus.org/data/project/sgJobs)' from the management menu.
 4. Follow the instructions on that page to upload these data.
 
