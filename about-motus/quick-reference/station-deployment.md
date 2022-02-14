@@ -11,7 +11,7 @@ For assistance with the setup of your project please see our [Discussion Group](
 1. ****[**Register a Motus user.**](../../project-management/introduction.md#creating-an-account) **** Collaborators wishing to deploy tags must first register with Motus.
 2. ****[**Join or create a project**](../../project-management/introduction.md)**.** In order to manage stations in the Motus network, a project must be created.
 3. ****[**Purchase equipment**](../../stations/station-equipment/)**.** Make sure you get the right equipment for the types of tags you wish to detect
-4. ****[**Install the station**](../../stations/station-installation.md)**.**&#x20;
+4. ****[**Install the station**](../../stations/station-installation/)**.**&#x20;
 5. ****[**Register the station.** ](../../project-management/station-management.md)****
 6. ****[**Upload data to Motus.**](../../stations/downloading-data.md) **** Depending on the location and type of receiver, it may be possible to upload data to Motus automatically.&#x20;
 

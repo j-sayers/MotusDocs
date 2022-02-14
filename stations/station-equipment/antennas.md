@@ -136,3 +136,11 @@ The following are some common uses of these connectors:
 {% hint style="info" %}
 **Motus Pro Tip** - Every connection, every adapter, may result in lowering the sensitivity of station to detect tags. Make every effort to minimize the number of connections/adapters between the antenna and the receiver.
 {% endhint %}
+
+## Grounding Antennas
+
+In some locations, it may be necessary to ground your antennas in case the station is struck by lightening. In regions where thunderstorms are frequent, Motus stations that are not adequately grounded can ignite fires. For instructions on how to ground your station as well as a list of required equipment, see [**Grounding Antennas**](../station-installation/grounding-antennas.md).
+
+{% content-ref url="../station-installation/grounding-antennas.md" %}
+[grounding-antennas.md](../station-installation/grounding-antennas.md)
+{% endcontent-ref %}

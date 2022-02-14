@@ -10,7 +10,7 @@ This guide is still **under development!** Please keep in mind some information 
 
 ## Antenna and Coax Assembly
 
-Several varieties of antennas exist of which only a few will be covered here. All antennas should come with their own assembly instructions which are more or less easy to follow so we will not go into great detail here. Please see [antenna anatomy](station-equipment/antennas.md#antenna-anatomy) for more details on parts.
+Several varieties of antennas exist of which only a few will be covered here. All antennas should come with their own assembly instructions which are more or less easy to follow so we will not go into great detail here. Please see [antenna anatomy](../station-equipment/antennas.md#antenna-anatomy) for more details on parts.
 
 _Note: The driven element and the attached connector are the most sensitive parts of a Yagi antenna; pay special attention to prevent damage to these parts and any connections. Damage to the driven element may cause the antenna to no longer be tuned to the desired frequency resulting in an ineffective antenna._
 
@@ -21,8 +21,8 @@ _Note: The driven element and the attached connector are the most sensitive part
 * **Zip ties, cable ties, zap straps.** These are indispensable for coaxial cable organisation. Used to support the coax cable along the antenna boom and mast.
 * **Hex nuts and bolts.** We use ¼” x 2” bolts for tripod assembly and ¼” x 1” bolts for affixing solar panels to the tripod\*\*.\*\* Use zinc-plates steel unless the station is deployed in a marine area where stainless steel should be used.
 
-{% content-ref url="station-equipment/parts-list-and-suppliers.md" %}
-[parts-list-and-suppliers.md](station-equipment/parts-list-and-suppliers.md)
+{% content-ref url="../station-equipment/parts-list-and-suppliers.md" %}
+[parts-list-and-suppliers.md](../station-equipment/parts-list-and-suppliers.md)
 {% endcontent-ref %}
 
 ### Antenna mount
@@ -79,8 +79,8 @@ Include recommendations to mount receivers on the mast or outside of a box on th
 * [2” hole saw](https://www.homedepot.com/p/Milwaukee-2-in-Hole-Dozer-Bi-Metal-Hole-Saw-with-3-8-in-Arbor-Pilot-Bit-49-56-9667/202327737)
 * Drill bits for screws
 
-{% content-ref url="station-equipment/parts-list-and-suppliers.md" %}
-[parts-list-and-suppliers.md](station-equipment/parts-list-and-suppliers.md)
+{% content-ref url="../station-equipment/parts-list-and-suppliers.md" %}
+[parts-list-and-suppliers.md](../station-equipment/parts-list-and-suppliers.md)
 {% endcontent-ref %}
 
 #### Instructions
@@ -106,9 +106,9 @@ Include recommendations to mount receivers on the mast or outside of a box on th
 
 #### Supplies
 
-* [Solar Panel](station-installation.md#solar-power)
-* [Battery](station-installation.md#battery)
-* [Charge Controller](station-installation.md#charge-controller)
+* [Solar Panel](./#solar-power)
+* [Battery](./#battery)
+* [Charge Controller](./#charge-controller)
 * [14 AWG Spade](https://www.homedepot.com/p/Gardner-Bender-16-14-AWG-4-6-Stud-Spade-Terminal-Vinyl-Blue-10-Pack-15-113/205846650) [connectors](https://www.homedepot.com/p/Gardner-Bender-16-14-AWG-4-6-Stud-Spade-Terminal-Vinyl-Blue-10-Pack-15-113/205846650)
 * [Fused battery leads](https://www.amazon.ca/dp/B07CK784LZ/ref=cm\_sw\_em\_r\_mt\_dp\_VNB6X9BCDCWWCVNN4C0A?\_encoding=UTF8\&psc=1)
 * 14 AWG stranded automotive or speaker wire.
@@ -119,13 +119,13 @@ Include recommendations to mount receivers on the mast or outside of a box on th
 * Small flat head screwdriver
 * [Stripper/crimping tool](https://www.homedepot.com/p/Klein-Tools-Klein-Kurve-Multi-Tool-Wire-Stripper-Crimper-1019SEN/305303655)
 
-{% content-ref url="station-equipment/parts-list-and-suppliers.md" %}
-[parts-list-and-suppliers.md](station-equipment/parts-list-and-suppliers.md)
+{% content-ref url="../station-equipment/parts-list-and-suppliers.md" %}
+[parts-list-and-suppliers.md](../station-equipment/parts-list-and-suppliers.md)
 {% endcontent-ref %}
 
 #### Instructions
 
-See [solar charge controller wiring](appendix-c.md#charge-controller-wiring) for a diagram.
+See [solar charge controller wiring](../appendix-c.md#charge-controller-wiring) for a diagram.
 
 1. Prepare your cables by crimping **14 AWG spade connectors** to the ends of all your cables.
    * For the battery, prepare one \*\*\*\* fused battery lead \_\_ and one length of the 14 AWG stranded automotive/speaker wire.
@@ -173,9 +173,9 @@ A pop-tower is a type of standalone station that uses a tripod + telescopic mast
     *   Can use #6 rebar in 5-foot sections or [ground](https://www.homedepot.com/p/6-Piece-Ground-Anchor-Kit-IS-50016/202197240)
 
         [anchors](https://www.homedepot.com/p/6-Piece-Ground-Anchor-Kit-IS-50016/202197240).
-* [Antennas](station-installation.md#antennas-cables-and-dongles)
-* [Coaxial Cable](station-installation.md#coax-cables)
-* [Automated Receiver](station-installation.md#automated-telemetry-receivers)
+* [Antennas](./#antennas-cables-and-dongles)
+* [Coaxial Cable](./#coax-cables)
+* [Automated Receiver](./#automated-telemetry-receivers)
 
 #### Tools
 
@@ -188,8 +188,8 @@ A pop-tower is a type of standalone station that uses a tripod + telescopic mast
     * 3/16" and 1/4"
   * Phillips/Robinson’s screwdrivers for screws
 
-{% content-ref url="station-equipment/parts-list-and-suppliers.md" %}
-[parts-list-and-suppliers.md](station-equipment/parts-list-and-suppliers.md)
+{% content-ref url="../station-equipment/parts-list-and-suppliers.md" %}
+[parts-list-and-suppliers.md](../station-equipment/parts-list-and-suppliers.md)
 {% endcontent-ref %}
 
 ### Instructions
