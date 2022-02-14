@@ -4,10 +4,10 @@
 
 This guide covers various aspects of the Motus Wildlife Tracking System including;
 
-* [**About Motus, how it works, and how to be involved.**](about-motus/introduction-and-overview.md)
-* [**All about Motus projects and metadata management.**](project-management/introduction.md)
-* [**Selection, installation, and maintenance of Motus Stations**](broken-reference/).
-* [**Selection and deployment of Radio Tags**](broken-reference/).
+* [**About Motus, how it works, and how to be involved.**](broken-reference)
+* [**All about Motus projects and metadata management.**](broken-reference)
+* ****[**Selection, installation, and maintenance of Motus Stations**.](broken-reference)
+* [**Selection and deployment of Radio Tags**](broken-reference).
 
 ### What you won't find in this guide
 
