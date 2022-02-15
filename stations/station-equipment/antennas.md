@@ -95,20 +95,24 @@ A catalogue of cables and their specifications can be found on [Allied Wire & Ca
 
 Radio dongles, also known as Software Defined Radios (SDRs), are used to convert analog signal received by the antennas into a digital signal that can be interpreted by the SensorGnome . Note that Lotek receivers have a built-in converter and do not require these for station operation. Note that SensorStations only need an SDR for antennas tuned for Lotek tags (anything that isn’t 434 MHz).
 
-While there are dozens of available SDR’s on the market, only four models are compatible with SensorGnomes and SensorStations. Most commonly used are the **FUNcube Pro Plus** which have the smallest signal-to-noise ratio (_SNR_), _noise figure_, and _DC voltage spike_ (poor reception at nominal frequency), and power rating. However, FUNcube dongles are the most expensive, costing \~$200 USD, compared to $35 USD for the **RTL-SDR**. Despite the high price, we currently recommend FunCubes as the other SDR’s have not been properly tested or optimized for use. See the table below for more information:
+While there are dozens of available SDR’s on the market, only four models are compatible with SensorGnomes and SensorStations. Most commonly used are the **FUNcube Pro Plus** which have the smallest signal-to-noise ratio (_SNR_), _noise figure_, and _DC voltage spike_ (poor reception at nominal frequency), and power rating. However, FUNcube dongles are the most expensive, costing \~$200 USD, compared to $35 USD for the **RTL-SDR**.&#x20;
 
-| **Receiver**                                                      | **Price (USD)** | **Power in use** | **Power while idle** | **Reliability** | **Typical noise figure** |
-| ----------------------------------------------------------------- | --------------- | ---------------- | -------------------- | --------------- | ------------------------ |
-| <mark style="background-color:green;">**FUNcube Pro Plus**</mark> | $225            | 0.8 W (48 kHz)   | 0.8 W (48 kHz)       | Very reliable   | 3.5 dB @ 145 MHz         |
-| **RTL-SDR blog V3**                                               | $22             | 1.5 W            | 0.7 W                | Unknown         | \~5 dB @ 144.3 MHz       |
-| **NESDR SMArt v4**                                                | $24             | 1.54 W           | <0.25 W              | Unknown         | Unknown                  |
-| **NESDR SMArtee**                                                 | $26             | 1.43 W           | Unknown              | Unknown         | Unknown                  |
-| **NESDR Smart XTR**                                               | $38             | 1 W              | 0.6 W                | Unknown         | Unknown                  |
-| <mark style="background-color:green;">**CTT\***</mark>            | $100            | <0.25 W          | <0.25 W              | Unknown         | Unknown                  |
+{% hint style="warning" %}
+Other radio dongles that aren't listed here have not been adequately tested and may not function correctly with the SensorGnome. Despite the high price, we currently recommend FUNCube Pro Plus as they are known to have the best performance_._ See the table below for more information.
+{% endhint %}
+
+| **Receiver**                                                         | **Price (USD)** | **Power in use** | **Power while idle** | **Reliability** | **Typical noise figure** |
+| -------------------------------------------------------------------- | --------------- | ---------------- | -------------------- | --------------- | ------------------------ |
+| <mark style="background-color:green;">**FUNcube Pro Plus**</mark>    | $225            | 0.8 W (48 kHz)   | 0.8 W (48 kHz)       | Very reliable   | 3.5 dB @ 145 MHz         |
+| **RTL-SDR blog V3**                                                  | $22             | 1.5 W            | 0.7 W                | Unknown         | \~5 dB @ 144.3 MHz       |
+| **NESDR SMArt v4**                                                   | $24             | 1.54 W           | <0.25 W              | Unknown         | Unknown                  |
+| **NESDR SMArtee**                                                    | $26             | 1.43 W           | Unknown              | Unknown         | Unknown                  |
+| **NESDR Smart XTR**                                                  | $38             | 1 W              | 0.6 W                | Unknown         | Unknown                  |
+| <mark style="background-color:green;">**CTT Motus Adapter\***</mark> | $100            | <0.25 W          | <0.25 W              | Unknown         | Unknown                  |
 
 \* CTT dongles listen to 434 MHz and are only used to make Sensorgnomes compatible with CTT tags.
 
-Items listed in green are recommended.
+<mark style="background-color:green;">Items listed in green are recommended.</mark>
 
 ## Connectors
 
