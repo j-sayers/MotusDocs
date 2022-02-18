@@ -65,7 +65,7 @@ Most Motus tags are never recovered so ending tag deployments is usually unneces
 
 #### Anticipated deployments
 
-While tag deployments are necessary for detections to occur, it is impractical to register deployments immediately after each one is deployed. _Anticipated deployments_ are essentially placeholders or real deployments and begin on the earliest date which tags expect to be deployed. For more information about anticipated deployments, see [**Tag Metadata**](tag-metadata.md#anticipated-deployment-date).
+While tag deployments are necessary for detections to occur, it is impractical to register deployments immediately after each one is deployed. _Anticipated deployments_ are essentially placeholders or real deployments and begin on the earliest date which tags expect to be deployed. You muse still confirm anticipated deployments after the anticipated date has passed. For more information about anticipated deployments, see [**Tag Metadata**](tag-metadata.md#anticipated-deployment-date).
 
 {% hint style="info" %}
 **Example 1**\
