@@ -1,7 +1,7 @@
 # Tag Registration
 
 {% hint style="warning" %}
-Deploying tags without registration is futile – always do this step before deploying tags.
+Deploying tags without registration is futile – always ensure tags are registered to your Motus project prior to deployment.
 {% endhint %}
 
 All tags used with Motus must first be registered before any data can be acquired from Motus stations.
