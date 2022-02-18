@@ -38,16 +38,10 @@ A deployment is condsidered to be each instance when a tag was attached to anima
 
 Every time a Motus tag is deployed, this needs to be recorded in our database, otherwise there may be missing detections. This section covers the following topics:
 
-* **Tag Registration**
-* **Tag Deployments**
+* ****[**Tag Registration**](./#tag-registration)****
+* ****[**Tag Deployments**](./#tag-deployments)****
   * [Anticipated deployments](./#undefined)
   * [Tag Deployment Bulk Editor](./#tag-deployment-bulk-editor)
-* ****[**Filter tags**](./#filter-stations)****
-* ****[**View station deployments**](./#view-station-deployments)****
-* ****[**Add a new station**](./#add-a-new-station)****
-* ****[**Modify a station**](./#modify-a-station)****
-* ****[**Terminate a deployment**](./#terminate-a-deployment)****
-* ****[**Add a new deployment**](./#add-a-deployment)****
 
 ### Tag Registration
 
@@ -65,12 +59,16 @@ Most Motus tags are never recovered so ending tag deployments is usually unneces
 
 #### Anticipated deployments
 
-While tag deployments are necessary for detections to occur, it is impractical to register deployments immediately after each one is deployed. _Anticipated deployments_ are essentially placeholders or real deployments and begin on the earliest date which tags expect to be deployed. You muse still confirm anticipated deployments after the anticipated date has passed. For more information about anticipated deployments, see [**Tag Metadata**](tag-metadata.md#anticipated-deployment-date).
+While tag deployments are necessary for detections to occur, it is impractical to register deployments immediately after each one is deployed. _Anticipated deployments_ are essentially placeholders or real deployments and begin on the earliest date which tags expect to be deployed.&#x20;
+
+{% hint style="warning" %}
+You must still confirm anticipated deployments after the anticipated date has passed by updating the tag deployment metadata. For more information about anticipated deployments, see [**Tag Metadata**](tag-metadata.md#anticipated-deployment-date).&#x20;
+{% endhint %}
 
 {% hint style="info" %}
 **Example 1**\
 \
-Laura wants to deploy 50 tags on Bank Swallows in the summer of 2022. She anticipates to be in the field by June 10th, at the earliest. Using the [bulk editor](./#tag-deployment-bulk-editor), she registers deployments for all 50 tags with a start date of `2022-05-10` and with the species `Riperia riperia`. Over the course of the field season, she ends up deploying 47 of her tags and stores 3 of them for later use. She then goes back to her Motus project to correct the deployment start dates and fill in the rest of the metadata for each of her tags. With the 3 tags that she stored for later use, she removes the start dates and species using the bulk editor.
+Laura wants to deploy 50 tags on Bank Swallows in the summer of 2022. She anticipates to be in the field by June 10th, at the earliest. Using the [bulk editor](./#tag-deployment-bulk-editor), she registers deployments for all 50 tags with a start date of `2022-05-10` and with the species `Riperia riperia`. Over the course of the field season, she ends up deploying 47 of her tags and stores 3 of them for later use. Shortly after her field season is complete, she  goes back to her Motus project's tag management page to correct the deployment start dates and fill in the rest of the metadata for each of her tags. With the 3 tags that she stored for later use, she removes the start dates and species using the bulk editor.
 {% endhint %}
 
 #### **Tag deployment b**ulk editor
