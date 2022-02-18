@@ -29,7 +29,9 @@
 * [Institutions](project-management/institutions.md)
 * [Citations](project-management/citations.md)
 * [Station Management](project-management/station-management.md)
-* [Tag Management](project-management/in-development....md)
+* [Tag Management](project-management/tag-management/README.md)
+  * [Tag Registration](project-management/tag-management/tag-registration.md)
+  * [Tag Metadata](project-management/tag-management/tag-metadata.md)
 
 ## Stations
 
@@ -62,8 +64,6 @@
 * [Tag Aliasing](tags/tag-aliasing.md)
 * [Retrieving Lost Tags](tags/retrieving-lost-tags.md)
 * [Tag Storage](tags/tag-storage.md)
-* [Tag Registration](tags/tag-registration.md)
-* [Tag Metadata](tags/tag-metadata.md)
 * [Appendix](tags/appendix/README.md)
   * [Tag Harness Sizes](tags/appendix/tag-harness-sizes.md)
   * [Tag Finder](tags/appendix/tag-finder.md)

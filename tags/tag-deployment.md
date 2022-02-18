@@ -4,6 +4,10 @@ description: Everything you need to know about deploying tags
 
 # Tag Deployment
 
+## Tag Management
+
+This chapter pertains to tag deployment methos in the field. For information on the management of tag deployment metadata withing the Motus system, see [**Tag Management**](../project-management/tag-management/).
+
 ## How to tag animals
 
 {% hint style="warning" %}

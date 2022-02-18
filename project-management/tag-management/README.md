@@ -19,8 +19,10 @@ This section pertains to the management of tag metadata: i.e., the registration 
 
 In this chapter you will find:
 
-* ****[**Definition of Tags and Tag Deployments**](in-development....md#introducing...stations)****
-* ****[**How to Manage Tags**](in-development....md#managing-stations)****
+* ****[**Definition of Tags and Tag Deployments**](./#introducing...stations)****
+* ****[**How to Manage Tags**](tag-metadata.md)****
+* ****[**Tag Registration**](tag-registration.md)****
+* ****[**Tag Metadata**](tag-metadata.md)****
 
 ## Definitions
 
@@ -36,10 +38,10 @@ A deployment is condsidered to be each instance when a tag was attached to anima
 
 Every time a Motus tag is deployed, this needs to be recorded in our database, otherwise there may be missing detections. This section covers the following topics:
 
-* ****[**View project tags**](in-development....md#view-project-stations)****
-* ****[**Filter tags**](in-development....md#filter-stations)****
-* ****[**View station deployments**](in-development....md#view-station-deployments)****
-* ****[**Add a new station**](in-development....md#add-a-new-station)****
-* ****[**Modify a station**](in-development....md#modify-a-station)****
-* ****[**Terminate a deployment**](in-development....md#terminate-a-deployment)****
-* ****[**Add a new deployment**](in-development....md#add-a-deployment)****
+* ****[**View project tags**](./#view-project-stations)****
+* ****[**Filter tags**](./#filter-stations)****
+* ****[**View station deployments**](./#view-station-deployments)****
+* ****[**Add a new station**](./#add-a-new-station)****
+* ****[**Modify a station**](./#modify-a-station)****
+* ****[**Terminate a deployment**](./#terminate-a-deployment)****
+* ****[**Add a new deployment**](./#add-a-deployment)****

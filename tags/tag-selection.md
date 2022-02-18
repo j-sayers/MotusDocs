@@ -62,7 +62,7 @@ There is a lot of detail about these two tags that can’t all be explored here,
 
 ## **Purchasing Tags**
 
-Specifications for Lotek bird and bat NanoTags can be viewed on the [Lotek Website](http://www.lotek.com/avian-nanotags.htm). Specifications for CTT LifeTags™ and PowerTags™ can be found on the [Cellular Tracking Technologies website](https://celltracktech.com). When ordering tags from CTT, provide the Motus Project ID they are to be registered.&#x20;
+Specifications for Lotek bird and bat NanoTags can be viewed on the [Lotek Website](http://www.lotek.com/avian-nanotags.htm). Specifications for CTT LifeTags™ and PowerTags™ can be found on the [Cellular Tracking Technologies website](https://celltracktech.com). When ordering tags, provide the Motus Project ID they are to be registered.&#x20;
 
 There are several important criteria to consider prior to ordering tags:
 
@@ -71,6 +71,10 @@ There are several important criteria to consider prior to ordering tags:
 * **Operational life:** Battery size and burst interval (amount of time between consecutive pulses) influence the operational life of a tag. Bigger batteries have a longer lifespan, but increased weight. A longer burst interval results in a longer lifespan but reduced detection rate.
 * **Burst interval:** Although a longer burst interval provides a longer operational life, increasing the burst interval reduces the number of data points attainable within a given time period.
 * **Attachment method:** Modifications to tags (e.g. tubes) may be necessary for certain attachment methods.
+
+{% hint style="warning" %}
+Always double-check that your tags have been registered to the correct Motus project after your tags have shipped. If you do not have a Motus project, please [**Create or Join a project**](../project-management/introduction.md#join-a-project) before ordering your tags.
+{% endhint %}
 
 ### Avoiding Tag Aliasing
 
