@@ -1,5 +1,9 @@
 # Tag Basics
 
+{% hint style="warning" %}
+**Please note:** This is guide is still in its draft stages. Not all of the information presented here may not have been fully verified for accurracy.
+{% endhint %}
+
 ## What are radio tags?
 
 While tags can refer to many different things, in this document we are talking about miniaturized radio transmitters that weigh as little as 0.15 g so they can be affixed to birds, bats, and even insects. Tags are made such that they each emit a slightly different radio signal allowing animals to be tracked individually by using a receiver.

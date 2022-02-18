@@ -56,7 +56,6 @@
 
 ## Tags
 
-* [Introduction](tags/README.md)
 * [Tag Basics](tags/tag-basics.md)
 * [How Tags Work](tags/how-tags-work.md)
 * [Selecting and Purchasing Tags](tags/tag-selection.md)
