@@ -17,3 +17,7 @@ This guide covers various aspects of the Motus Wildlife Tracking System includin
   * [**SensorGnome User Guide**](http://docs.motus.org/sensorgnome)
   * [**CTT SensorStation User Guide**](https://store.celltracktech.com/pages/installation-guides)
   * [**Lotek SRX 800 User Guide**](https://fccid.io/FW9SRX800/User-Manual/User-Manual-2328127)
+
+### Additional Resources
+
+{% file src=".gitbook/assets/CTT data download with Terminal NEW.docx" %}
