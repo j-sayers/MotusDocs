@@ -10,4 +10,4 @@ You can manage data access permissions for your project using the options found 
 
 Accessed from the Manage Data landing page, the [**data access log**](https://motus.org/data/accessSummary?projectID=109) includes an entry for each time data from the project was downloaded. This includes a date/time of download and the user who downloade these data.
 
-![](<../.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/image (8) (1).png>)
