@@ -1,10 +1,3 @@
----
-description: >-
-  Ensuring tag metadata is up to date and accurate is one of the most important
-  yet often overlooked aspects to remember when using the Motus Wildlife
-  Tracking System
----
-
 # Tag Metadata
 
 Metadata informs Motus when to look for tags in raw detection data, when tag codes can be reissued, helps ensure that the permanent data archive is accurate and complete, and makes data presentable to the public.
