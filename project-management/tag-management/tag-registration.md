@@ -12,11 +12,11 @@ With some exceptions, all tags purchased from Lotek or CTT are registered automa
 
 1. [Register](https://motus.org/data/user/new) with Motus
 2. Create or join a project
-3. Provide CTT with your project ID when purchasing tags.
+3. Provide the manufacturer (CTT or Lotek) with your project ID when purchasing tags.
 
 ## Manual Registrations
 
-In some specific instances, it may be necessary for you to register your tags manually. _Please only do this if you have been instructed by Motus._
+In some specific instances, it may be necessary for you to register your tags manually. _**Only do this if you have been instructed by Motus.**_
 
 {% hint style="warning" %}
 Please do not register tags more than once. If you need tags transferred between projects [contact us](https://motus.org/contact/).
@@ -29,3 +29,5 @@ Please do not register tags more than once. If you need tags transferred between
 ## Tag Fees
 
 Your project will be invoiced based on the number of tags registered following the [Motus Collaboration Policy and Fee Schedule](https://motus.org/policy/).
+
+Please[ contact us ](https://motus.org/contact)if you have any questions regarding tag fees.
