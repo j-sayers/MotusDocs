@@ -68,7 +68,7 @@ You must still confirm anticipated deployments after the anticipated date has pa
 {% hint style="info" %}
 **Example 1**\
 \
-Laura wants to deploy 50 tags on Bank Swallows in the summer of 2022. She anticipates to be in the field by June 10th, at the earliest. Using the [bulk editor](./#tag-deployment-bulk-editor), she registers deployments for all 50 tags with a start date of `2022-05-10` and with the species `Riperia riperia`. Over the course of the field season, she ends up deploying 47 of her tags and stores 3 of them for later use. Shortly after her field season is complete, she  goes back to her Motus project's tag management page to correct the deployment start dates and fill in the rest of the metadata for each of her tags. With the 3 tags that she stored for later use, she removes the start dates and species using the bulk editor.
+Laura wants to deploy 50 tags on Bank Swallows in the summer of 2022. She anticipates to be in the field by June 10th, at the earliest. Using the [bulk editor](./#tag-deployment-bulk-editor), she registers deployments for all 50 tags with a start date of **`2022-06-10`** and with the species **`Riperia riperia`**. Over the course of the field season, she ends up deploying 47 of her tags and stores 3 of them for later use. Shortly after her field season is complete, she  goes back to her Motus project's tag management page to correct the deployment start dates and fill in the rest of the metadata for each of her tags. With the 3 tags that she stored for later use, she removes the start dates and species using the bulk editor.
 {% endhint %}
 
 #### **Tag deployment b**ulk editor
