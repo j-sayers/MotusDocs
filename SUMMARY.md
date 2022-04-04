@@ -71,3 +71,7 @@
   * [Tag Harness Sizes](tags/appendix/tag-harness-sizes.md)
   * [Tag Finder](tags/appendix/tag-finder.md)
   * [Tag Retrieval](tags/appendix/tag-retrieval.md)
+
+***
+
+* [Glossary](glossary.md)
