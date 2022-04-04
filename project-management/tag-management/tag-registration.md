@@ -32,6 +32,8 @@ Please do not register tags more than once. If you need tags transferred between
 Sometimes bad recordings can result in tag registrations with burst intervals that are an _**integer multiple**_ of the true burst interval. This is because the recording quality was poor and certain tag bursts were skipped during the registration process.
 
 This issue should be resolved in a timely manner by [contacting us](https://motus.org/contact) with the details including the [<mark style="color:green;">**Motus Tag ID**</mark>](../../glossary.md#tags) and the true burst interval that should have been recorded.
+
+If this issue is not resolved it will result in missed detections and at least 50% shorter [<mark style="color:green;">**runs**</mark>](../../glossary.md#tags).
 {% endhint %}
 
 ## Tag Fees
