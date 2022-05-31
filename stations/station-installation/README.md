@@ -1,5 +1,9 @@
 # Station Installation
 
+{% hint style="warning" %}
+**We are looking for photos to help complete this guide!** Please send your photos to motus@birdscanada.org
+{% endhint %}
+
 {% hint style="danger" %}
 This guide is still **under development!** Please keep in mind some information here may be incomplete.
 {% endhint %}
@@ -35,7 +39,20 @@ Nearly all antenna mounts use a metal plate with 4 u-bolts; 2 for the antenna bo
 
 Most antennas will have a connector on the driven element for the coax cable to be connected. The driven element and this connector are the most sensitive parts of a Yagi antenna; pay special attention to these parts so they are not impacted by anything. Damage to the driven element may cause the antenna to no longer be tuned to the desired frequency.
 
-Connecting
+## Stacked Antennas
+
+Most Motus stations will host multiple antennas, but this may pose an issue depending on the types and position of the antennas.
+
+Simple modeling by Bob Morton at Maple Leaf Communications suggests there is a significant dropoff in the detection range of Yagi antennas when they are stacked too close together.
+
+We have developed the following guidelines based on these models:
+
+* Antennas that facing opposite directions should be the furthest apart from one-another: at least 1/2 a wavelength (\~1 meter for 166.38 MHz).
+* Antennas that are facing perpendicular directions should be at least a 1/4 wavelength apart (\~1/2 meter).
+
+{% hint style="success" %}
+Antennas should be butt-mounted when possible. This is usually only practical for 434 MHz Yagi antennas due to the size of lower frequency antennas.
+{% endhint %}
 
 ## Storage Container Assembly
 
@@ -160,6 +177,7 @@ A pop-tower is a type of standalone station that uses a tripod + telescopic mast
   * Wooden blocks (optional)
   * Mast
     * Height will depend on location, desired detections.
+    * Comes with a [mast collar and spare guy ring](../../glossary.md#stations) and 1x 3-inch bolt for each mast section.
   * Foot for mast (optional)
   * Guy wires
   * Quick links and/or carabiners (max 3/16”)
@@ -223,9 +241,38 @@ A pop-tower is a type of standalone station that uses a tripod + telescopic mast
       2. Tighten guy wires, either with in-line wire tensioners or another method.
       3. Use turnbuckles to finely adjust wire tension until all sides have equal tension.
       4. Use stainless steel wire to immobilize the turnbuckle using the [double-wrap method.](https://www.youtube.com/watch?v=zz\_nS79\_JDg\&t=385s)
-12. Confirm tower is being held securely in place by guy wires.
+12. Confirm tower is being held securely in place by guy wires by inspecting each end of all guy lines to ensure it is properly attached.
 
 #### Mounting Antennas
 
-1. With antennas assembled w
-2.
+1. [Assemble antennas](./#antenna-and-coax-assembly) according to manufacturer instructions and attach mounting brackets that come with the antennas.
+2. Finger-tighten the U-bolts which attach to the antenna boom such that it can still rotate.
+3. Loosely-attach the second set of U-bolts.
+4. Coaxial cables should already be attached, sealed, and zip-tied to the antenna boom (one tie by driven element, a second tie by the mounting bracket).&#x20;
+5. Ensure the tripod is securely guyed at the base and is safe to climb.
+6. Climb the tripod of the tower and pull out some of the top-most section of masting from the telescopic mast.
+7. Slide the U-bolts of the antenna mounting bracket onto the mast and allow it to rest on the guy ring at the top of the tripod.
+8. Rotate the antennas such that the elements are horizontal and then tighten the U-bolts which affix the boom to the mounting bracket. Don't tighten the U-bolts attaching the antenna mounts to the mast - this will be done later.
+9. Slide on all other antennas in a similar manner (steps 7 and 8) except for the top-most.
+10. Securely attach the mast collar approx 30 cm (1 foot) from the top of the mast and then slide on the spare guy ring and attach the top-most guy lines (they don't need to be anchored yet).
+11. Slide on the last antenna and attach it securely in place approximately 15 cm (6") from the top (\~15 cm above the guy ring).
+12. Mark out planned antenna directions on the ground using visual markers so you can easily point antennas in those directions.
+13. Determine the height of each antenna based on our guidelines for stacked antennas and then colour-code each antenna and coax cable so that they can be identified when plugging them in to the receiver.&#x20;
+
+    Our convention: port 1 = top (red or 1 stripe), port 2 = middle (yellow or 2 stripes), port 3 = bottom (green or 3 stripes).
+14. Before raising the mast, ensure all guy lines and coax cables are uncoiled, and that the antennas and coax are colour-coded.
+15. While holding the top-most section of masting with one hand, loosen the top-most L-bolt and then begin raising the mast.
+16. Once there is adequate space betwen the upper-most antenna, tighten the L-bolt so the mast stays in place and then fix the next antenna to the mast, ensuring that both the top and middl antenna are pointing in the intended final direction.
+17. Repeate steps 15 and 16 until all antennas have been fixed to the mast.
+18. Continue raising the mast section until the hole below the L-bolt no longer shows metal on the inside.
+19. Once the mast section has been raised, slide a 3-inch bolt through the hole below the L-bolt for that section and then allow the top section to rest on top of that bolt.
+20. With the top mast section resting on top of the bolt, rotate it until it locks in place and starts rotating with the section below it. Tighten the L-bolt.
+21.
+
+{% hint style="success" %}
+We recommend using rubber tubing around the antenna boom where the mounting bracket attaches to help reduce slippage. A bicycle inner tube is the perfect diameter to fit around the 1 1/2" boom.
+{% endhint %}
+
+{% hint style="info" %}
+It's easier to mount antennas when the coax cable is mostly coiled, uncoiling it only after it has been attached to the mast.
+{% endhint %}

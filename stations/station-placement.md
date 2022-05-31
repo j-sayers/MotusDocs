@@ -25,7 +25,7 @@ One can conduct tests at a site prior to station setup, but none have been well 
 
 #### Measuring the noise floor
 
-1. ****[**Download SDR Console from their website**](https://www.sdr-radio.com/download)****
+1. [**Download SDR Console from their website**](https://www.sdr-radio.com/download)
 2. Plug the FUNcube dongle into your computer and run the SDR Console software.
 3. Select the FUNcube dongle from the list of devices and tune it to the desired frequency.
 4. Plug in an antenna and take measurements in all directions at or near the height where the antennas will be when the station is installed.
@@ -60,7 +60,7 @@ Yagi antennas should be vertically spaced according to their direction and frequ
 
 ## Antenna Mounting Structure
 
-Motus stations have been built on just about anything – lighthouses, towers, trees, cars, drones, planes, ships, buoys, bamboo masts, and just about every type of building you can dream of. [Click here for a list of example stations](https://motus.org/selection-guide/station-examples).
+Motus stations have been built on just about anything – lighthouses, towers, trees, cars, drones, planes, ships, buoys, bamboo masts, and just about every type of building you can dream of. [Click here for a list of example stations](antenna-mounting-structures.md).
 
 The actual structure doesn’t necessarily matter as long as it’s strong and elevated enough to provide a clear line-of-sight, and the antennas are not mounted close to sheet metal or other antennas (see [Antenna Interference](station-placement.md#antenna-interference) above). The easiest and often the cheapest method is o use a pre-existing building or structure upon which masts or antenna can be affixed to existing railings, or on the side of buildings where a DMX-style structure(link) can be mounted. Installation can be tricky, and every situation is different, but once it’s set up there shouldn’t be much maintenance or worry.
 

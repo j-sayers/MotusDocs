@@ -1,6 +1,6 @@
 # Tag Deployment
 
-Motus supports two types of uniquely coded radio transmitters: NanoTags™ manufactured by [Lotek Wireless Inc](http://lotek.com), operating on frequencies 166.380 MHz (Western Hemisphere), 150.100 MHz (Europe), and 151.500 MHz (Australia), and LifeTag™ and PowerTags™ manufactured by [Cellular Tracking Technologies](http://www.celltracktech.com) (CTT) operating on 434 MHz globally. The two tags use fundamentally different transmission and coding systems.
+Motus supports two types of uniquely coded radio transmitters: NanoTags™ manufactured by [Lotek Wireless Inc](http://lotek.com/), operating on frequencies 166.380 MHz (Western Hemisphere), 150.100 MHz (Europe), and 151.500 MHz (Australia), and LifeTag™ and PowerTags™ manufactured by [Cellular Tracking Technologies](http://www.celltracktech.com/) (CTT) operating on 434 MHz globally. The two tags use fundamentally different transmission and coding systems.
 
 Tags range in size from \~0.2 g to \~2.6 g, and lifespans vary from 20 days to infinity, depending on the model. It is important to check the [Motus Receiver Map](https://motus.org/data/receiversMap) to confirm which frequency other stations/antennas are operating on throughout the network. When communicating with Lotek or CTT, be sure to explicitly state that you want your tags/system to be compatible with Motus. Be sure to review our [Motus Tag Guide](broken-reference) in detail. Please [contact Motus](https://motus.org/contact), or the tag providers above for more information.
 

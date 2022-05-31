@@ -90,7 +90,7 @@ Using the map, you can click on any station to see it's deployments. When viewin
 
 After clicking on a station, its details will appear in the panel on the right. This includes details about the station (status, location, and landowner) as well as the current and past deployments.
 
-![](../.gitbook/assets/station-management-deployment-info.png)****![](../.gitbook/assets/station-management-deployment-history-wide.png)****
+![](../.gitbook/assets/station-management-deployment-info.png)****<img src="../.gitbook/assets/station-management-deployment-history-wide.png" alt="" data-size="original">****
 
 ### **Add a new station**
 
@@ -132,7 +132,7 @@ With a station selected, click on the button labelled '**Create a new deployment
 
 You will be presented with a dialog box asking for the **deployment start date and time** as well as a couple check boxes which allow you to choose whether to copy metadata from the previous deployment.
 
-![](../.gitbook/assets/station-management-add-deployment.png)![](<../.gitbook/assets/image (9) (1).png>)
+<img src="../.gitbook/assets/station-management-add-deployment.png" alt="" data-size="original">![](<../.gitbook/assets/image (9) (1).png>)
 
 #### Step 3: Select a receiver
 

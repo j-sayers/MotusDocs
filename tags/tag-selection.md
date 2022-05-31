@@ -62,7 +62,7 @@ There is a lot of detail about these two tags that can’t all be explored here,
 
 ## **Purchasing Tags**
 
-Specifications for Lotek bird and bat NanoTags can be viewed on the [Lotek Website](http://www.lotek.com/avian-nanotags.htm). Specifications for CTT LifeTags™ and PowerTags™ can be found on the [Cellular Tracking Technologies website](https://celltracktech.com). When ordering tags, provide the Motus Project ID they are to be registered.&#x20;
+Specifications for Lotek bird and bat NanoTags can be viewed on the [Lotek Website](http://www.lotek.com/avian-nanotags.htm). Specifications for CTT LifeTags™ and PowerTags™ can be found on the [Cellular Tracking Technologies website](https://celltracktech.com/). When ordering tags, provide the Motus Project ID they are to be registered.&#x20;
 
 There are several important criteria to consider prior to ordering tags:
 

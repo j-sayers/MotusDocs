@@ -41,12 +41,12 @@
 
 * [Introduction](stations/README.md)
 * [Station Placement](stations/station-placement.md)
+* [Antenna mounting structures](stations/antenna-mounting-structures.md)
 * [Station Equipment](stations/station-equipment/README.md)
   * [Receivers](stations/station-equipment/receivers.md)
   * [Antennas, Cables, and Dongles](stations/station-equipment/antennas.md)
   * [Power](stations/station-equipment/power.md)
   * [Parts list and suppliers](stations/station-equipment/parts-list-and-suppliers.md)
-* [Mounting Structures](stations/mounting-structures.md)
 * [Station Installation](stations/station-installation/README.md)
   * [Grounding Antennas](stations/station-installation/grounding-antennas.md)
 * [Downloading Data](stations/downloading-data.md)
