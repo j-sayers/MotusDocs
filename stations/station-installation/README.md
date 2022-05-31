@@ -212,7 +212,7 @@ A pop-tower is a type of standalone station that uses a tripod + telescopic mast
 
 1. Assemble the tripod according to instructions provided by the manufacturer.
    * It is easiest to install the TRM-10L with it lying on its side.
-2. Insert mast into the center of the tripod. Bolts on the tripod may need to be loosened to allow space for the mast to slide through.
+2. Insert mast into the center of the tripod. Bolts on the tripod's centre brackets may need to be loosened to allow space for the mast to slide through.
 3. Attach foot to base of mast.
 4. Attach lower guy wires to the lower guy ring using quick links or carabiners.
 5. Place tripod + mast assembly upright.
@@ -262,12 +262,17 @@ A pop-tower is a type of standalone station that uses a tripod + telescopic mast
     Our convention: port 1 = top (red or 1 stripe), port 2 = middle (yellow or 2 stripes), port 3 = bottom (green or 3 stripes).
 14. Before raising the mast, ensure all guy lines and coax cables are uncoiled, and that the antennas and coax are colour-coded.
 15. While holding the top-most section of masting with one hand, loosen the top-most L-bolt and then begin raising the mast.
-16. Once there is adequate space betwen the upper-most antenna, tighten the L-bolt so the mast stays in place and then fix the next antenna to the mast, ensuring that both the top and middl antenna are pointing in the intended final direction.
-17. Repeate steps 15 and 16 until all antennas have been fixed to the mast.
+16. Once there is adequate space between the upper-most antenna, tighten the L-bolt so the mast stays in place and then fix the next antenna to the mast, ensuring that both the top and middle antenna are pointing in the intended final direction.
+17. Repeat steps 15 and 16 until all antennas have been fixed to the mast.
 18. Continue raising the mast section until the hole below the L-bolt no longer shows metal on the inside.
 19. Once the mast section has been raised, slide a 3-inch bolt through the hole below the L-bolt for that section and then allow the top section to rest on top of that bolt.
 20. With the top mast section resting on top of the bolt, rotate it until it locks in place and starts rotating with the section below it. Tighten the L-bolt.
-21.
+21. Continue raising mast sections (following steps 18-20) until the desired height has been reached. Don't worry if the angles aren't perfect - you can adjust the whole mast at the end.
+22. If at the final height you cannot fit the 3-inch bolt into the hole below the L-bolt (because the inner masting is in the way), you can drill through the masting to insert the bolt. Make sure you lock the L-bolt in place!
+23. Ensure the bolts on the tripod's centre brackets are loosened and then rotate the entire mast to it's final position (you may need 2 people to do this).&#x20;
+24. Tighten the centre bracket bolts, being careful not to dent the mast.
+25. Place guy wire anchors at a distance from the mast that is approximately 70% of its height on the mast.
+26. With each guy line, follow steps 10-12 in [Tripod and Mast Assembly](./#tripod-+-mast-assembly).int
 
 {% hint style="success" %}
 We recommend using rubber tubing around the antenna boom where the mounting bracket attaches to help reduce slippage. A bicycle inner tube is the perfect diameter to fit around the 1 1/2" boom.
@@ -275,4 +280,8 @@ We recommend using rubber tubing around the antenna boom where the mounting brac
 
 {% hint style="info" %}
 It's easier to mount antennas when the coax cable is mostly coiled, uncoiling it only after it has been attached to the mast.
+{% endhint %}
+
+{% hint style="warning" %}
+Measure your antenna directions at least 5 meters from the base of the tower and any other large metal objects, otherwise your measurements will be inaccurate.&#x20;
 {% endhint %}
