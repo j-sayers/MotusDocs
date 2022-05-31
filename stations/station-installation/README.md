@@ -29,6 +29,14 @@ _Note: The driven element and the attached connector are the most sensitive part
 [parts-list-and-suppliers.md](../station-equipment/parts-list-and-suppliers.md)
 {% endcontent-ref %}
 
+### Instructional Videos
+
+#### How to build a Laird PLC1669 antenna
+
+{% embed url="https://www.youtube.com/channel/UCA7r6uufZB-2URWL9L_SibQ" %}
+How to build a Laird PLC1669 antenna
+{% endembed %}
+
 ### Antenna mount
 
 Antennas are usually attached to a metal pipe or mast using a type of mounting bracket. Small antennas, like 434 MHz Yagis, all omni antennas, and 3- to 5- element Yagis for the 150-166 MHz band can be butt-mounted using a bracket which fits onto one end of the boom. Large antennas, like 6- to 9- element Yagis for the 150-166 MHz band need to be mounted along their mid-point to even out the lateral force on the mast. Larger antenna can be butt-mounted, but usually require support wires attached to the mid or end point of the antenna.
@@ -165,7 +173,7 @@ A pop-tower is a type of standalone station that uses a tripod + telescopic mast
 
 * Must be flat and void of obstructions so antennas have a clear line of site.
 * Cannot be near any elevated power or telephone lines for safety reasons.
-* Tripod feet will sink into soft ground - use gravel or choose a hard/dry location to install. Also affix pieces of wood to each trippod foot to support the weight and movement and to provent sunking (‘snow-shoe).
+* Tripod feet will sink into soft ground - use gravel or choose a hard/dry location to install. Also affix pieces of wood to each tripod foot to support the weight and movement and to prevent sinking (‘snow-shoe).
 * Ground must be soft enough to insert anchors (1 m/3 ft. or more, depending on hardness).
 * Choose a well-elevated site to avoid any risk of flooding during heavy rains or tidal surges.
 * Footprint of a pop-tower with guy wires has a radius equal to 70% of the tower’s final height.
@@ -176,15 +184,15 @@ A pop-tower is a type of standalone station that uses a tripod + telescopic mast
   * Tripod
   * Wooden blocks (optional)
   * Mast
-    * Height will depend on location, desired detections.
+    * Height will depend on location, desired detections. 40-feet is maximum suggested height.
     * Comes with a [mast collar and spare guy ring](../../glossary.md#stations) and 1x 3-inch bolt for each mast section.
   * Foot for mast (optional)
-  * Guy wires
+  * Guy wires (1/16 galvenized for inland sites; 3/32" stainless for marine areas)
   * Quick links and/or carabiners (max 3/16”)
-  * \[Optional] Turnbuckles and stainless steel wire (snare wire)
+  * \[Optional] Turnbuckles with nuts or stainless steel wire (snare wire)
   * In-line wire tensioners.
   * Anchors
-    *   Can use #6 rebar in 5-foot sections or [ground](https://www.homedepot.com/p/6-Piece-Ground-Anchor-Kit-IS-50016/202197240)
+    *   Can use #6 rebar in 3-foot sections or [ground](https://www.homedepot.com/p/6-Piece-Ground-Anchor-Kit-IS-50016/202197240)
 
         [anchors](https://www.homedepot.com/p/6-Piece-Ground-Anchor-Kit-IS-50016/202197240).
 * [Antennas](./#antennas-cables-and-dongles)
@@ -195,7 +203,7 @@ A pop-tower is a type of standalone station that uses a tripod + telescopic mast
 
 * Impact driver and/or ratchet
   * 7/16” socket
-  * ½” socket
+  * ½” deep socket
 * Ratchet with ½” drive
 * Drill
   * Cobalt drill bits (or equivalent) for metal drilling.
