@@ -4,6 +4,4 @@ Individuals, researchers, or organizations can setup and maintain a station to c
 
 If you are interested in setting up and hosting a Motus receiver station, the guide below can provide you with important information to get you started. Full details on data sharing policies and registration fees can be found in the [Motus Collaboration Policy](https://motus.org/policy/), further details on project initiation and technical information on station setup can be found in the [resources](https://motus.org/resources/) section.
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+{% file src="../../.gitbook/assets/Motus_LandownerInformation_April2017.pdf" %}
