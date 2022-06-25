@@ -24,3 +24,39 @@ Researchers inspect and filter their data based on [guidelines provided in the M
 ### How public track data is calculated
 
 Tracks are based on the shortest possible paths between detections, and thus are unlikely to represent the true path unless the estimated speed is fairly high. Distance between detections is based on the location of the receivers, which doesn't take into account the detection ranges of the antennas (as much as 20km when conditions are good). Therefore, the estimated distance between detections may be too large by as much as 40km (when two unobstructed antennas are pointed directly at each other), and thus when the receivers are less than 100km apart the estimated minimum speed may be unrealistically high. Speed estimates for receivers more than 100km apart seem to be reasonably accurate. False detections happen sometimes (especially when equipment is faulty, a receiver is near a radio source, or a tag pulse pattern is ambiguous), but rarely last even a second. Very short detections can be filtered out (or not) in the settings.
+
+## Identifying False Detections
+
+There are several methods we use to identify false positives, but for most the first indicator will be intuition. That is, the context of a detection can sometimes provide the most clues, or at least indicate that certain data should be further scrutinized. Typically, certain stations will be particularly susceptible to producing false positives which results in a cluster of detections by different animals at that location.
+
+### Examples of false positives in data
+
+#### Tracks Map
+
+Tracks are most obviously false when there are long distance East-West movements, or during the non-migratory period, North-South movements. Some false detections occur at certain stations multiple times, creating a back-and-forth movement which looks false. In other instances, the animal has merely moved out of range and is likely false – that is, unless the animal was tagged as part of a vagrant study (in which case we don't expect them to be in range!).
+
+**\[Insert track map here]**
+
+#### **Detection timelines**
+
+Detection timelines are a very useful tool for determining when stations are functional as well as when they are experiecing a noise event. These show exactly when detections occur as well as the general level noise in the radio environment.&#x20;
+
+Detection timelines can also provide an indication as to whether a false detection has occurred as a result of environmental noise or whether it was caused by tag aliasing:
+
+* **Environmental noise** will look like a spike in tag detections, where several tags that were never detected before are all detected at the same moment and then are usually never detected again. It is common for a noise event occur when no other tags are being detected, making them stand out.
+* **Tag aliasing** will only occur when _multiple other real tags_ **** are present and being detected. This is because aliasing is a result of a mis-interpreted tag signal. Aliasing usually looks like one to a few tags which are detected at the same time as other tags which are known to be present (i.e., were deployed nearby). Detections of aliased tags always occur less frequently than detections of real tags, but they can still sometimes be detected repeatedly over several days.
+
+## Reporting
+
+We want to know when false detections are found in the **public dataset.** For data downloaded via the [Motus R Package](https://motuswts.github.io/motus/), we only want to know if false data is found where `motusFilter == 1`. That is, we provide all data (including false positives) in the data downloaded via the Motus R package so that researchers can scrutenize data we've flagged as "false", but that anyone using those data can still use our filters by filtering for data where `motusFilter == 1`.&#x20;
+
+For reporting, send us an email with a table (or a list) that includes the following information about each false detection:
+
+* Tag deployment ID
+* Station deployment ID&#x20;
+* Justification for removal
+* Suspected cause of false detection.
+* The date the false detection was found
+* Observer name
+* Any additional comments
+
