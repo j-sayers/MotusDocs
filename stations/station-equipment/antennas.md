@@ -1,10 +1,10 @@
 # Antennas, Cables, and Dongles
 
-## How to Select an Antenna
+## How to select an antenna
 
 It is very important you select the right antenna for the purpose of the station and the type of tags you intend to detect. Antennas are optimized for reception on a particular radio frequency. Since there are multiple tag frequencies, each tag type requires its own antenna; currnetly an antenna optimized to detect Lotek tags on 166.380 Mhz will not detect CTT tags on 434 Mhz, and vice versa. Wherever possible we recommend installing “dual-mode” stations outfitted with antennas and a receiver that can detect tags tags. A dual-frequency antenna is under development, but for the time being, dual-mode stations (those that can listen for more than one frequency, must have two different types of antenna in place.
 
-## How Antennas Work
+### How antennas work
 
 An antenna is a device used to send or receive radio signals, i.e., electromagnetic radiation. This radiation induces a voltage in conductive materials which will vary in magnitude based on the physical dimensions and orientation of the material. The induced voltage oscillates at the same frequency as the electromagnetic radiation and the magnitude of the voltage is proportional to the strength of the radiation. Antennas used in the Motus Network are built (“tuned”) with high precision such that the induced voltage is greatest when exposed to the narrow range of frequencies that Motus tags emit. Antennas can also be shaped to select for radiation from specific directions and orientations.
 
@@ -22,7 +22,7 @@ A variety of antenna options exist for VHF/UHF telemetry. To date, collaborators
 
 Large Yagi antennas are useful for making receiver fences and grids since they can be spaced as far as 30 km apart with antennas pointing towards each other to capture animals passing in between. Mid-sized Yagi antennas provide a compromise between distance and “field of view”, or width of the detection beam. Small Yagi antennas are typically used for manual tracking, or for monitoring animals within a small study area. [CTT Nodes](https://celltracktech.com/products/tag-system/ctt-node/) have small omni antennas with a line-of-sight (LOS) range of around 1.4 km which if distributed in a grid can provide highly accurate location estimates. See array design above.
 
-## Ordering Antennas
+### Ordering Antennas
 
 When ordering antennas and cables, it is important to ensure:
 
@@ -38,7 +38,7 @@ Select an item from the list below to learn more:
 * [Radio Dongles](antennas.md#radio-dongles)
 * [Connectors](antennas.md#connectors)
 
-## Antenna Anatomy
+### Antenna Anatomy
 
 ### **Yagi-uda**
 
@@ -46,7 +46,7 @@ This antenna, usually referred to as simply “Yagi” or more generally a direc
 
 ![](../../.gitbook/assets/yagi-diagram)
 
-## Antenna Types
+### Antenna Types
 
 A variety of antenna options exist for VHF telemetry. To date, users have used 3, 5, 6, and 9-element Yagi directional antennas, and single-pole omni-directional antennas. The 9-element Yagis have a long, narrow detection range, whereas 3, 5, or 6-element Yagis have gradually shorter and wider detection ranges. Omni-directional antennas are best suited for determining species presence-absence patterns (e.g. seabirds at a colony), or for detecting birds in close proximity to stations (within a few hundred metres), but not for providing directional information (e.g. departure directions of songbirds from a stopover site).
 
@@ -72,6 +72,22 @@ Use the table below to help select your antenna:
 
 ## Coax Cables
 
+Coaxial cables (coax for short) are responsible for carrying the received radio signal from the antennas to the receiver. This cable is so-called coaxial because it contains a central conductor surrounded by a second conductor that runs _coaxial_ to the central conductor (around it). This second conductor is electrically connected to the ground plane and provides shielding that helps insulate the central signal-carrying conductor from external electromagnetic interference and also reduces the amount of energy lost from the central conductor. Between the central core and shielding is a layer of insulating material which can vary in thickness, as well as the plastic outer jacket of the cable.
+
+&#x20;
+
+The signal carried by coax is measured in decibels (dB) and calculated by comparing the power coming out of the coaxial cable to a theoretical 1 mW transmitter.
+
+$$
+f(x) = x * e^{2 pi i \xi x}
+$$
+
+With this equation in mind you can see how an increase of 3 dB actually means a doubling of the received power. Antenna resistance is an intrinsic property of the antenna and usually runs at 50 Ω. The coaxial cable also has a resistance so it will reduce the power of the incoming signal which varies by frequency. This is known as attenuation.
+
+When selecting coaxial cables, you want pick something that keeps attenuation to a minimum. Attenuation can’t be eliminated entirely, so we try to keep it within a reasonable limit. For weak signal detection a difference 0.2 dB can be significant. The supplier for our coaxial cables and antennas here in Canada (Maple Leaf Communications) has suggested we try to keep attenuation under 1.0 dB for any cable length, but obviously this is not always practical. The recommended low-loss cable is the LMR-400, but it is very bulky and difficult to work with. For this reason, we recommend using lower grade cables for short lengths, such as the LMR-240 or RG-58.
+
+To get an idea of what kind of effect attenuation may have on tag detection, imagine a receiver with a theoretical detection radius of 10 km. If the antennas on the receiver experienced 1.0 dB of attenuation, this radius would be reduced to 9 km; if they experienced 2.5 dB of attenuation, that would be reduced to 7.5 km.
+
 | **Cable type**                                                                                                                                                                                                                                                                                                                                             | **Typical price (USD)** | **Impedance** | <p><strong>Max attenuation</strong></p><p><strong>(dB/100 ft)</strong></p> | **Suggested length** |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- | ------------- | -------------------------------------------------------------------------- | -------------------- |
 | [**RG-58**](https://www.pasternack.com/flexible-0.195-rg58-50-ohm-coax-cable-pvc-jacket-rg58c-u-p.aspx)                                                                                                                                                                                                                                                    | < 100 ft. @ $0.83/ft.   | 53.5 Ohms     | <p>4.4 @ 100 MHz</p><p>6.0 @ 200 MHz</p><p>8.5 @ 400 MHz</p>               | < 50 ft./15 m        |
@@ -88,7 +104,7 @@ A catalogue of cables and their specifications can be found on [Allied Wire & Ca
 * **BMR-400** - available from Maple Leaf Communications, this cable has slightly less plastic insulation, making it much more flexible and easier to work with than LMR-400, while offering similar attenuation.
 
 {% hint style="info" %}
-**Motus Pro Tip** - The heavier guage cables can be buly to work with and awkward to connect inside the receiver. Short jumper cables with smaller guage can be used to help work in tight spaces. Insert picture and example from Maple Leaf. However, this does increase the number of connections which may result in a slight decrease in signal strength (see connectors below).
+**Motus Pro Tip** - The heavier gauge cables can be awkward to work with and difficult to connect inside the receiver. Short jumper cables with smaller gauge can be used to help work in tight spaces. \[MISSING: example photo from Maple Leaf]. However, this does increase the number of connections which may result in a slight decrease in signal strength (see [connectors ](antennas.md#connectors)below).
 {% endhint %}
 
 ## Radio Dongles
