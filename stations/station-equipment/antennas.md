@@ -78,9 +78,7 @@ Coaxial cables (coax for short) are responsible for carrying the received radio 
 
 The signal carried by coax is measured in decibels (dB) and calculated by comparing the power coming out of the coaxial cable to a theoretical 1 mW transmitter.
 
-$$
-f(x) = x * e^{2 pi i \xi x}
-$$
+\[INSERT EQUATION]
 
 With this equation in mind you can see how an increase of 3 dB actually means a doubling of the received power. Antenna resistance is an intrinsic property of the antenna and usually runs at 50 Ω. The coaxial cable also has a resistance so it will reduce the power of the incoming signal which varies by frequency. This is known as attenuation.
 
