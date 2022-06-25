@@ -27,10 +27,14 @@ _Note: colours are intended as an visual aid and are not some type of identifier
 
 This is the most common type of type of aliasing. Typically occurs when banding many individuals at once where those individuals stay near one another after release, such as in a colony or with shorebirds. Tags are never activated at the exact same time so we should expect a slight offset in the timing of bursts. For this reason, a smaller number of tags will also have a smaller chance of overlapping bursts. Similarly, longer burst intervals also reduce the probability of bursts overlapping.
 
-### Conditions
+#### Conditions
 
 * Multiple real tags with the **same burst interval** are detected.
 * Aliased tags also have the **same burst interval**, but a different **Lotek Tag ID**.
+
+#### Remarks
+
+* This is likely the most likely mode for aliasing to occur; however, the illustration below exaggerates the probability of tag signals overlapping. In reality, a single burst typically lasts between 0.1-0.3 seconds; even for a tag with a relatively short burst interval of 4.7 seconds, there is <5% that any two tags will have their signals overlap!
 
 ![Tag aliasing example 2](../.gitbook/assets/type2aliasing.png)
 
@@ -57,6 +61,12 @@ Please note: This is guide is still in its draft stages. Some of the information
 
 Aliasing can be identified based on the signal characteristics, as well as the context of the detection.
 
+### Burst Interval Offset
+
+All tags are built to a certain specification to which they must adhere before they are shipped to the customer beyond which they are allowed to vary to a small degree. For instance, tags are build to produce a burst interval which is within <mark style="color:red;">**10 milliseconds**</mark> of the intended value. Individual tags will also vary over time, up to <mark style="color:red;">**2 milliseconds**</mark> between bursts.
+
+Knowing that aliasing is caused by multiple tags which overlap in signal, we can use the fact that there is individual variation _between tags_ to identify whether or not a detection is the result of aliasing.
+
 ### Context
 
 When aliased tag detections are recorded at a receiver, its often easy to immediately determine they are false based on:
@@ -68,7 +78,7 @@ When aliased tag detections are recorded at a receiver, its often easy to immedi
    * Is this animal where it's expected to be at this time of year?
 3. **Other detections:**
    * Are there multiple other tags detected at this station at the same time with the same Lotek ID **OR** burst interval?
-   * Are many tags _briefly_ detected at a similar time? \(Likely noise\)
+   * Are many tags _briefly_ detected at a similar time? (Likely noise)
 
 Removing aliased detections based on context can be time consuming as it's not something that can be easily automated. We are working on developing such a filter which will flag detections based on these contexts.
 
@@ -78,7 +88,7 @@ Certain parameters of the signal received by the Motus station can be used to id
 
 #### Frequency offset
 
-The frequency offset measures average difference between the nominal frequency \(e.g.: 166.380 MHz\) and the actual measured frequency of the tag pulses. This is recorded in kHz with an associated standard deviation. Based on what we understand of aliased detections, we can hypothesize that:
+The frequency offset measures average difference between the nominal frequency (e.g.: 166.380 MHz) and the actual measured frequency of the tag pulses. This is recorded in kHz with an associated standard deviation. Based on what we understand of aliased detections, we can hypothesize that:
 
 * Type 1 aliased detections are made up of alternating bursts between two different tags. Therefore we should also expect the frequency offset of these tag bursts to alternate.
 * Type 2 aliased detections consist of bursts made up of combinations of pulses from multiple tags. Therefore we should expect a relatively high frequency offset standard deviation for these bursts.
@@ -90,7 +100,7 @@ The signal strength of a burst is the averaged signal strength of each of the fo
 
 #### Number of skipped bursts
 
-In noisy environments or with a weak signal, some tag bursts may not be received entirely. We allow for a maximum of 60 bursts to be missed to avoid losing too many detections. For instance, if a 4.7 s tag has two bursts detected with three bursts missed in between them, we would expect there to be 4.7 \* \(1 + 3\) = 18.8 s gap between the two bursts. This makes it possible to give a Motus ID to tags that would otherwise be considered ambiguous. Unfortunately, this also means it allows for more false detections to be filtered through, either as a result of noise or from aliasing. There can be a maximum of 60 skipped bursts.
+In noisy environments or with a weak signal, some tag bursts may not be received entirely. We allow for a maximum of 60 bursts to be missed to avoid losing too many detections. For instance, if a 4.7 s tag has two bursts detected with three bursts missed in between them, we would expect there to be 4.7 \* (1 + 3) = 18.8 s gap between the two bursts. This makes it possible to give a Motus ID to tags that would otherwise be considered ambiguous. Unfortunately, this also means it allows for more false detections to be filtered through, either as a result of noise or from aliasing. There can be a maximum of 60 skipped bursts.
 
 In general, we expect the number of skipped bursts to be proportional to the probability of a false detection, but this has not been fully investigated. It's likely that some combination of signal strength, signal-to-noise ratio, and hourly pulse counts are important to look in concert with skipped bursts to better identify false detections.
 
@@ -98,13 +108,13 @@ In general, we expect the number of skipped bursts to be proportional to the pro
 
 The burst interval slop is the difference between the observed and expected burst length. The _tag finder algorithm_ filters out all data with a slop greater than 4 ms plus 1 ms for each skipped burst if there are any.
 
-With any case of tag aliasing, we expect burst slop to drift over time. This is because each tag has a certain amount of variation in the burst interval \(burst interval standard deviation\). The mean burst interval is also slightly different between tags, even if they are made to the same specification. With this understanding, we can hypothesize that:
+With any case of tag aliasing, we expect burst slop to drift over time. This is because each tag has a certain amount of variation in the burst interval (burst interval standard deviation). The mean burst interval is also slightly different between tags, even if they are made to the same specification. With this understanding, we can hypothesize that:
 
 * Type 1 aliased detections are made up of alternating bursts between two different tags. Therefore we should expect the burst interval slop to increase and/or decrease with time, as the tags fall in and out of sync.
 
 #### Run length
 
-A ‘run’ consists of a collection of bursts. The length of the run \(_runLen_\) is a count of these bursts, not the length of time. A run may include gaps where bursts were skipped and it will terminate once more than 60 bursts have been skipped. False detections as a result of radio noise usually have very short run lengths; however, aliased tags are more likely to have long run lengths \(depending on source\), so this is not always the most useful parameter to look at, but they should still be noticeably shorter than true detections. Since runs can include skipped bursts, it can be helpful to calculate the longest group of consecutive bursts within each run \(_longRun_\)and compare it to the maximum number of bursts that could have been detected during the run’s time interval \(_maxRun_\). You should expect to see the ratio of _longRun_ to _runLen_ and the ratio of _maxRun_ to _runLen_ to be much smaller for aliased tags than real tags.
+A ‘run’ consists of a collection of bursts. The length of the run (_runLen_) is a count of these bursts, not the length of time. A run may include gaps where bursts were skipped and it will terminate once more than 60 bursts have been skipped. False detections as a result of radio noise usually have very short run lengths; however, aliased tags are more likely to have long run lengths (depending on source), so this is not always the most useful parameter to look at, but they should still be noticeably shorter than true detections. Since runs can include skipped bursts, it can be helpful to calculate the longest group of consecutive bursts within each run (_longRun_)and compare it to the maximum number of bursts that could have been detected during the run’s time interval (_maxRun_). You should expect to see the ratio of _longRun_ to _runLen_ and the ratio of _maxRun_ to _runLen_ to be much smaller for aliased tags than real tags.
 
 ## **How to Avoid Tag Aliasing**
 
@@ -114,7 +124,7 @@ _Aliasing can cause false detections of your tags as well as tags from other pro
 
 ### **When does aliasing typically occur?**
 
-Aliasing typically occurs when there are a large number of active tags in a small area. Because of this, certain species and tagging conditions are more likely to cause aliasing due to their behaviour. For researchers studying colonial or gregarious species \(i.e.; swallows, bats, and shorebirds, etc.\), they should be especially aware of this problem. We anticipate aliasing to occur in any colony where there are more than 10 active tags at once with the same burst interval and that interval is less than 20 seconds.
+Aliasing typically occurs when there are a large number of active tags in a small area. Because of this, certain species and tagging conditions are more likely to cause aliasing due to their behaviour. For researchers studying colonial or gregarious species (i.e.; swallows, bats, and shorebirds, etc.), they should be especially aware of this problem. We anticipate aliasing to occur in any colony where there are more than 10 active tags at once with the same burst interval and that interval is less than 20 seconds.
 
 ### **How to identify aliased detections**
 

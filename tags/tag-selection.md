@@ -78,8 +78,6 @@ Always double-check that your tags have been registered to the correct Motus pro
 
 ### Avoiding Tag Aliasing
 
-Aliasing can occur when multiple tags emit a signal at the same time. Sometimes these interacting signals can produce a pattern which match a different tag that is not actually present. This is due to the nature of how the unique tag ID is encoded in the signal. However, the parameters used to define these IDs are quite stringent, making aliasing only an issue in specific conditions.
-
-Aliasing can cause false detections of your tags as well as tags from other projects. Removing them usually involves additional validation steps which can be difficult and time consuming for the researcher. One method to help mitigate tag aliasing is to select tags with longer burst intervals as this reduces the chances of two signals overlapping.
+Aliasing can occur when multiple tags emit a signal in the same place at the same time. Sometimes these interacting signals can produce a pattern which match a different tag that is not actually present. This is due to the nature of how the tag ID is encoded in the signal. Although the parameters used to define tag IDs are quite stringent – making aliasing only an issue in specific conditions – aliasing can still cause false detections of your tags as well as tags from other projects. Removing them usually involves additional validation steps which can be difficult and time consuming for the researcher. One method to help mitigate tag aliasing is to select tags with longer burst intervals as this reduces the chances of two signals overlapping.
 
 [**Read more about tag aliasing here**](tag-aliasing.md#how-to-avoid-tag-aliasing-1)

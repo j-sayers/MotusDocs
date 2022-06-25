@@ -15,7 +15,7 @@
 * [Collaboration Policy](about-motus/collaboration-policy.md)
 * [Discussion Group](https://groups.google.com/g/motus-wts)
 * [Partners and Supporters](https://motus.org/data/partners)
-* [How Data are Processed](about-motus/how-data-are-processed/README.md)
+* [How Data are Processed](about-motus/how-data-are-processed.md)
   * [False Detections](about-motus/how-data-are-processed/false-detections.md)
 * [Quick Reference](about-motus/quick-reference/README.md)
   * [Tag Deployment](about-motus/quick-reference/tag-deployment.md)
