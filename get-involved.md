@@ -70,7 +70,7 @@ One of the largest obstacles to station setup and maintenance is funding. Even i
 
 The cost of a station varies widely depending on the configuration of the station, number of antennas, needs for power, ease of access of the station, etc. We generally offer an estimate of roughly $7.5k as a ballpark for the purchase, installation, and maintenance of a “typical” station. In some cases, where existing infrastructure is already in place and can be used, the cost can be significantly lower. For installations in remote areas, or which require specialized contactors to install, the cost could be higher. See Table 1. for an estimate of station costs.
 
-![Endangered Red Knot (Photo: Yves Aubry)](<.gitbook/assets/image (11).png>)
+![Endangered Red Knot (Photo: Yves Aubry)](<.gitbook/assets/image (11) (1).png>)
 
 **Table 1. Estimates of Motus station equipment, setup, and maintenance costs.**
 
