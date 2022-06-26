@@ -74,11 +74,11 @@ Use the table below to help select your antenna:
 
 Coaxial cables (coax for short) are responsible for carrying the received radio signal from the antennas to the receiver. This cable is so-called coaxial because it contains a central conductor surrounded by a second conductor that runs _coaxial_ to the central conductor (around it). This second conductor is electrically connected to the ground plane and provides shielding that helps insulate the central signal-carrying conductor from external electromagnetic interference and also reduces the amount of energy lost from the central conductor. Between the central core and shielding is a layer of insulating material which can vary in thickness, as well as the plastic outer jacket of the cable.
 
-&#x20;
+&#x20;<img src="../../.gitbook/assets/Coaxial_cable_cutaway.png" alt="" data-size="line">
 
 The signal carried by coax is measured in decibels (dB) and calculated by comparing the power coming out of the coaxial cable to a theoretical 1 mW transmitter.
 
-\[INSERT EQUATION]
+![](<../../.gitbook/assets/Screenshot 2022-06-25 055422.png>)
 
 With this equation in mind you can see how an increase of 3 dB actually means a doubling of the received power. Antenna resistance is an intrinsic property of the antenna and usually runs at 50 Ω. The coaxial cable also has a resistance so it will reduce the power of the incoming signal which varies by frequency. This is known as attenuation.
 
@@ -92,14 +92,22 @@ To get an idea of what kind of effect attenuation may have on tag detection, ima
 | <mark style="color:green;"></mark>[<mark style="color:green;">**RG-213**</mark>](https://www.pasternack.com/flexible-0.405-rg213-50-ohm-coax-cable-pvc-jacket-rg213-u-p.aspx)<mark style="color:green;"></mark>                                                                                                                                            | < 100 ft. @ $1.79/ft.   | 50 Ohms       | <p>2.3 @ 100 MHz</p><p>4.8 @ 400 MHz</p>                                   | < 100 ft./30 m       |
 | <p><mark style="background-color:green;">TWS/BMR/</mark></p><p><mark style="background-color:green;"></mark><a href="https://www.pasternack.com/50-ohm-low-loss-flexible-lmr400-pe-jacket-double-shielded-black-lmr-400-P.aspx"><mark style="background-color:green;"><strong>LMR-400</strong></mark></a><mark style="background-color:green;"></mark></p> | $1.20/ft.               | 50 Ohm        | <p>1.5 @ 150 MHz</p><p>2.7 @ 450 MHz</p>                                   | Any length           |
 
+#### Signal loss by length of cable
+
+One of our antenna equipment suppliers, Maple Leaf Communications, has written a helpful guidance document for selecting cables based on the length and frequency required.&#x20;
+
+{% file src="../../.gitbook/assets/Coax Loss vs Distance.pdf" %}
+
+#### Additional documentation
+
 A helpful guide on coaxial cables can be found on the [Wilson Amplifiers website](https://www.wilsonamplifiers.com/blog/understanding-coaxial-cables-the-complete-guide/)
 
-A catalogue of cables and their specifications can be found on [Allied Wire & Cable](https://www.awcwire.com/producttoc.aspx?id=coaxial-cable).
+A catalogue of cables and their specifications can be found on [Allied Wire & Cable](https://www.awcwire.com/producttoc.aspx?id=coaxial-cable). But briefly, we use:
 
 * **RG58** – basic communications cable that typically comes with a BNC connector. Best used for lengths less than 50′. The least expensive option.
 * **RG213** – higher grade cable that can be used at length of up to 100′ with low signal loss. Custom cable ends depending on distributor/manufaturer. Moderate price.
 * **TWS/LMR-400** – similar to the RG-213, but higher quality (stronger weather/sun resistance) coating. Best for longer-term installations and long cable length. Most expensive. Manufacture can suggest which cable is best for your needs – LMR is generally more affordable.
-* **BMR-400** - available from Maple Leaf Communications, this cable has slightly less plastic insulation, making it much more flexible and easier to work with than LMR-400, while offering similar attenuation.
+* **BMR-240** - available from Maple Leaf Communications, this cable has slightly less plastic insulation, making it much more flexible and easier to work with than LMR-400, while offering similar attenuation.
 
 {% hint style="info" %}
 **Motus Pro Tip** - The heavier gauge cables can be awkward to work with and difficult to connect inside the receiver. Short jumper cables with smaller gauge can be used to help work in tight spaces. \[MISSING: example photo from Maple Leaf]. However, this does increase the number of connections which may result in a slight decrease in signal strength (see [connectors ](antennas.md#connectors)below).

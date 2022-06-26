@@ -15,8 +15,8 @@ This section pertains to the management of station metadata: i.e., the registrat
 
 In this chapter you will find:
 
-* ****[**Definition of Stations, Station Deployments, and Receivers**](./#introducing...stations)****
-* ****[**How to Manage Stations**](./#managing-stations)****
+* ****[**Definition of Stations, Station Deployments, and Receivers**](station-management.md#introducing...stations)****
+* ****[**How to Manage Stations**](station-management.md#managing-stations)****
 
 ## Definitions
 
@@ -56,13 +56,13 @@ Every location where a Motus receiver is deployed needs to be recorded as a 'sta
 
 This section covers the following topics:
 
-* [**View project stations**](./#view-project-stations)****
-* ****[**Filter stations**](./#filter-stations)****
-* ****[**View station deployments**](./#view-station-deployments)****
-* ****[**Add a new station**](./#add-a-new-station)****
-* ****[**Modify a station**](./#modify-a-station)****
-* ****[**Terminate a deployment**](./#terminate-a-deployment)****
-* ****[**Add a new deployment**](./#add-a-deployment)****
+* [**View project stations**](station-management.md#view-project-stations)****
+* ****[**Filter stations**](station-management.md#filter-stations)****
+* ****[**View station deployments**](station-management.md#view-station-deployments)****
+* ****[**Add a new station**](station-management.md#add-a-new-station)****
+* ****[**Modify a station**](station-management.md#modify-a-station)****
+* ****[**Terminate a deployment**](station-management.md#terminate-a-deployment)****
+* ****[**Add a new deployment**](station-management.md#add-a-deployment)****
 
 The video below covers all topics in this section:
 
@@ -74,7 +74,7 @@ To view a map or table of stations associated with your project(s), go to [**Man
 
 You can toggle your view between a map and table by clicking on the tabs above the map/table.
 
-![](<../../.gitbook/assets/image (8) (1) (1) (1).png>)![](<../../.gitbook/assets/image (5) (1).png>)
+![](<../.gitbook/assets/image (8) (1) (1) (1).png>)![](<../.gitbook/assets/image (5) (1).png>)
 
 ### **Filter stations**
 
@@ -82,7 +82,7 @@ By default, only active stations will be displayed. To view inactive stations or
 
 You can also filter stations by name or ID using the text input above the map.
 
-&#x20;![](../../.gitbook/assets/station-management-set-view.png)
+&#x20;![](../.gitbook/assets/station-management-set-view.png)
 
 ### **View station deployments**
 
@@ -90,7 +90,7 @@ Using the map, you can click on any station to see it's deployments. When viewin
 
 After clicking on a station, its details will appear in the panel on the right. This includes details about the station (status, location, and landowner) as well as the current and past deployments.
 
-![](../../.gitbook/assets/station-management-deployment-info.png)****<img src="../../.gitbook/assets/station-management-deployment-history-wide.png" alt="" data-size="original">****
+![](../.gitbook/assets/station-management-deployment-info.png)****<img src="../.gitbook/assets/station-management-deployment-history-wide.png" alt="" data-size="original">****
 
 ### **Add a new station**
 
@@ -102,13 +102,13 @@ Click on the button labelled 'Add a new station'. This will open a dialog box wi
 4. **Comments:** this is helpful for entering access notes or if the stations is not yet installed you may describe the plans to install and the location here.
 5. **Landowners:** you may select one or more landowner in this list. If the landowner is not present in the list, click the button labelled 'Manage your project landowners' to add a new one.
 
-****![](../../.gitbook/assets/station-management-add-new.png)****![](<../../.gitbook/assets/image (7).png>)****
+****![](../.gitbook/assets/station-management-add-new.png)****![](<../.gitbook/assets/image (7).png>)****
 
 ### **Modify a station**
 
-To modify a station, first select a station from the map or table and then click on 'Modify properties' from the panel on the right. See [**Add a new station**](./#add-a-new-station) **** for information about the options present here.
+To modify a station, first select a station from the map or table and then click on 'Modify properties' from the panel on the right. See [**Add a new station**](station-management.md#add-a-new-station) **** for information about the options present here.
 
-****![](../../.gitbook/assets/station-management-modify-station.png)****
+****![](../.gitbook/assets/station-management-modify-station.png)****
 
 ### **Terminate a deployment**
 
@@ -116,7 +116,7 @@ With a station selected, click on the button labelled '**Terminate this** **depl
 
 You will be asked to provide the date and time that the deployment was terminated.
 
-****![](../../.gitbook/assets/station-management-terminate-deployment.png)![](<../../.gitbook/assets/image (2).png>)
+****![](../.gitbook/assets/station-management-terminate-deployment.png)![](<../.gitbook/assets/image (2).png>)
 
 {% hint style="info" %}
 Only one deployment can be active at a station at any given time. This means any active deployment must be terminated before creating a new one.&#x20;
@@ -132,7 +132,7 @@ With a station selected, click on the button labelled '**Create a new deployment
 
 You will be presented with a dialog box asking for the **deployment start date and time** as well as a couple check boxes which allow you to choose whether to copy metadata from the previous deployment.
 
-<img src="../../.gitbook/assets/station-management-add-deployment.png" alt="" data-size="original">![](<../../.gitbook/assets/image (9) (1) (1).png>)
+<img src="../.gitbook/assets/station-management-add-deployment.png" alt="" data-size="original">![](<../.gitbook/assets/image (9) (1) (1).png>)
 
 #### Step 3: Select a receiver
 
@@ -144,7 +144,7 @@ You can click on a row to view further details about the receiver, such as its d
 
 Click on 'Add a receiver' above the table to add a new receiver if it's not present.&#x20;
 
-![](../../.gitbook/assets/station-management-select-receiver.png)
+![](../.gitbook/assets/station-management-select-receiver.png)
 
 #### Step 4: Enter deployment configuration
 
@@ -163,7 +163,7 @@ To enter antenna information, use the form at the bottom of the page and enter a
 
 After entering your antenna information, you can verify the directions are correct by clicking on the button labelled 'View antenna map,' located just below the antenna table.
 
-****![](../../.gitbook/assets/station-management-deployment-config-type.png)****![](../../.gitbook/assets/station-management-deployment-config-antennas.png)****
+****![](../.gitbook/assets/station-management-deployment-config-type.png)****![](../.gitbook/assets/station-management-deployment-config-antennas.png)****
 
 **Step 5: Click 'Save and exit'**
 

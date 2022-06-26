@@ -33,7 +33,7 @@
 * [Collaborators](project-management/collaborators.md)
 * [Institutions](project-management/institutions.md)
 * [Citations](project-management/citations.md)
-* [Station Management](project-management/station-management/README.md)
+* [Station Management](project-management/station-management.md)
   * [Detection Timelines](project-management/station-management/detection-timelines.md)
 * [Tag Management](project-management/tag-management/README.md)
   * [Tag Registration](project-management/tag-management/tag-registration.md)
