@@ -1,3 +1,3 @@
 # Tag Finder
 
-In development...
+In development. See: [https://github.com/sensorgnome-org/find\_tags](https://github.com/sensorgnome-org/find\_tags)

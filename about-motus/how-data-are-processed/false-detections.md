@@ -17,13 +17,11 @@ description: >-
 
 ## How are false detections dealt with?
 
-Public data has been processed using broad filters based on theoretical flight speeds, logical geographic/time sequences, and at least 3 consecutive tag bursts at a single station. Individual tracks have not been inspected for accuracy. We also apply manual filters for known cases of false detections.
+Public data has been processed using broad filters based on theoretical flight speeds, logical geographic/time sequences, and at least 3 consecutive tag bursts at a single station. Most tracks have not been inspected individually for accuracy. However, we do apply manual filters for known cases of false detections.
+
+### Motus R Book
 
 Researchers inspect and filter their data based on [guidelines provided in the Motus R Book](https://motuswts.github.io/motus/articles/05-data-cleaning.html).&#x20;
-
-### How public track data is calculated
-
-Tracks are based on the shortest possible paths between detections, and thus are unlikely to represent the true path unless the estimated speed is fairly high. Distance between detections is based on the location of the receivers, which doesn't take into account the detection ranges of the antennas (as much as 20km when conditions are good). Therefore, the estimated distance between detections may be too large by as much as 40km (when two unobstructed antennas are pointed directly at each other), and thus when the receivers are less than 100km apart the estimated minimum speed may be unrealistically high. Speed estimates for receivers more than 100km apart seem to be reasonably accurate. False detections happen sometimes (especially when equipment is faulty, a receiver is near a radio source, or a tag pulse pattern is ambiguous), but rarely last even a second. Very short detections can be filtered out (or not) in the settings.
 
 ## Identifying False Detections
 
