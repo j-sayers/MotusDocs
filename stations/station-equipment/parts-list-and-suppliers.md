@@ -1,27 +1,62 @@
 # Parts list and suppliers
 
-
 ## Antennas and cables
 
-### 166 MHz antennas (for Lotek Nanotags in the Western Hemisphere)
+### 166.380 MHz antennas
 
-Maple Leaf Communications 9-Element Yagi 9E166
+For Lotek Nanotags in the Western Hemisphere.
 
-Maple Leaf Communications 5-Element Yagi 5E166
 
-Maple Leaf Communications 3-Element Yagi 3E166
 
-Laird Antenna 9-Element Yagi PLC-1669
+| Retailer                  | Antenna Type    | Antenna Model | Locale |
+| ------------------------- | --------------- | ------------- | ------ |
+| Maple Leaf Communications | 9-Element       | 9E166         | Canada |
+| Maple Leaf Communications | 5-Element       | 5E166         | Canada |
+| Maple Leaf Communications | 3-Element       | 3E166         | Canada |
+| Maple Leaf Communications | Omnidirectional | J166R         | Canada |
+| Samco                     | 6-Element       | SAM-160       | USA    |
+| Laird Antenna             | 9-Element       | PLC-1669      | USA    |
+| Laird Antenna             | 6-Element       | PLC-1666      | USA    |
 
-Laird Antenna 6-Element Yagi PLC-1666
+### 434 MHz antennas
 
-### 434 MHz antennas (for CTT LifeTags/PowerTags)
+For CTT LifeTags, PowerTags, and HybridTags globally.
 
 Laird 6-Element Yagi TS4306
 
+| Retailer      | Antenna Type                 | Antenna Model | Locale |
+| ------------- | ---------------------------- | ------------- | ------ |
+| Data Alliance | Omnidirectional              | A433O5        | USA    |
+| Samco         | 3-Element Circular-polarized | SAM-450RHCP   | USA    |
+| Laird Antenna | 6-Element                    | YS4306        | USA    |
+| Laird Antenna | 3-Element                    | YS4303        | USA    |
+| Telewave      | Omnidirectional              | ANT450F-2     | Mexico |
+
 ### Coaxial Cables
 
-Most RF or antenna suppliers will sell coaxial cable cut to size and with with your choice of connection type. We recommend **LMR400** cable, which is durable and low-loss.&#x20;
+Most RF or antenna suppliers will sell coaxial cable cut to size and with with your choice of connection type. We recommend **LMR400** cable, which is durable and low-loss. However, due to its stiffness, we also recommend a 30 cm (12-inch) jumper cable made of a lighter grade material (e.g.; LMR-240) as strain relief for connectin between the LMR-400 cable and the FUNcube dongle. Alternatively, you may use **bulkheads** for strain relief.
+
+
+
+| **Cable type**                                                                                                                                                                                                                                                                                                                                             | **Typical price (USD)** | **Impedance** | <p><strong>Max attenuation</strong></p><p><strong>(dB/100 ft)</strong></p> | **Suggested length** |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------- | ------------- | -------------------------------------------------------------------------- | -------------------- |
+| [**RG-58**](https://www.pasternack.com/flexible-0.195-rg58-50-ohm-coax-cable-pvc-jacket-rg58c-u-p.aspx)                                                                                                                                                                                                                                                    | < 100 ft. @ $0.83/ft.   | 53.5 Ohms     | <p>4.4 @ 100 MHz</p><p>6.0 @ 200 MHz</p><p>8.5 @ 400 MHz</p>               | < 50 ft./15 m        |
+| <mark style="color:green;"></mark>[<mark style="color:green;">**RG-213**</mark>](https://www.pasternack.com/flexible-0.405-rg213-50-ohm-coax-cable-pvc-jacket-rg213-u-p.aspx)<mark style="color:green;"></mark>                                                                                                                                            | < 100 ft. @ $1.79/ft.   | 50 Ohms       | <p>2.3 @ 100 MHz</p><p>4.8 @ 400 MHz</p>                                   | < 100 ft./30 m       |
+| <p><mark style="background-color:green;">TWS/BMR/</mark></p><p><mark style="background-color:green;"></mark><a href="https://www.pasternack.com/50-ohm-low-loss-flexible-lmr400-pe-jacket-double-shielded-black-lmr-400-P.aspx"><mark style="background-color:green;"><strong>LMR-400</strong></mark></a><mark style="background-color:green;"></mark></p> | $1.20/ft.               | 50 Ohm        | <p>1.5 @ 150 MHz</p><p>2.7 @ 450 MHz</p>                                   | Any length           |
+
+### Bulkheads
+
+Bulkheads are connectors used to attach **coaxial cables** to the **receiver**. They attach directly to the 'radios' or 'dongles' which are part of the receiver (e.g.; CTT internal radios or FUNcube dongle). These parts can be readily found online at various retailes, just make sure you search for **SMA male to Type N female** bulkhead. We recommend waterproof bulkheads for mounting on cases - these come with o-rings which can maintain the original IP rating of the case. The product below is a somewhat expensive example of what we normally purchase, yet we are usually able to find the for under $10 USD apiece at other retailers.
+
+[https://www.digikey.ca/en/products/detail/amphenol-rf/095-902-530-006/12751750](https://www.digikey.ca/en/products/detail/amphenol-rf/095-902-530-006/12751750)
+
+{% hint style="info" %}
+CTT SensorStations can be ordered with bulkheads installed.&#x20;
+{% endhint %}
+
+{% hint style="warning" %}
+Careful not to accidentally order any parts that have 'RP' in the name. This stands for 'reverse polarity' and means the gender of the connector is opposite from normal so it will not connect to your cables or receiver.
+{% endhint %}
 
 ## Suppliers
 
