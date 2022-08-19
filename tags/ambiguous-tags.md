@@ -16,9 +16,9 @@ Lotek tags encode their signal in a way that is energy efficient, but also limit
 
 For this reason, we deprecate tags that have been deployed well beyond their expected lifespan ([<mark style="color:green;">**buffered lifespan**</mark>](../project-management/tag-management/tag-metadata.md#how-does-motus-know-when-tags-are-active)) and Lotek keeps track of a list of active Motus tags so they know which ones can be reissued.
 
-However, sometimes researchers have [<mark style="color:green;">**anticipated deployments**</mark>](../project-management/tag-management/tag-metadata.md#anticipated-deployment-date) that are never completed (i.e., they anticipated they would deploy a tag, but didn't) and choose to hold on to their tags for subsequent field seasons, but also don't update their metadata to indicate their tags were never deployed.
+However, sometimes researchers have [<mark style="color:green;">**anticipated deployments**</mark>](../project-management/tag-management/tag-metadata.md#anticipated-deployment-date) that are never completed (i.e., they anticipated they would deploy a tag, but didn't) and also don't update their metadata to indicate their tags weren't deployed on the anticipated date. This wouldn't be an issue if the tags were never deployed, but most researchers choose to hold on to their tags for subsequent field seasons at which point Lotek may have already reissued the tag to another researcher who may also choose to deploy their tag at the same time.
 
-In the past, Motus wouldn't be aware that such tags had not been deployed, but Motus now flags anticipated deployments as 'pending' until metadata has been updated _after the_the anticipated deployment date has passed.
+In the past, Motus wouldn't be aware that such tags had not been deployed, but Motus now flags anticipated deployments as 'pending' until metadata has been updated _after the_ anticipated deployment date has passed.
 
 While this greatly reduces the possibility of ambiguous tags, mistakes can still occur and ambiguities exist in data up to and including 2022.
 
