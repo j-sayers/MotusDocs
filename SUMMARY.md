@@ -66,6 +66,7 @@
 * [How Tags Work](tags/how-tags-work.md)
 * [Selecting and Purchasing Tags](tags/tag-selection.md)
 * [Tag Deployment](tags/tag-deployment.md)
+* [Ambiguous Tags](tags/ambiguous-tags.md)
 * [Tag Aliasing](tags/tag-aliasing.md)
 * [Retrieving Lost Tags](tags/retrieving-lost-tags.md)
 * [Tag Storage](tags/tag-storage.md)
