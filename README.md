@@ -15,7 +15,7 @@ This guide covers various aspects of the Motus Wildlife Tracking System includin
   * Please refer to the [**Motus R Book**](https://motus.org/MotusRBook/).
 * How to use specific models of Motus receivers. These are located in separate guides by manufacturer:
   * [**SensorGnome User Guide**](http://docs.motus.org/sensorgnome)
-  * [**CTT SensorStation User Guide**](https://store.celltracktech.com/pages/installation-guides)
+  * [**CTT SensorStation User Guide**](https://cellular-tracking-technologies.github.io/ctt\_documentation/SensorStation-User-Guide.html)
   * [**Lotek SRX 800 User Guide**](https://fccid.io/FW9SRX800/User-Manual/User-Manual-2328127)
 
 ### Additional Resources

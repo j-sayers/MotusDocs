@@ -75,6 +75,12 @@
   * [Tag Finder](tags/appendix/tag-finder.md)
   * [Tag Retrieval](tags/appendix/tag-retrieval.md)
 
+## Receivers
+
+* [SensorGnome User Guide](https://docs.motus.org/sensorgnome/)
+* [CTT SensorStation User Guide](https://cellular-tracking-technologies.github.io/ctt\_documentation/SensorStation-User-Guide.html)
+* [Lotek SRX 800 User Guide](https://fccid.io/FW9SRX800/User-Manual/User-Manual-2328127)
+
 ***
 
 * [Glossary](glossary.md)
