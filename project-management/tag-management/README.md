@@ -41,7 +41,7 @@ Every time a Motus tag is deployed, this needs to be recorded in our database, o
 * ****[**Tag Registration**](./#tag-registration)****
 * ****[**Tag Deployments**](./#tag-deployments)****
   * [Anticipated deployments](./#undefined)
-  * Test deployments
+  * [Test deployments](./#undefined)
   * [Tag Deployment Bulk Editor](./#tag-deployment-bulk-editor)
 
 ### Tag Registration
