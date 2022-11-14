@@ -1,5 +1,16 @@
 # Parts list and suppliers
 
+## Receivers
+
+Not all receivers are compatible with all tag types! [Read more about receivers here.](receivers.md)
+
+| Model             | Retailer       | Link                                                                                                                                                                                                                               |
+| ----------------- | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| CTT SensorStation | CTT            | [https://celltracktech.com/collections/digital-radio-products/products/sensorstation-for-sensorgnome-version-3-0](https://celltracktech.com/collections/digital-radio-products/products/sensorstation-for-sensorgnome-version-3-0) |
+| SensorGnome       | Compudata      | [https://compudata.ca/sensorgnome/](https://compudata.ca/sensorgnome/)                                                                                                                                                             |
+| Sensorgnome       | RFS Scientific | [https://www.rfsscientific.com/store](https://www.rfsscientific.com/store)                                                                                                                                                         |
+| Lotek SRX-1200    | Lotek          | [https://www.lotek.com/products/srx1200/](https://www.lotek.com/products/srx1200/)                                                                                                                                                 |
+
 ## Antennas and cables
 
 ### 166.380 MHz antennas
@@ -48,7 +59,11 @@ Most RF or antenna suppliers will sell coaxial cable cut to size and with with y
 
 Bulkheads are connectors used to attach **coaxial cables** to the **receiver**. They attach directly to the 'radios' or 'dongles' which are part of the receiver (e.g.; CTT internal radios or FUNcube dongle). These parts can be readily found online at various retailes, just make sure you search for **SMA male to Type N female** bulkhead. We recommend waterproof bulkheads for mounting on cases - these come with o-rings which can maintain the original IP rating of the case. The product below is a somewhat expensive example of what we normally purchase, yet we are usually able to find the for under $10 USD apiece at other retailers.
 
-[https://www.digikey.ca/en/products/detail/amphenol-rf/095-902-530-006/12751750](https://www.digikey.ca/en/products/detail/amphenol-rf/095-902-530-006/12751750)
+| Connector 1   | Connector 2 | Digikey | Link                                                                                                                                                             |
+| ------------- | ----------- | ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Type N Female | SMA Male    | Digikey | [https://www.digikey.ca/en/products/detail/amphenol-rf/095-902-530-006/12751750](https://www.digikey.ca/en/products/detail/amphenol-rf/095-902-530-006/12751750) |
+
+
 
 {% hint style="info" %}
 CTT SensorStations can be ordered with bulkheads installed.&#x20;
@@ -58,20 +73,13 @@ CTT SensorStations can be ordered with bulkheads installed.&#x20;
 Careful not to accidentally order any parts that have 'RP' in the name. This stands for 'reverse polarity' and means the gender of the connector is opposite from normal so it will not connect to your cables or receiver.
 {% endhint %}
 
-## Suppliers
+### Bandpass Filters
 
-### Canada
+| Frequency Range | Retailer       | Link                                                                                                                                                       |
+| --------------- | -------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 137-174         | Scanner Master | [https://www.scannermaster.com/BPF\_VHF\_Band\_Pass\_Filter\_p/24-531041.htm](https://www.scannermaster.com/BPF\_VHF\_Band\_Pass\_Filter\_p/24-531041.htm) |
 
-*   Maple Leaf Communications
 
-    Maple Leaf brand 166 MHz antennas and any cable needs
-*   Nutech Electronics
-
-    WADE Antenna projects
-
-    Laird antennas
-
-### United States
 
 ## Power Supply
 

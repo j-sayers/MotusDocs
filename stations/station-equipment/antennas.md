@@ -74,7 +74,7 @@ Use the table below to help select your antenna:
 
 Coaxial cables (coax for short) are responsible for carrying the received radio signal from the antennas to the receiver. This cable is so-called coaxial because it contains a central conductor surrounded by a second conductor that runs _coaxial_ to the central conductor (around it). This second conductor is electrically connected to the ground plane and provides shielding that helps insulate the central signal-carrying conductor from external electromagnetic interference and also reduces the amount of energy lost from the central conductor. Between the central core and shielding is a layer of insulating material which can vary in thickness, as well as the plastic outer jacket of the cable.
 
-&#x20;<img src="../../.gitbook/assets/Coaxial_cable_cutaway.png" alt="" data-size="line">
+&#x20;<img src="../../.gitbook/assets/Coaxial_cable_cutaway.png" alt="" data-size="original">
 
 The signal carried by coax is measured in decibels (dB) and calculated by comparing the power coming out of the coaxial cable to a theoretical 1 mW transmitter.
 
@@ -135,6 +135,10 @@ Other radio dongles that aren't listed here have not been adequately tested and 
 \* CTT dongles listen to 434 MHz and are only used to make Sensorgnomes compatible with CTT tags.
 
 <mark style="background-color:green;">Items listed in green are recommended.</mark>
+
+## Bandpass Filter
+
+
 
 ## Connectors
 

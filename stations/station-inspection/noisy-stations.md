@@ -8,6 +8,12 @@ The following mostly pertains to stand alone Sensorgnomes and SensorStations wit
 
 Raw data from Lotek radio tags consist of long lists of time-stamped radio pulses. Four precisely-timed pulses (within 1.5 ms) are needed to identify a [Lotek tag ID](https://docs.motus.org/tagguide/how-tags-work#lotek-radio-tags), but these pulses must be picked out from the surrounding noise environment. We consider noise to be any kind of radio pulse that is received by a station that was not produced by the intended target (i.e., a radio tag). Not only can this noise mask the pulses of real tags—preventing a receiver from picking it up—it can also produce signals that resemble real tags, resulting in a false positive detection. Excessive noise can be especially problematic for networked receivers that are using cellular or satellite connections. A single receiver experiencing excessive noise on a single antenna can easily produce over a GigaByte of data in a single month, resulting in $100’s in data charges.
 
+### Bandpass Filter
+
+A bandpass filter is devices which attaches to a coaxial cable that further filters the signal being received. These are typically passive devices (no external power required) and operate over a narrow range of frequencies. For antennas listening to 166.380 MHz, we recommend the following device:
+
+[https://www.scannermaster.com/BPF\_VHF\_Band\_Pass\_Filter\_p/24-531041.htm](https://www.scannermaster.com/BPF\_VHF\_Band\_Pass\_Filter\_p/24-531041.htm)
+
 ### **Noise Sources**
 
 Noise can be present for a variety of reasons. Anthropogenic noise can be the most problematic as it is more likely to follow a repeated pattern, which is required to mimic a tag pulse. In most cases, noise tends to be problematic on only certain antennas, not all of them. Sometimes simply changing the direction of an antenna can solve the problem; however, it may also be necessary to disconnect problematic antennas until the issue can be resolved. Sometimes damaged hardware, such as cracked coaxial cables, faulty radio dongle, or poor connections can also introduce noise into the system. In the case of a hardware issue, changing the antenna direction should have a negligible effect on the level of noise detected.
