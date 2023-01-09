@@ -53,6 +53,8 @@
   * [Grounding Antennas](stations/station-installation/grounding-antennas.md)
 * [Downloading Data](stations/downloading-data.md)
 * [Station Inspection](stations/station-inspection/README.md)
+  * [Antenna Inspection](stations/station-inspection/antenna-inspection.md)
+  * [Up time and detectability](stations/station-inspection/up-time-and-detectability.md)
   * [Parts description](stations/station-inspection/parts-description.md)
   * [Noisy Stations](stations/station-inspection/noisy-stations.md)
   * [Testing Receiver Antenna Ranges Using a Tag](stations/station-inspection/tag-test.md)
