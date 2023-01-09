@@ -8,7 +8,7 @@ Antennas used in the Motus are tuned to listen to a narrow band of frequencies n
 
 ## About coaxial cable
 
-Coaxial cables carry the signal from the antenna to the receiver with two conductors: central core and a coaxial shield, separated by an insulator. The coaxial shield protects the central core from interference.&#x20;
+Coaxial cables carry the signal from the antenna to the receiver with two conductors: central core and a coaxial shield, separated by an insulator. The coaxial shield protects the central core from interference. A damaged coax cable or connector can result in loss of the signal from the antenna and/or increased noise.
 
 ## Assessing Tuning Frequency using the NanoVNA
 
