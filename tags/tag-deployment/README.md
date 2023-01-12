@@ -6,9 +6,15 @@ description: Everything you need to know about deploying tags
 
 ## Tag Management
 
-This chapter pertains to tag deployment methos in the field. For information on the management of tag deployment metadata withing the Motus system, see [**Tag Management**](../project-management/tag-management/).
+This chapter pertains to tag deployment methos in the field. For information on the management of tag deployment metadata withing the Motus system, see [**Tag Management**](../../project-management/tag-management/).
 
 ## How to tag animals
+
+Instructional videos on how to tag videos can be found in the next section.
+
+{% content-ref url="instructional-videos.md" %}
+[instructional-videos.md](instructional-videos.md)
+{% endcontent-ref %}
 
 {% hint style="warning" %}
 We will be updating this section soon. For now, please see our PDF guide: [https://motus.org/data/download/tag\_deployment\_methods.pdf](https://motus.org/data/download/tag\_deployment\_methods.pdf)
@@ -73,4 +79,4 @@ Aliasing can occur when multiple tags emit a signal at the same time. Sometimes 
 
 To help mitigate aliasing, we recommend keeping numbers low at any given tagging site. This can be done by staggering deployments, either spatially or temporally. Most aliasing is caused by tags which have the same burst interval but a different Lotek ID. That means if you have more than one burst interval in your selection of tags, you can deploy more tags at any given site with a reduced risk of aliasing. However, do not deploy more than one tag with the same Lotek ID, even if they have different burst intervals!
 
-[**Read more about how to avoid tag aliasing.**](tag-aliasing.md#how-to-avoid-tag-aliasing-1)
+[**Read more about how to avoid tag aliasing.**](../tag-aliasing.md#how-to-avoid-tag-aliasing-1)
