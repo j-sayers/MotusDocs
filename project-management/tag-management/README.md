@@ -76,7 +76,7 @@ Laura wants to deploy 50 tags on Bank Swallows in the summer of 2022. She antici
 
 Tags can be used to test whether a receiver or specific antennas are functioning as expected. However, we don't want these data to be included in analyses of animal movements, nor do we want them presented to the public since it can be confusing. To flag these deplyoments as test, check the box reading 'make this a test deployment' while registering your tag deployment and leave the 'Species' field blank.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% content-ref url="../../stations/station-inspection/tag-test.md" %}
 [tag-test.md](../../stations/station-inspection/tag-test.md)

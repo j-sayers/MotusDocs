@@ -10,7 +10,7 @@ Motus collaborators currently maintain more than [1,200 stations in 31 countries
 \
 Data collected by Motus is revolutionizing our understanding of migratory animals and is being used in conservation planning for species and sites, status assessments and recovery plans for species at risk, environmental assessment and mitigation planning for development projects, and contributing to numerous continental conservation efforts.
 
-![](<.gitbook/assets/image (6).png>)
+![](<.gitbook/assets/image (6) (2).png>)
 
 ## How to get involved in station network development
 

@@ -45,7 +45,7 @@ Detection timelines can also provide an indication as to whether a false detecti
 * **Tag aliasing** will only occur when _multiple other real tags_ **** are present and being detected. This is because aliasing is a result of a mis-interpreted tag signal. Aliasing usually looks like one to a few tags which are detected at the same time as other tags which are known to be present (i.e., were deployed nearby). Detections of aliased tags always occur less frequently than detections of real tags, but they can still sometimes be detected repeatedly over several days.
 
 {% hint style="info" %}
-Not sure where to find these timelines? [See our chapter on detection timelines.](../../project-management/station-management/detection-timelines.md)
+Not sure where to find these timelines? [See our chapter on detection timelines.](../../explore/detection-timelines.md)
 {% endhint %}
 
 ## Reporting

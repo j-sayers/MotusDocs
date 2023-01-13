@@ -34,7 +34,7 @@
 * [Institutions](project-management/institutions.md)
 * [Citations](project-management/citations.md)
 * [Station Management](project-management/station-management.md)
-  * [Detection Timelines](project-management/station-management/detection-timelines.md)
+  * [Detection timlines](explore/detection-timelines.md)
 * [Tag Management](project-management/tag-management/README.md)
   * [Tag Registration](project-management/tag-management/tag-registration.md)
   * [Tag Metadata](project-management/tag-management/tag-metadata.md)
@@ -77,6 +77,13 @@
   * [Tag Harness Sizes](tags/appendix/tag-harness-sizes.md)
   * [Tag Finder](tags/appendix/tag-finder.md)
   * [Tag Retrieval](tags/appendix/tag-retrieval.md)
+
+## Exploring Motus Data <a href="#explore" id="explore"></a>
+
+* [Introduction](explore/introduction.md)
+* [Data dashboard](explore/data-dashboard.md)
+* [Detection Timelines](explore/detection-timelines.md)
+* [Station Status](explore/station-status.md)
 
 ## Receivers
 
