@@ -1,10 +1,8 @@
 # Station Status
 
-The status of a Motus station refers to various parameters which help us diagnose its ability to detect Motus tags. There are many reasons you may want to check on the status of a Motus station. For one, it's an important part of regular station maintenance for collaborators who manage part of the Motus network. It can also be a key tool for identifying the source of data gaps.
-
 This chapter outlines ways you can use the data dashboard to explore the status of a Motus station.
 
-
+The status of a Motus station refers to various parameters which help us diagnose its ability to detect Motus tags. There are many reasons you may want to check on the status of a Motus station. For one, it's an important part of regular station maintenance for collaborators who manage part of the Motus network. It can also be a key tool for identifying the source of data gaps.
 
 ### **Station timeline**
 
@@ -32,9 +30,9 @@ This plot is available in the public data under explore data after any station h
 
 #### Interpretation
 
-* GPS hits are not collected by all receivers equally; some stations may present frequent gaps in these data. SensorGnomes frequently have malfunctioning GPS units which make them unreliable. Lotek receivers do not always collect GPS hits.
-* Antenna activity is a reflection of environmental noise and amount detected depends largely on the frequency. Activity on 434 MHz antennas (with the 'L' prefix) or on Lotek receivers are actually showing instances where false detections have occurred. On the other hand, activity on all other antenna frequencies are showing raw pulses on that frequency which is why the dataset is more complete. Most non-434 MHz antennas on non-Lotek receivers that are functioning are expected to detected at least _some_ pulses in a given hour bin, unless the station is at a particularly quiet site.
-* Noisy antennas will have around a million pulses per day or more.&#x20;
+* GPS are normally stored at least once an hour so they can be a helpful way to identify when a station was powered on and logging data. However, GPS hits are not collected by all receivers equally; some stations may present frequent gaps in these data. In addition, SensorGnomes frequently have malfunctioning GPS units which make them unreliable. Many Lotek receivers will not collect any GPS hits.
+* Antenna activity can be useful for identifying issues with specific antennas and is a reflection of environmental noise. The amount of noise detected depends largely on the frequency, location, and time of day. Activity on 434 MHz antennas (with the 'L' prefix) or on Lotek receivers are actually showing instances where false detections have occurred so this dataset is typically fairly sparse. On the other hand, activity on all other antenna frequencies are displaying raw pulses on that frequency which occurs far more frequently, usually hundreds to thousands of times hourly. &#x20;
+* Noisy antennas will collect millions of pulses a day, whereas ones at quiet sites will collect no pulses for several hours or days at a time
 * Noise bursts will look like a large increase in the number of pulses per day compared to days before and after. This increase will often accompany a large number of tag detections which are likely false.
 * Checking for station functionality over time essentially means looking for gaps in the data, but that will only be possible in cases where data are collected consistently enough like in the example below.&#x20;
 
