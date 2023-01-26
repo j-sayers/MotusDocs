@@ -16,7 +16,7 @@
 * [Discussion Group](https://groups.google.com/g/motus-wts)
 * [Partners and Supporters](https://motus.org/data/partners)
 * [How Data are Processed](about-motus/how-data-are-processed.md)
-  * [Motus Filters](about-motus/how-data-are-processed/motus-filters.md)
+  * [Public Data Filters](about-motus/how-data-are-processed/public-data-filters.md)
   * [False Detections](about-motus/how-data-are-processed/false-detections.md)
   * [Tag Finder](about-motus/how-data-are-processed/tag-finder.md)
 * [Quick Reference](about-motus/quick-reference/README.md)

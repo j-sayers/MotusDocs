@@ -4,7 +4,7 @@
 
 There are multiple data sets available from Motus which are each processed differently based on the type of receiver they were collected from as well as the type of transmitter that is being listened for (Lotek or CTT). A diagram of how these data are processed can be seen in the [Data Processing Pipeline](how-data-are-processed.md#data-processing-pipeline).&#x20;
 
-After processing, data are stored in the Motus Database. Public dataset available on the Motus website have broad filters applied to help limit the number of false positives, while unfiltered data can be access through the [**Motus R Package**](https://motuswts.github.io/motus/). Some unfiltered data can also be viewed on the Motus website in the [receiver timeline](../explore/detection-timelines.md#receiver-timeline) and the [deployment timeline](../explore/detection-timelines.md#deployment-timeline).
+After processing, data are stored in the Motus Database. Public dataset available on the Motus website have [**broad filters applied**](how-data-are-processed/public-data-filters.md) to help limit the number of false positives, while unfiltered data can be access through the [**Motus R Package**](https://motuswts.github.io/motus/). Some unfiltered data can also be viewed on the Motus website in the [receiver timeline](../explore/detection-timelines.md#receiver-timeline) and the [deployment timeline](../explore/detection-timelines.md#deployment-timeline).
 
 ### Lotek detection data
 
