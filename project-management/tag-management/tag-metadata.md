@@ -30,7 +30,7 @@ Metadata is a critical part of the Motus infrastructure. Not only does it inform
 
 ### How metadata is used to detect tags
 
-Motus stations receive radio signals from Lotek radio transmitters (i.e.; tags attached to animals) as a series of pulses that are all on the same frequency. It's the specific timing between these radio pulses that encodes the ID number of these tags (see [**How Tags Work**](../../tags/how-tags-work.md)). We decode Lotek tags from radio signals ourselves using a complex algorithm called [_**tag finder**_](../../tags/appendix/tag-finder.md). This algorithm takes into account the possibility of multiple tags being present and emitting a signal at the same time.
+Motus stations receive radio signals from Lotek radio transmitters (i.e.; tags attached to animals) as a series of pulses that are all on the same frequency. It's the specific timing between these radio pulses that encodes the ID number of these tags (see [**How Tags Work**](../../tags/how-tags-work.md)). We decode Lotek tags from radio signals ourselves using a complex algorithm called [_**tag finder**_](../../about-motus/how-data-are-processed/tag-finder.md). This algorithm takes into account the possibility of multiple tags being present and emitting a signal at the same time.
 
 To improve the performance and accuracy of _tag finder_, Motus only search for tags that are known to be active at any given time. To accomplish this, _tag finder_ references a master list of all registered tags along with the dates when they were active (‘_deployments’_). Occasionally, some tag detections are missed because \_tag finder \_doesn't know that certain tags are active, usually because of missing or inaccurate metadata in our system.
 

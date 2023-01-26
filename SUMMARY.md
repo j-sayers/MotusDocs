@@ -16,7 +16,9 @@
 * [Discussion Group](https://groups.google.com/g/motus-wts)
 * [Partners and Supporters](https://motus.org/data/partners)
 * [How Data are Processed](about-motus/how-data-are-processed.md)
+  * [Motus Filters](about-motus/how-data-are-processed/motus-filters.md)
   * [False Detections](about-motus/how-data-are-processed/false-detections.md)
+  * [Tag Finder](about-motus/how-data-are-processed/tag-finder.md)
 * [Quick Reference](about-motus/quick-reference/README.md)
   * [Tag Deployment](about-motus/quick-reference/tag-deployment.md)
   * [Station Deployment](about-motus/quick-reference/station-deployment.md)
@@ -34,7 +36,7 @@
 * [Institutions](project-management/institutions.md)
 * [Citations](project-management/citations.md)
 * [Station Management](project-management/station-management.md)
-  * [Detection timlines](explore/detection-timelines.md)
+  * [Detection timelines](explore/detection-timelines.md)
 * [Tag Management](project-management/tag-management/README.md)
   * [Tag Registration](project-management/tag-management/tag-registration.md)
   * [Tag Metadata](project-management/tag-management/tag-metadata.md)
@@ -75,7 +77,6 @@
 * [Tag Storage](tags/tag-storage.md)
 * [Appendix](tags/appendix/README.md)
   * [Tag Harness Sizes](tags/appendix/tag-harness-sizes.md)
-  * [Tag Finder](tags/appendix/tag-finder.md)
   * [Tag Retrieval](tags/appendix/tag-retrieval.md)
 
 ## Exploring Motus Data <a href="#explore" id="explore"></a>
