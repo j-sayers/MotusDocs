@@ -25,7 +25,7 @@ If mains power is unreliable and 24/7 coverage is needed, then you may wish wish
 Powering electronics directly from DC is more complicated since there is no single setup for all stations. Instead, the type and amount of power required will depend largely on region and available resources. In order for a station to be compatible with a DC power supply, it must have a method for converting the voltage of a battery - usually 12 volts - to something the receiver can handle, which ranges from 5 to 18 volts, depending on the model.
 
 * CTT SensorStations have built-in voltage converters, allowing them to accept a direct connection to the battery; however, in practice NEVER connect your receiver directly to the battery without a [low-voltage cutoff](power.md#undervoltage-protection) to protect your battery.
-* SensorGnomes, require a DC buck converter to lower the voltage down to 5 volts. Buck converters are only provided in SensorGnomes if requested when purchasing from Compudata or RFS Scientific.
+* SensorGnomes require a DC buck converter to lower the voltage down to 5 volts. This component is standard when purchasing from Compudata and available upon request when purchasing from RFS Scientific.
 * Contact Lotek or see your receivers user manual for more information on SRX series receivers.
 
 ### Battery
